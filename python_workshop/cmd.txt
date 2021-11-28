@@ -1,0 +1,29 @@
+a=10
+type(a)
+
+a,b,c=1,'ht',2
+
+a=input("enter number")		//string
+a=int(input("enter :"))		//int
+
+b='ht'
+b[0]		//h
+b[1]		//t
+b='abcd'
+b[2:]		//cd
+b[:2]		//ab
+b[:]		//abcd
+
+a='ku'
+b='ht'
+a+b		//kuht
+a+' '+b		//ku ht
+
+a='hardik'	//0,1,2,3,4,5 //-6,-5,-4,-3,-2,-1
+>>> a[-6]	//h
+
+>>> a
+'hardik'
+>>> len(a)
+6
+
