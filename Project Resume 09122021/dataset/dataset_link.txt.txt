@@ -53,3 +53,18 @@ I often feel blue.
 
 
 
+
+one_scores= {}
+
+one_scores['extroversion_score']= one[0]- one[1]+ one[2]- one[3]+ one[4]- one[5]+ one[6]- one[7]+ one[8]- one[9]
+one_scores['neuroticism_score']= one[0]- one[1]+ one[2]- one[3]+ one[4]+ one[5]+ one[6]+ one[7]+ one[8]+ one[9]
+one_scores['agreeableness_score']= -one[0]+ one[1]- one[2]+ one[3]- one[4]- one[5]+ one[6]- one[7]+ one[8]+ one[9]
+one_scores['conscientiousness_score']= one[0]- one[1]+ one[2]- one[3]+ one[4]- one[5]+ one[6]- one[7]+ one[8]+ one[9]
+one_scores['openness_score']= one[0]- one[1]+ one[2]- one[3]+ one[4]- one[5]+ one[6]+ one[7]+ one[8]+ one[9]
+
+
+
+https://www.kaggle.com/onkardhavan/big-five-personality-test
+
+
+https://www.kaggle.com/temirlandzhasheev/alcualte-clusters-and-show-diagrams
