@@ -9,3 +9,47 @@ https://www.truity.com/test-results/bigfive/17315/26052626
 https://www.123test.com/personality-test/
 
 https://www.kaggle.com/aarons0/covid-19-and-happiness-dataset
+
+
+
+====================================
+
+positively_keyed = ['EXT1', 'EXT3', 'EXT5', 'EXT7', 'EXT9',
+                    'EST1', 'EST3', 'EST5', 'EST6', 'EST7', 'EST8', 'EST9', 'EST10',
+                    'AGR2', 'AGR4', 'AGR6', 'AGR8', 'AGR9', 'AGR10',
+                    'CSN1', 'CSN3', 'CSN5', 'CSN7', 'CSN9', 'CSN10', 
+                    'OPN1', 'OPN3', 'OPN5', 'OPN7', 'OPN8', 'OPN9', 'OPN10']
+
+negatively_keyed = ['EXT2', 'EXT4', 'EXT6', 'EXT8', 'EXT10',
+                    'EST2', 'EST4',
+                    'AGR1', 'AGR3', 'AGR5', 'AGR7', 
+                    'CSN2', 'CSN4', 'CSN6', 'CSN8', 
+                    'OPN2', 'OPN4', 'OPN6']
+
+
+========================================
+
+I am the life of the party.
+I don't talk a lot.
+I feel comfortable around people.
+I keep in the background.
+I start conversations.
+I have little to say.
+I talk to a lot of different people at parties.
+I don't like to draw attention to myself.
+I don't mind being the centre of attention.
+I am quiet around strangers.
+
+I get stressed out easily.
+I am relaxed most of the time.
+I worry about things.
+I seldom feel blue.
+I am easily disturbed.
+I get upset easily.
+I change my mood a lot.
+I have frequent mood swings.
+I get irritated easily.
+I often feel blue.
+
+
+
