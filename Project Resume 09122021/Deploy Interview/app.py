@@ -6,7 +6,6 @@ import plotly
 import plotly.express as px
 import json
 
-
 # start app
 app = Flask(__name__)
 
@@ -80,11 +79,14 @@ def qanda():
         CSN = CSN1+CSN2+CSN3+CSN4+CSN5+CSN6+CSN7+CSN8+CSN9+CSN10
         OPN = OPN1+OPN2+OPN3+OPN4+OPN5+OPN6+OPN7+OPN8+OPN9+OPN10
         
-        df = pd.DataFrame({"Class": ["EXT","EST","AGR","CSN","OPN"],"Probability": [EXT,EST,AGR,CSN,OPN]})
+        df = pd.DataFrame(
+            {
+                "Class": ["EXT","EST","AGR","CSN","OPN"],
+                "Probability": [EXT,EST,AGR,CSN,OPN]
+                }
+            )
         fig = px.bar(df, x="Class", y="Probability", color="Class")
         graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-        
-        
 
         return render_template('qanda_result.htm', EXT=EXT, graphJSON=graphJSON)    
 
