@@ -74,11 +74,13 @@ def qanda():
         OPN9 = request.form.get('OPN9')
         OPN10 = request.form.get('OPN10')
 
-        d1 = {}
-
         EXT = EXT1+EXT2+EXT3+EXT4+EXT5+EXT6+EXT7+EXT8+EXT9+EXT10
-
-        df = pd.DataFrame({"Class": ["EXT","1","2","3","4","5"],"Probability": [EXT,12,26,20,34,30]})
+        EST = EST1+EST2+EST3+EST4+EST5+EST6+EST7+EST8+EST9+EST10
+        AGR = AGR1+AGR2+AGR3+AGR4+AGR5+AGR6+AGR7+AGR8+AGR9+AGR10
+        CSN = CSN1+CSN2+CSN3+CSN4+CSN5+CSN6+CSN7+CSN8+CSN9+CSN10
+        OPN = OPN1+OPN2+OPN3+OPN4+OPN5+OPN6+OPN7+OPN8+OPN9+OPN10
+        
+        df = pd.DataFrame({"Class": ["EXT","EST","AGR","CSN","OPN"],"Probability": [EXT,EST,AGR,CSN,OPN]})
         fig = px.bar(df, x="Class", y="Probability", color="Class")
         graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
         
