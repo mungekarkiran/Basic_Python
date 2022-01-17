@@ -68,3 +68,24 @@ https://www.kaggle.com/onkardhavan/big-five-personality-test
 
 
 https://www.kaggle.com/temirlandzhasheev/alcualte-clusters-and-show-diagrams
+
+
+
+Extroversion (E) is the personality trait of seeking fulfillment from sources outside the self or
+in community. High scorers tend to be very social while low scorers prefer to work on their
+projects alone.
+• Agreeableness (A) reflects much individuals adjust their behavior to suit others. High scorers
+are typically polite and like people. Low scorers tend to 'tell it like it is'.
+• Conscientiousness (C) is the personality trait of being honest and hardworking. High scorers
+tend to follow rules and prefer clean homes. Low scorers may be messy and cheat others.
+• Neuroticism (N) is the personality trait of being emotional.
+• Openness to Experience (O) is the personality trait of seeking new experience and intellectual
+pursuits. High scores may day dream a lot. Low scorers may be very down to earth.
+
+
+
+https://openpsychometrics.org/printable/big-five-personality-test.pdf
+
+https://sites.temple.edu/rtassessment/files/2018/10/Table_BFPT.pdf
+
+https://greator.com/en/big-five/
