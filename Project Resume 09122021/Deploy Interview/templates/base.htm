@@ -74,12 +74,41 @@
 		crossorigin="anonymous"></script>
 
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-	
+
 	<script type="text/javascript">
 		var graphs = {{ graphJSON | safe }};
 		Plotly.plot("chart", graphs, {});
-
 	</script>
+
+	<script>
+		window.onload = function () {
+
+			var chart = new CanvasJS.Chart("chartContainer", {
+				animationEnabled: true,
+				theme: "light2", // "light1", "light2", "dark1", "dark2"
+				title: {
+					text: "Personality score based on cluster"
+				},
+				axisX: {
+					title: "Personality"
+				},
+				axisY: {
+					title: "Score"
+				},
+				data: [{
+					type: "column",
+					// showInLegend: true,
+					// legendMarkerColor: "grey",
+					// legendText: "Personality",
+					dataPoints: {{ new_df | safe }}, 
+				}]
+			});
+			chart.render();
+
+		}
+	</script>
+
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 
 
