@@ -103,8 +103,18 @@ def qanda():
             {'y': scores_opn, 'label':'Openness'}
             ]
 
+        list_of_score = [scores_ext, scores_est, scores_agr, scores_csn, scores_opn]
+        pre_info = {
+            0:'Extroversion (E) is the personality trait of seeking fulfillment from sources outside the self or in community. High scorers tend to be very social while low scorers prefer to work on their projects alone.',
+            1:'Neuroticism (N) is the personality trait of being emotional.',
+            2:'Agreeableness (A) reflects much individuals adjust their behavior to suit others. High scorers are typically polite and like people. Low scorers tend to "tell it like it is".',
+            3:'Conscientiousness (C) is the personality trait of being honest and hardworking. High scorers tend to follow rules and prefer clean homes. Low scorers may be messy and cheat others.',
+            4:'Openness to Experience (O) is the personality trait of seeking new experience and intellectual pursuits. High scores may day dream a lot. Low scorers may be very down to earth.'
+            }
 
-        return render_template('qanda_result.htm', EXT=EXT, graphJSON=graphJSON , new_df=new_df)    
+        result = pre_info[list_of_score.index(max(list_of_score))]
+
+        return render_template('qanda_result.htm', result=result, graphJSON=graphJSON , new_df=new_df)    
 
     return render_template('qanda.htm')
 
