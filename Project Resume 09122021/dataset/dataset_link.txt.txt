@@ -132,3 +132,11 @@ https://plotly.com/javascript/
 
 https://www.d3-graph-gallery.com/
 
+=================================================================================
+
+https://machinelearningmastery.com/how-to-score-probability-predictions-in-python/
+
+https://machinelearningmastery.com/make-predictions-scikit-learn/
+
+https://towardsdatascience.com/predicting-win-probability-910af3b48f75
+
