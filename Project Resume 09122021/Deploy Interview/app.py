@@ -5,6 +5,25 @@ import numpy as np
 import plotly
 import plotly.express as px
 import json
+import os
+from werkzeug.utils import secure_filename
+import PyPDF2
+import re
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import LabelEncoder
+import pickle
+
+# function's
+def cleanResume(resumeText):
+    resumeText = re.sub('http\S+\s*', ' ', resumeText)  # remove URLs
+    resumeText = re.sub('RT|cc', ' ', resumeText)  # remove RT and cc
+    resumeText = re.sub('#\S+', '', resumeText)  # remove hashtags
+    resumeText = re.sub('@\S+', '  ', resumeText)  # remove mentions
+    resumeText = re.sub('[%s]' % re.escape("""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""), ' ', resumeText)  # remove punctuations
+    resumeText = re.sub(r'[^\x00-\x7f]',r' ', resumeText) 
+    resumeText = re.sub('\s+', ' ', resumeText)  # remove extra whitespace
+    return resumeText
+
 
 # start app
 app = Flask(__name__)
@@ -88,7 +107,6 @@ def qanda():
         fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
         graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
-
         scores_ext = EXT1-EXT2+EXT3-EXT4+EXT5-EXT6+EXT7-EXT8+EXT9-EXT10
         scores_est = EST1-EST2+EST3-EST4+EST5+EST6+EST7+EST8+EST9+EST10
         scores_agr = -AGR1+AGR2-AGR3+AGR4-AGR5-AGR6+AGR7-AGR8+AGR9+AGR10
@@ -120,6 +138,64 @@ def qanda():
 
 @app.route('/jobtitle', methods=['GET', 'POST'])
 def jobtitle():
+
+    # data pre-processing
+    df_path = os.path.join('static//style//csv', 'resume.csv') 
+    resumeDataSet = pd.read_csv(df_path)
+    
+    # word to vectorizer
+    requiredText = resumeDataSet['cleaned_resume'].values
+    # requiredTarget = resumeDataSet['Category'].values
+    word_vectorizer = TfidfVectorizer(
+        sublinear_tf=True,
+        stop_words='english',
+        max_features=1500)
+    word_vectorizer.fit(requiredText)
+    # WordFeatures = word_vectorizer.transform(requiredText)
+    print ("Feature completed .....")
+
+    # LabelEncoder
+    var_mod = ['Category_name']
+    le = LabelEncoder()
+    for i in var_mod: resumeDataSet[i] = le.fit_transform(resumeDataSet[i])
+    print ("CONVERTED THE CATEGORICAL VARIABLES INTO NUMERICALS")
+
+    # load model
+    loaded_model = pickle.load(open('xgb_pro_job.pkl', 'rb')) 
+
+
+    if request.method == 'POST':
+        # Get the file from post request
+        f = request.files['file']
+        
+        file_path = os.path.join('static//style//csv', secure_filename(f.filename)) 
+        # static//style//csv
+        # csv
+        # uploads
+        # Save the file to ./uploads
+        f.save(file_path)
+        
+        pdfFileObj = open(file_path, 'rb')
+
+        # creating a pdf reader object
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        text_data = '' 
+        for ind in range(pdfReader.numPages):
+            pageObj = pdfReader.getPage(ind)
+            data1=pageObj.extractText()
+            text_data = text_data + data1
+        pdfFileObj.close()
+
+        t1 = cleanResume(text_data)
+        test_text = [t1]
+        WordFeatures = word_vectorizer.transform(test_text)
+
+        X_test2=WordFeatures
+        y_pred2 = loaded_model.predict(X_test2)
+
+        
+        return render_template('jobtitle.htm', text_data=t1, rds=y_pred2)
+
     return render_template('jobtitle.htm')
 
 @app.route('/videointerview', methods=['GET', 'POST'])
