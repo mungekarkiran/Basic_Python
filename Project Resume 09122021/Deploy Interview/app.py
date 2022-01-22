@@ -193,10 +193,26 @@ def jobtitle():
         X_test2=WordFeatures
         y_pred2 = loaded_model.predict(X_test2)
 
-        
-        return render_template('jobtitle.htm', text_data=t1, rds=y_pred2)
+        prediction= le.inverse_transform(y_pred2)[0]
 
-    return render_template('jobtitle.htm')
+        y_pred_1 = loaded_model.predict_proba(X_test2)
+        li = list((y_pred_1*100)[0])
+
+        class_li = list(le.classes_)
+
+        df = pd.DataFrame(
+            {
+                "Personality": class_li,
+                "Score in %": li
+                }
+            )
+        fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
+        graphJSON1 = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+
+        
+        return render_template('jobtitle.htm', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
+
+    return render_template('jobtitle.htm', flag=False)
 
 @app.route('/videointerview', methods=['GET', 'POST'])
 def videointerview():
