@@ -140,3 +140,25 @@ https://machinelearningmastery.com/make-predictions-scikit-learn/
 
 https://towardsdatascience.com/predicting-win-probability-910af3b48f75
 
+
+===============================================================================
+
+
+https://www.kaggle.com/shawon10/facial-expression-detection-cnn
+
+https://www.kaggle.com/lxyuan0420/facial-expression-recognition-using-cnn
+
+https://www.kaggle.com/drcapa/facial-expression-eda-cnn
+
+https://www.kaggle.com/ashishpatel26/tutorial-facial-expression-classification-keras
+
+https://medium.com/analytics-vidhya/emotion-recognition-datasets-8a397590c7d1
+
+https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv
+
+https://www.d3-graph-gallery.com/graph/wordcloud_basic.html
+
+https://www.kaggle.com/drcapa/facial-expression-telegram-bot
+
+https://www.kaggle.com/sonyd4d/cnn-for-emotion-detection
+
