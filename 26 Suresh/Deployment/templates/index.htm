@@ -1,0 +1,141 @@
+{% extends "base.htm" %}
+{% block content %}
+
+<!-- https://source.unsplash.com/720x600/?paper,pen -->
+<!-- https://source.unsplash.com/1080x720/?job,work,happy -->
+
+
+<!-- main body -->
+<br><br>
+<center>
+    <h1>Choose Your Symptoms</h1>
+    <br>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="clo-2"></div>
+            <div class="clo-8">
+                <form action="/" method="post">
+                    <table class="table table-striped text-center">
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Symptom 1</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom1">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+                                <th scope="row">Symptom 2</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom2">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+                                <th scope="row">Symptom 3</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom3">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Symptom 4</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom4">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+                                <th scope="row">Symptom 5</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom5">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+                                <th scope="row">Symptom 6</th>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example" name="symptom6">
+                                        {% for cn in col_list %}
+                                        <option value= {{ cn }}>{{ cn }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </td>
+
+                            </tr>
+
+                            <!-- button -->
+                            <tr>
+                                <td colspan="12"><button type="submit" class="btn btn-primary">Submit</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </form>
+
+            </div>
+            <div class="clo-2"></div>
+        </div>
+    </div>
+
+    {% if flag %}
+        {{symptom1}}
+        <br>
+        {{symptom2}}
+    {% endif%}
+
+    <!-- <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/qanda.jpg' ) }}"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Q&A</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/qanda" class="btn btn-primary">Visit me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/jobtitle.jpg' ) }}"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Job Title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/jobtitle" class="btn btn-primary">Visit me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/videointerview.jpg' ) }}"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Video Interview</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/videointerview" class="btn btn-primary">Visit me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</center>
+
+{% endblock %}
