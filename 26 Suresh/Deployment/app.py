@@ -1,6 +1,11 @@
 
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
+from sklearn.preprocessing import LabelEncoder
+from collections import Counter
+import pandas as pd
+import numpy as np
+import pickle
 
 # Define a flask app
 app = Flask(__name__)
@@ -9,6 +14,16 @@ col_list = ['itching', 'skin_rash', 'nodal_skin_eruptions', 'continuous_sneezing
 
 input_data = [0]*len(col_list)
 
+# load model
+dt_model = pickle.load(open('models//dt_Classifier_hc.pkl', 'rb')) 
+knn_model = pickle.load(open('models//knn_Classifier_hc.pkl', 'rb')) 
+lr_model = pickle.load(open('models//lr_Classifier_hc.pkl', 'rb')) 
+nb_model = pickle.load(open('models//nb_Classifier_hc.pkl', 'rb')) 
+rf_model = pickle.load(open('models//rf_Classifier_hc.pkl', 'rb')) 
+
+df = pd.read_csv('csv//training.csv')
+le = LabelEncoder()
+df['class_prognosis'] = le.fit_transform(df['prognosis'])
 
 print('\nModel loaded. Start serving...')
 print('\nModel loaded. Check http://127.0.0.1:5000/')
@@ -23,13 +38,27 @@ def index():
         symptom4 = request.form.get('symptom4')
         symptom5 = request.form.get('symptom5')
         symptom6 = request.form.get('symptom6')
-
-        for cn_ind in [symptom1, symptom2, symptom3, symptom4, symptom5, symptom6]:
+        symptoms = [symptom1, symptom2, symptom3, symptom4, symptom5, symptom6]
+        for cn_ind in symptoms:
             try:
                 input_data[col_list.index(cn_ind)] = 1
             except : pass
+
+        dt_pred = dt_model.predict(np.array([input_data]))[0]
+        knn_pred = knn_model.predict(np.array([input_data]))[0]
+        lr_pred = lr_model.predict(np.array([input_data]))[0]
+        nb_pred = nb_model.predict(np.array([input_data]))[0]
+        rf_pred = rf_model.predict(np.array([input_data]))[0]
         
-        return render_template('index.htm', col_list=col_list, flag=True, symptom1=input_data, symptom2=symptom2 )    
+        output_result = [dt_pred, knn_pred, lr_pred, nb_pred, rf_pred]
+        # output_result.count(output_result)
+        # dict( (l, output_result.count(l) ) for l in set(output_result))
+
+        c = Counter(output_result)
+        c = c.most_common(1)[0]
+        result = le.inverse_transform([c[0]])[0]
+        
+        return render_template('index.htm', col_list=col_list, flag=True, symptoms=symptoms, symptom1=output_result, symptom2=dict( (l, output_result.count(l) ) for l in set(output_result)), symptom3=c, result=result )    
 
     return render_template('index.htm', col_list=col_list, flag=False)
 

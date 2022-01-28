@@ -1,0 +1,15 @@
+heroku login
+
+git init
+
+heroku git:remote -a symptomo
+
+git add .
+
+git commit -am "v1"
+
+git push heroku master
+
+heroku open
+
+heroku git:remote -a symptomo

@@ -6,7 +6,7 @@
 
 
 <!-- main body -->
-<br><br>
+
 <center>
     <h1>Choose Your Symptoms</h1>
     <br>
@@ -87,54 +87,28 @@
     </div>
 
     {% if flag %}
-        {{symptom1}}
-        <br>
-        {{symptom2}}
-    {% endif%}
-
-    <!-- <div class="container d-flex justify-content-center align-items-center">
+    <h1>Expected Disease</h1>
+    <br>
+    <div class="container d-flex justify-content-center align-items-center">
         <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/qanda.jpg' ) }}"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Q&A</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="/qanda" class="btn btn-primary">Visit me</a>
-                    </div>
-                </div>
+            <!-- <div class="clo-2"></div> -->
+            <div class="clo-4">
+                <h3><u>Your Symptoms</u></h3>
+                <ol>
+                    {% for sym in symptoms %}
+                    <li><strong>{{ sym }}</strong></li>
+                    {% endfor %}
+                </ol>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/jobtitle.jpg' ) }}"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Job Title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="/jobtitle" class="btn btn-primary">Visit me</a>
-                    </div>
-                </div>
+            <div class="clo-4">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="clo-4">
+                <h3><u>Disease Probability</u></h3>
+                <p><i><strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ result }} "</strong></i> with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ (symptom3[1]/5)*100 }}%</strong> Chances.</p>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ url_for('static', filename='style/img/videointerview.jpg' ) }}"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Video Interview</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="/videointerview" class="btn btn-primary">Visit me</a>
-                    </div>
-                </div>
-            </div>
+            <!-- <div class="clo-2"></div> -->
         </div>
-    </div> -->
+    </div>
+    {% endif %}
 
 </center>
 
