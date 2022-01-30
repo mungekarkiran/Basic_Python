@@ -13,10 +13,6 @@ from flask_ngrok import run_with_ngrok
 from camera import VideoCamera
 import cv2
 
-# firebase
-# !pip install Pyrebase4
-from pyrebase import pyrebase
-
 import warnings
 warnings.filterwarnings('ignore')
 

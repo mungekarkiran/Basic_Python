@@ -1,0 +1,6 @@
+https://www.kaggle.com/ananthu017/emotion-detection-fer?select=train
+
+https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+
+https://www.kaggle.com/ruchilprajapati/facial-expression-classification
+
