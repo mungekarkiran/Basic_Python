@@ -1,6 +1,14 @@
+https://www.kaggle.com/soumyadeepp/face-emotion-recognition
+
 https://www.kaggle.com/ananthu017/emotion-detection-fer?select=train
 
 https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
 
 https://www.kaggle.com/ruchilprajapati/facial-expression-classification
+
+https://www.machinecurve.com/index.php/2019/10/07/how-to-visualize-a-model-with-keras/
+
+https://machinelearningmastery.com/visualize-deep-learning-neural-network-model-keras/
+
+https://www.tutorialspoint.com/how-can-keras-be-used-to-plot-the-model-as-a-graph-and-display-input-and-output-shapes-using-python
 
