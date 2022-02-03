@@ -16,7 +16,6 @@ import cv2
 import warnings
 warnings.filterwarnings('ignore')
 
-
 # Define a flask app
 app = Flask(__name__)
 

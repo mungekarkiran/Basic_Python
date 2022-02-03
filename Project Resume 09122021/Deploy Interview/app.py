@@ -1,5 +1,5 @@
 # lib's
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
 import pandas as pd
 import numpy as np
 import plotly
@@ -12,6 +12,11 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 import pickle
+from camera import VideoCamera
+import cv2
+
+import warnings
+warnings.filterwarnings('ignore')
 
 # function's
 def cleanResume(resumeText):
@@ -24,6 +29,13 @@ def cleanResume(resumeText):
     resumeText = re.sub('\s+', ' ', resumeText)  # remove extra whitespace
     return resumeText
 
+def gen(camera):
+    #get camera frame
+    while True:
+        frame = camera.get_frame()
+        frame = frame[0]
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 # start app
 app = Flask(__name__)
@@ -216,9 +228,11 @@ def jobtitle():
 
 @app.route('/videointerview', methods=['GET', 'POST'])
 def videointerview():
-    return render_template('videointerview.htm')
-
-
+    return Response(
+                    gen(VideoCamera()), 
+                    mimetype='multipart/x-mixed-replace; boundary=frame',
+                    )
+    # return render_template('videointerview.htm')
 
 if __name__ == '__main__':
     app.run(debug=True) #debug=True
