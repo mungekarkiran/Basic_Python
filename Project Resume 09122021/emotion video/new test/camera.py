@@ -17,7 +17,7 @@ class VideoCamera(object):
         # instead.
         self.stream = WebcamVideoStream(src=0).start()
         # self.stream = WebcamVideoStream(src=1).start()
-        # self.stream = WebcamVideoStream(src='http://192.168.31.194:8080/video').start()
+        # self.stream = WebcamVideoStream(src='http://192.168.31.60:8080/video').start()
 
     def __del__(self):
         self.stream.stop()
