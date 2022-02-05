@@ -19,14 +19,15 @@ class VideoCamera(object):
         # self.stream = WebcamVideoStream(src=1).start()
         # self.stream = WebcamVideoStream(src='http://192.168.31.194:8080/video').start()
 
+        self.dic = {'Angry':0, 'Disgust':0, 'Fear':0, 'Happy':0, 'Neutral':0, 'Sad':0, 'Surprise':0}
+
     def __del__(self):
         self.stream.stop()
 
     def get_frame(self):
-        image1 = self.stream.read()
+        d = self.dic
 
-        # additional code
-        cv2.putText(image1, 'Score : ', (5, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 255), 2)
+        image1 = self.stream.read()
 
         # gray_img = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
         gray_img = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
@@ -51,6 +52,12 @@ class VideoCamera(object):
                 predicted_emotion = emotions[max_index]
 
                 cv2.putText(image1, predicted_emotion, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                
+                d[predicted_emotion] += 1
+
+                # additional code
+                cv2.putText(image1, 'Score : '+str(d), (10, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 255), 1)
+
         except Exception as e:
             print('Exception : ', e)
             pass
