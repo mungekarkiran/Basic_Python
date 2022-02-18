@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+     "width=device-width,initial-scale=1.0">
+  
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" rel="stylesheet">
+  
+    <!-- Html2Pdf  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js" integrity="sha512vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Dadi ke nuske</title>
+    <style>
+    video {
+        border: 1px solid black;
+        display: block;
+      }
+      
+      </style>
+  </head>
+  <body>
+      <div style="margin-top: 5%;">
+        <center>
+            <h1 style="margin-bottom:5%">Daadi ke nuske</h1>
+        </center>
+        
+      </div>
+      <div class="row" id ="form-print" enctype="text/plain" 
+      class="form-control">
+          <div class="col-6">
+    <form >
+    <div class="form-group" style="margin-left: 5%;">
+        <label for="exampleFormControlTextarea1">Topic </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        <label for="exampleFormControlTextarea1">Meaning</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1">history</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1">Reason/uses</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1">Current world implimentation</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-top: 5%;" onclick="GeneratePdf();" value="GeneratePdf">Upload</button>
+      </div>
+    </form>
+    </div>
+    <div class="col-6">
+        <input id="file-input" type="file" accept="video/*">
+
+        <video id="video" width="700" height="500" controls></video>
+    </div>
+    
+</div>
+<!-- <div class="row" style="margin-right: 5%;margin-left: 5%;">
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="GeneratePdf();" value="GeneratePdf">Upload</button>
+
+</div> -->
+
+<!-- <h2 class="heading">
+    GeeksForGeeks
+  </h2> -->
+
+  <!-- Form encrypted as text -->
+  <!-- <form id ="form-print" enctype="text/plain" 
+        class="form-control">
+
+      <label for="name">
+        <strong>Name: </strong>
+      </label>
+      <input class="form-control" type="text" 
+        id="name" name="Name" placeholder="Enter Name">
+      <br>
+
+      <label for="age">
+        <strong>Enter Age: </strong>
+      </label>
+      <input class="form-control" type="text" 
+          id="age" name="Age" placeholder="Enter Age">
+        <br>
+  
+        <label for="subject">
+          <strong>Select Subject: </strong>
+        </label>
+        <select class="form-control" 
+            id="subject" name="subject">
+            <option value="Web">
+                Web development
+            </option>
+            <option value="App">
+                App development
+            </option>
+            <option value="Others">
+                Others
+            </option>
+        </select>
+        <br>
+        <label for="message">
+            <strong>Enter Message </strong>
+          </label>
+          <textarea class= "form-control"
+            id="message" name="message" 
+            placeholder="Enter you message" 
+            style="height:100px">
+          </textarea>
+          <br>
+    
+          <input type="button" class="btn btn-primary" 
+            onclick="GeneratePdf();" value="GeneratePdf">
+      </form> -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        const input = document.getElementById('file-input');
+const video = document.getElementById('video');
+const videoSource = document.createElement('source');
+
+input.addEventListener('change', function() {
+  const files = this.files || [];
+
+  if (!files.length) return;
+  
+  const reader = new FileReader();
+
+  reader.onload = function (e) {
+    videoSource.setAttribute('src', e.target.result);
+    video.appendChild(videoSource);
+    video.load();
+    video.play();
+  };
+  
+  reader.onprogress = function (e) {
+    console.log('progress: ', Math.round((e.loaded * 100) / e.total));
+  };
+  
+  reader.readAsDataURL(files[0]);
+});
+    </script>
+    <script>          
+        // Function to GeneratePdf
+        function GeneratePdf() {
+            var element = document.getElementById('form-print');
+            html2pdf(element);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+  </body>
+</html>
