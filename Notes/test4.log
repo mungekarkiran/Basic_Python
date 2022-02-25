@@ -1,0 +1,4 @@
+INFO 2022-02-25 18:49:19,901 My info log!
+WARNING 2022-02-25 18:49:19,901 My warning log!
+ERROR 2022-02-25 18:49:19,901 My error log!
+DEBUG 2022-02-25 18:49:19,901 My debug log!

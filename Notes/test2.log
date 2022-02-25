@@ -1,0 +1,6 @@
+INFO:root:My info log!
+WARNING:root:My warning log!
+ERROR:root:My error log!
+2022-02-25 18:43:20,628 My info log!
+2022-02-25 18:43:20,628 My warning log!
+2022-02-25 18:43:20,628 My error log!
