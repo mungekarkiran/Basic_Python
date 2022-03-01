@@ -1,0 +1,39 @@
+INFO 2022-03-01 15:49:12,595 Start of the code and a: 3, b: 2.
+INFO 2022-03-01 15:49:12,595 Executed successfully and ans. is : 1.5.
+INFO 2022-03-01 15:49:12,595 Start of the code and a: 4, b: 1.
+INFO 2022-03-01 15:49:12,595 Executed successfully and ans. is : 4.0.
+INFO 2022-03-01 15:49:12,595 Start of the code and a: 6, b: 0.
+ERROR 2022-03-01 15:49:12,595 Error occured.
+ERROR 2022-03-01 15:49:12,595 Exception is : division by zero.
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\logging_notes\test_logging_1.py", line 7, in divbyzero
+    div = a/b
+ZeroDivisionError: division by zero
+INFO 2022-03-01 15:49:12,596 Start of the code and a: 0, b: 2.
+INFO 2022-03-01 15:49:12,596 Executed successfully and ans. is : 0.0.
+INFO 2022-03-01 15:49:12,596 Start of the code and a: 3, b: 6.
+INFO 2022-03-01 15:49:12,596 Executed successfully and ans. is : 0.5.
+INFO 2022-03-01 15:50:24,381 Start of the code and a: 3, b: 2.
+INFO 2022-03-01 15:50:24,382 Executed successfully and ans. is : 1.5.
+INFO 2022-03-01 15:50:24,382 Start of the code and a: 4, b: 1.
+INFO 2022-03-01 15:50:24,382 Executed successfully and ans. is : 4.0.
+INFO 2022-03-01 15:50:24,382 Start of the code and a: 6, b: 0.
+ERROR 2022-03-01 15:50:24,382 Error occured.
+ERROR 2022-03-01 15:50:24,382 Exception is : division by zero.
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\logging_notes\test_logging_1.py", line 7, in divbyzero
+    div = a/b
+ZeroDivisionError: division by zero
+INFO 2022-03-01 15:50:24,383 Start of the code and a: 0, b: 2.
+INFO 2022-03-01 15:50:24,383 Executed successfully and ans. is : 0.0.
+INFO 2022-03-01 15:50:24,383 Start of the code and a: 3, b: 6.
+INFO 2022-03-01 15:50:24,383 Executed successfully and ans. is : 0.5.
+INFO 2022-03-01 15:50:24,383 Start of the code and a: 0, b: 2.
+ERROR 2022-03-01 15:50:24,383 Error occured.
+ERROR 2022-03-01 15:50:24,383 Exception is : unsupported operand type(s) for /: 'int' and 'str'.
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\logging_notes\test_logging_1.py", line 7, in divbyzero
+    div = a/b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+INFO 2022-03-01 15:50:24,384 Start of the code and a: 3, b: 0.9.
+INFO 2022-03-01 15:50:24,384 Executed successfully and ans. is : 3.333333333333333.

@@ -1,6 +1,4 @@
-from email import message
 import logging
-from time import asctime
 
 # logging.basicConfig(filename='test.log')
 

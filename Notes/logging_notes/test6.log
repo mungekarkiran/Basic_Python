@@ -1,3 +1,6 @@
 INFO 2022-02-25 18:59:32,847 My info log!
 WARNING 2022-02-25 18:59:32,848 My warning log!
 ERROR 2022-02-25 18:59:32,848 My error log!
+INFO 2022-03-01 15:39:30,041 My info log!
+WARNING 2022-03-01 15:39:30,041 My warning log!
+ERROR 2022-03-01 15:39:30,042 My error log!
