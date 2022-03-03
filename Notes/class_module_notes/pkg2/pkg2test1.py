@@ -1,3 +1,4 @@
-from pkg1 import pkg1test1
+def test4():
+    print('this is my function test4 in pkg2.')
 
-pkg1test1.test1()
+
