@@ -1,0 +1,36 @@
+2022-03-04 18:35:38,118 ERROR Your file is not able to create by constructor. 
+2022-03-04 18:35:38,119 ERROR Exception : [Errno 17] File exists: 'test1.txt' 
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\OOPs_notes\myTask3 copy.py", line 15, in __init__
+    f = open(self.fileName, "x")
+FileExistsError: [Errno 17] File exists: 'test1.txt'
+2022-03-04 18:35:38,120 INFO Executing the write method. 
+2022-03-04 18:35:38,121 INFO The file test1.txt is writen. 
+2022-03-04 18:35:38,121 INFO Executing the read method. 
+2022-03-04 18:35:38,123 ERROR Your file is not able to create by constructor. 
+2022-03-04 18:35:38,123 ERROR Exception : [Errno 17] File exists: 'test2.txt' 
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\OOPs_notes\myTask3 copy.py", line 15, in __init__
+    f = open(self.fileName, "x")
+FileExistsError: [Errno 17] File exists: 'test2.txt'
+2022-03-04 18:35:38,123 INFO Executing the write method. 
+2022-03-04 18:35:38,124 INFO The file test2.txt is writen. 
+2022-03-04 18:35:38,124 INFO Executing the read method. 
+2022-03-04 18:35:38,126 ERROR Your file is not able to create by constructor. 
+2022-03-04 18:35:38,126 ERROR Exception : [Errno 17] File exists: 'test3.txt' 
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\OOPs_notes\myTask3 copy.py", line 15, in __init__
+    f = open(self.fileName, "x")
+FileExistsError: [Errno 17] File exists: 'test3.txt'
+2022-03-04 18:35:38,127 INFO Executing the write method. 
+2022-03-04 18:35:38,128 INFO The file test3.txt is writen. 
+2022-03-04 18:35:38,128 INFO Executing the read method. 
+2022-03-04 18:35:38,129 ERROR Your file is not able to create by constructor. 
+2022-03-04 18:35:38,129 ERROR Exception : [Errno 17] File exists: 'test4.txt' 
+Traceback (most recent call last):
+  File "c:\Users\Kiran\git_python_main\Basic_Python\Notes\OOPs_notes\myTask3 copy.py", line 15, in __init__
+    f = open(self.fileName, "x")
+FileExistsError: [Errno 17] File exists: 'test4.txt'
+2022-03-04 18:35:38,129 INFO Executing the write method. 
+2022-03-04 18:35:38,130 INFO The file test4.txt is writen. 
+2022-03-04 18:35:38,130 INFO Executing the read method. 
