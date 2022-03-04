@@ -34,7 +34,33 @@ class ListPrinter:
         else:
             return f' {l} : This is not a list.'
         
+class MyTest1:
+
+    def __init__(self, name, m_name, l_name, salary) -> None:
+        self.name = name
+        self.m_name = m_name
+        self.l_name = l_name
+        self.salary = salary
+
+        print(f'Constroctor is created for {self.name} {self.m_name} {self.l_name}. ')
+
+    def salaryUpdate(self, salary):
+        print(f'{self.name} your old salary is : {self.salary}. ')
+
+        if salary > self.salary:
+            c = ((salary - self.salary) / self.salary) * 100
+            print(f'{self.name} your new salary is : {salary} and incremented by {c}%. ')
+
+        elif salary < self.salary:
+            c = ((salary - self.salary) / self.salary) * 100
+            print(f'{self.name} your new salary is : {salary} and decremented by {c}%. ')
         
+        else:
+            print(f'{self.name} your salary is : {salary} with no changes. ')
+        
+        self.salary = salary
+
+
 my_emp1 = Emp('kiran', 60000, 'virar')
 print(my_emp1.printInfo())
 
@@ -51,3 +77,9 @@ l = ListPrinter()
 l.printList(mylist)
 
 print(l.printReverce(mylist))
+
+
+t1 = MyTest1('kiran', 'krushnakant', 'mungekar', 22000)
+t1.salaryUpdate(35000)
+t1.salaryUpdate(30000)
+t1.salaryUpdate(30000)
