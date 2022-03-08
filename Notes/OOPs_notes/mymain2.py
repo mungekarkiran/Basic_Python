@@ -1,7 +1,6 @@
 # Concept of Public, Private and Protected
 
 # ======================= Public
-from pyrsistent import b
 
 
 class C1:
@@ -131,3 +130,44 @@ print(x2.__a)
 print(x2._b)
 print(x2.c)
 
+
+# ======================= Test 1
+
+class BonousCalculator:
+
+    def __init__(self, empid, emprating) -> None:
+        self.empid = empid
+        self.emprating = emprating
+        self.__bonousforratingA = '70%'
+        self.__bonousforratingB = '60%'
+        self.__bonousforratingC = '50%'
+
+    def bonouscalculator(self):
+        if self.emprating == 'A':
+            return 'You get '+self.__bonousforratingA
+        elif self.emprating == 'B':
+            return 'You get '+self.__bonousforratingB
+        elif self.emprating == 'C':
+            return 'You get '+self.__bonousforratingC
+        else:
+            return 'You get Nothing !!!'
+
+emp = BonousCalculator(101, 'A') 
+print(emp.bonouscalculator())
+
+emp = BonousCalculator(102, 'B') 
+print(emp.bonouscalculator())
+
+emp = BonousCalculator(103, 'C') 
+print(emp.bonouscalculator())
+
+emp = BonousCalculator(104, 'D') 
+print(emp.bonouscalculator())
+
+emp = BonousCalculator(106, 'B')
+emp.__bonousforratingB = '90%' 
+print(emp.bonouscalculator())
+
+# We can modify the private variable using its class name only
+emp._BonousCalculator__bonousforratingB = '90%' 
+print(emp.bonouscalculator())
