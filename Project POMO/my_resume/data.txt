@@ -1,0 +1,32 @@
+
+SUMMARY
+
+Seeking a position in life to utilize my skills & abilities & achieve professional growth while being flexible & also improve my skills to give my best for the company best.
+
+EXPERIENCE
+
+Thinkgestalt.Tech | Data Analyst December 2021- Present
+Collaborated with 2 data analyst and 1 project head to implement and analyse given data.
+Analyse, clean and visualize different factors influencing like socio economic for the financial domain.
+Determine and backtest the factors leading to risk of the financial application. 
+Contribute towards the development and deployment microservices module for rapid, frequent and reliable delivery of large, complex applications.
+Create API’s using flask framework and help to integrate with different applications.
+Develop visually impactful report on Jupyter notebook to transform data into meaningful information as a proof of concept for the internship purpose.
+
+PROJECTS
+
+Lead Generation for Sales | Thinkgestalt.Tech
+Data scraped from the web to reach out and offer our products and services to other companies on B2B level and to clients.
+Handled the web scraping part which helped the sales team to connect to clients hence contributing to increase the revenue of the company by 2%.
+Created module using Python, BeautifulSoup, Selenium and MS Excel.
+
+Aqua Drone to Collect Floating Waste | Thakur College Of Engineering and Technology
+
+
+Car for Smart Cities - Smart Car | St. John College of Engineering and Management 
+Created a model of a self-driving car to understand machine learning, CNN, OpenCV, working of components By using Python & Raspberry Pi as a mini-computer.
+
+SKILLS
+EDUCATION
+ACHIEVEMENT
+
