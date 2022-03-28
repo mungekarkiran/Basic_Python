@@ -1,17 +1,17 @@
 
 SUMMARY
 
-Seeking a position in life to utilize my skills & abilities & achieve professional growth while being flexible & also improve my skills to give my best for the company best.
+Seeking a position to utilize my skills and abilities to achieve professional growth while being flexible, as well as to enhance my skills in order to contribute to the company's growth.
 
 EXPERIENCE
 
 Thinkgestalt.Tech | Data Analyst December 2021- Present
-Collaborated with 2 data analyst and 1 project head to implement and analyse given data.
-Analyse, clean and visualize different factors influencing like socio economic for the financial domain.
-Determine and backtest the factors leading to risk of the financial application. 
-Contribute towards the development and deployment microservices module for rapid, frequent and reliable delivery of large, complex applications.
-Create API’s using flask framework and help to integrate with different applications.
-Develop visually impactful report on Jupyter notebook to transform data into meaningful information as a proof of concept for the internship purpose.
+•	Collaborated with 2 data analyst and 1 project head to implement and analyse given data.
+•	Analyse, clean and visualize different factors influencing the financial domain.
+•	Determine and back-test the factors leading to risk of the financial application. 
+•	Contribute towards the development and deployment micro-services module for rapid, frequent and reliable delivery of large, complex applications.
+•	Create API’s using flask framework and help to integrate with different applications.
+•	Develop visually impactful report on jupyter notebook to transform data into meaningful information as a proof of concept.
 
 PROJECTS
 
@@ -20,13 +20,51 @@ Data scraped from the web to reach out and offer our products and services to ot
 Handled the web scraping part which helped the sales team to connect to clients hence contributing to increase the revenue of the company by 2%.
 Created module using Python, BeautifulSoup, Selenium and MS Excel.
 
-Aqua Drone to Collect Floating Waste | Thakur College Of Engineering and Technology
-
+Aqua Drone to Collect Floating Waste | Thakur College of Engineering and Technology
+An embedded aqua drone prototype created as an AI module integrate with mobile app to control and monitor the boat.
+Created as a proof of concept (POC) and the aim is to integrate the deep learning model with embedded system and increase the accuracy by 5%.
+Created module using Python, Deep Learning, Firebase, computer vision, and Raspberry Pi.
 
 Car for Smart Cities - Smart Car | St. John College of Engineering and Management 
-Created a model of a self-driving car to understand machine learning, CNN, OpenCV, working of components By using Python & Raspberry Pi as a mini-computer.
+A module of self-driving cars created as a prototype with the help of deep learning and computer vision.
+Created as a proof of concept (POC) and the aim is to implement CNN that will automatically drive a vehicle in a real time scenario with 89.72% accuracy.
+Created module using Python, Deep Learning, computer vision, and Raspberry Pi.
+
 
 SKILLS
+
+Languages and Software tools
+Python, MySQL, HTML, CSS,
+SQLite, MongoDb, Firebase,
+Flask, Django,
+Jupyter notebook, 
+Visual studio code,
+Raspberry Pi, Arduino.
+
+Data Analysis
+Web Collection / Scraping, 
+Data Visualization,
+Data Wrangling,
+Mathematical and Statistical 
+Analysis, 
+Data Pre-processing,
+Exploratory Data Analysis.
+
+Strength
+Time Management, Good Explainer, 
+Self-Motivation, Problem solving,  
+Ability to work
+as an individual as well as in a
+team, Research.
+
 EDUCATION
+
+Thakur College of Engineering and Technology | Master of Engineering (M.E.) Mumbai | June 2019 - March 2021
+Master's in : Information Technology - Data Science
+CGPA : 9.56 / 10
+Relevant Work : Python, Machine Learning, Deep Learning. 
+
+
 ACHIEVEMENT
 
+Participated in Paper Presentation - Design & Implementation of Car for Smart Cities - Intelligent Car Prototype (Springer Publication - Paper Code - 261)
