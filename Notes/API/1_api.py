@@ -53,7 +53,5 @@ def test3():
 # WAFun to fetch data from SQL table via API
 # WAFun to fetch data from mongodb table via API
 
-
-
 if __name__ == '__main__':
     app.run()
