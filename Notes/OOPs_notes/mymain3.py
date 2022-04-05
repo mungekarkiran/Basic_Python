@@ -57,3 +57,43 @@ i.share_stories()
 f.share_stories()
 i.upload_pic()
 f.upload_pic()
+
+
+# Polymorphism example 2 :
+
+# try to create your own exception class
+
+class testException(Exception):
+
+    def __init__(self, msg) -> None:
+        self.msg = msg
+
+try:
+    raise(testException('raise my new exception'))
+except testException as te:
+    print('TE : ',te)
+
+try:
+    raise(testException('raise my new exception : zero se kon divide karata hai bhai...'))
+    5/0
+except testException as te:
+    print('TE : ',te)
+
+
+class testException1(Exception):
+
+    def __init__(self, msg, my_val) -> None:
+        self.msg = msg
+        self.my_val = my_val
+
+try:
+    raise(testException1('raise my new exception with my value as error code : ', 156))
+except testException1 as te:
+    print('TE : ',te)
+
+try:
+    raise(testException1('raise my new exception with my value as error code : ', '404 - Page Not Found'))
+except testException1 as te:
+    print('TE : ',te)
+
+
