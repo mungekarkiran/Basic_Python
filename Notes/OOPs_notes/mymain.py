@@ -1,6 +1,6 @@
 class Emp:
 
-    def __init__(self, name, salary, addr):
+    def __init__(self, name, salary, addr): # init is a function we always try to overload.
 
         self.name = name
         self.salary = salary

@@ -92,5 +92,67 @@ print(mm1.call_math())
 
 # q2 - create your own class to represent polymorphism
 
+class about_me:
+
+    def print_something(self):
+        return 'I am an animal from earth.'
+
+class my_sound:
+
+    def my_voice(self):
+        return 'I have normal voice.'
+
+class dog(about_me, my_sound):
+
+    def __init__(self) -> None:
+        super().__init__()
+
+    def my_voice(self):
+        return 'I have woof-woof voice.'
+
+class cat(about_me, my_sound):
+
+    def __init__(self) -> None:
+        super().__init__()
+
+    def my_voice(self):
+        return 'I have meow-meow voice.'
+
+d = dog()
+c = cat()
+
+print(d.print_something(), '\n', d.my_voice() )
+print(c.print_something(), '\n', c.my_voice() )
+
+# or 
+
+for obj in (d, c):
+    print(obj.print_something(), '\n', obj.my_voice() )
 
 
+
+# q3 - create your own class for custom exception 
+
+class divide_by_5(Exception):
+
+    def __init__(self, msg) -> None:
+        self.msg = msg
+    
+try:
+    a =int(input('Enter a value for "a" : '))
+    b =int(input('Enter a value for "b" : '))
+
+    if b == 5:
+        raise(divide_by_5('Not able to divide by 5 '))
+
+except ValueError as ve:
+    print('ValueError : ',ve)
+
+except divide_by_5 as d5:
+    print(d5)
+
+else:
+    try:
+        print(a/b)
+    except ZeroDivisionError as ze:
+        print('ZeroDivisionError : ',ze)
