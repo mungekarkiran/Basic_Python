@@ -1,0 +1,94 @@
+### Django Notes:
+https://www.youtube.com/watch?v=JxzZxdht-XY
+
+
+# install Django
+
+pip install django 
+pip install django --upgrade
+
+# add extension
+
+Django v1.10.0
+Baptiste Darthenay
+Beautiful syntax and scoped snippets for perfectionists with deadlines
+
+Python v2022.6.2
+Microsoft
+IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests, ...
+
+# To check
+
+django-admin
+
+# startproject
+
+django-admin startproject <project_name>
+ex. django-admin startproject mysite
+
+# change to project dir
+
+cd .\mysite1\
+
+# to run sample code
+
+# manage.py
+-> command line utility, help us to interact with django project.
+
+# To run 
+python manage.py runserver OR python manage.py runserver 5555 [To change the port number]
+
+
+# MVT
+
+-> Model View Template
+
+# create app
+
+python manage.py startapp myApp1
+
+# create urls.py for app
+
+`` mysite1\urls.py
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('myApp1.urls'))
+]
+
+`` myApp1\urls.py
+from django.contrib import admin
+from django.urls import path
+from myApp1 import views
+# from . import views
+urlpatterns = [
+    path('', views.indexPage, name='indexPage'),
+]
+
+`` myApp1\views.py
+from django.shortcuts import render, HttpResponse
+# Create your views here.
+def indexPage(request):
+    return HttpResponse('This is indexPage ....')
+
+
+# create url dispacher
+
+`` myApp1\urls.py
+urlpatterns = [
+    path('', views.indexPage, name='indexPage'),
+    path('about', views.about, name='about'),
+    path('services', views.services, name='services'),   
+]
+
+`` myApp1\views.py
+def indexPage(request):
+    return HttpResponse('This is indexPage ....')
+def about(request):
+    return HttpResponse('This is about ....')
+def services(request):
+    return HttpResponse('This is services ....')
+
+
