@@ -109,7 +109,44 @@ STATICFILES_DIRS = [
 
 -> you can see file in side static folder : http://127.0.0.1:8000/static/a.txt
 
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
 
+# create .html page
+`` templates\index.html
+
+`` mysite1\myApp1\views.py
+def indexPage(request):
+    # return HttpResponse('This is indexPage ....')
+    return render(request, 'index.html')
+
+# send variable value from views.py to index.html page
+`` templates\index.html
+<h2>Variable value is : {{ variable }}</h2>
+
+`` mysite1\myApp1\views.py
+def indexPage(request):
+    context = {
+        'variable' : 'hello django!!!'
+    }
+    # return HttpResponse('This is indexPage ....')
+    return render(request, 'index.html', context)
+
+# try with bootstrap
+-> https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 
 
