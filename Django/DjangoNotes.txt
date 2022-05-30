@@ -1,0 +1,174 @@
+# Django Notes:
+
+pip install django OR python -m pip install django
+
+`` To check
+django-admin
+
+django-admin startproject <project_name>
+ex. django-admin startproject mysite
+
+`` manage.py
+-> command line utility, help us to interact with django project.
+
+`` To run 
+python manage.py runserver OR python manage.py runserver 5555 [To change the port number]
+
+
+
+``````````````````
+
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser (to create an admin user/pswd to manage admin page)
+python manage.py runserver
+
+
+
+```````````````````````````
+28/12/2020
+```````````````````````````
+
+django-admin startproject DjangoMySite
+
+python .\manage.py startapp LoginReg 
+
+
+`` DjangoMySite\urls.py
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('LoginReg.urls')),
+]
+
+`` LoginReg\urls.py
+from django.urls import path
+# Author - Kiran K. Mungekar.
+from . import views
+
+urlpatterns = [
+    path('',views.loginReg,name='loginReg'),
+]
+
+`` LoginReg\views.py
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def loginReg(request):
+    return HttpResponse('<h1>hello</h1>')
+
+`` To run:
+python .\manage.py runserver
+
+127.0.0.1:8000 OR http://localhost:8000/
+
+`` Insert Application definition OR Add Application definition
+`` DjangoMySite\settings.py
+
+INSTALLED_APPS = [
+    'LoginReg.apps.LoginregConfig',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
+`` Create Templates Folder
+`` LoginReg\templates\*.html
+
+`` DjangoMySite\settings.py
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': ['templates'],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+`` LoginReg\urls.py
+urlpatterns = [
+    path('',views.loginReg,name='loginReg'),
+    path('register',views.register,name='register'),
+    path('login',views.login,name='login'),
+]
+
+`` LoginReg\views.py
+def register(request):
+    # insert data
+    return render(request, 'index.htm')
+    
+def login(request):
+    return render(request, 'login.htm')
+
+`` install Postgres and PgAdmin Setup
+https://www.youtube.com/watch?v=d--mEqEUybA&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau&index=17
+
+`` db config.
+settings.py
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'DjangoDB',
+        'USER': 'postgres',
+        'PASSWORD': 'kiran',
+        'HOST': 'localhost'
+    }
+}
+
+-- pip install psycopg2
+
+`` LoginReg\models.py
+
+class NewUsers(models.Model):
+    fname = models.CharField(max_length=50)
+    lname = models.CharField(max_length=50)
+    email = models.CharField(max_length=50)
+    pwd1 = models.CharField(max_length=50)
+    gender =  models.CharField(max_length=2)
+    class Meta:
+        # define table name
+        db_table = 'NewUsers'
+
+`` sqlite setup
+python manage.py makemigrations
+python manage.py migrate
+
+`` Create SuperUser
+python manage.py createsuperuser
+[root/root]
+http://localhost:8000/admin/
+
+`` Create Admin Panel
+`` Register your models
+`` LoginReg\admin.py
+from django.contrib import admin
+from .models import NewUsers
+# Register your models here.
+admin.site.register(NewUsers)
+
+
+
+https://www.a2hosting.in/kb/developer-corner/mysql/connecting-to-mysql-using-python
+

@@ -91,4 +91,43 @@ def about(request):
 def services(request):
     return HttpResponse('This is services ....')
 
+# create templates and static files
+`` mysite1\static
+`` mysite1\templates
+
+`` mysite1\settings.py
+STATIC_URL = 'static/'
+# added manually 
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+#     '/var/www/static/',
+# ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
+
+-> you can see file in side static folder : http://127.0.0.1:8000/static/a.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

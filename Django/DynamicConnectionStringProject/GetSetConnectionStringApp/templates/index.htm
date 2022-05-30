@@ -1,0 +1,52 @@
+{% extends "headerAndfooter.htm" %}
+
+{% block content %}
+<!-- <br>i m on index<br> -->
+<center>
+    <h1>Enter Connection String </h1>
+    <!-- for msg -->
+    <form action="/setConnectionString" method="POST">
+    {% csrf_token %}
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Database User" name="USER">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="password" class="form-control" placeholder="Password" name="PASSWORD">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Host Name" name="HOST">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Database Name" name="NAME">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Table Name" name="TNAME">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Column Name" name="CNAME">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Column Value" name="CVALUE">
+        </div>
+    </div>
+    <div class="row mt-1"><button type="submit" class="btn btn-primary">Submit</button></div>
+    
+    </div>
+    </form>
+
+</center>
+{% endblock %}
+

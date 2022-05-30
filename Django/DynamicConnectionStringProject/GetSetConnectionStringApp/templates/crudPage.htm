@@ -1,0 +1,45 @@
+{% extends "headerAndfooter.htm" %}
+
+{% block content %}
+<br>i m on CRUDPage<br>
+<center>
+{{ cursor }}
+
+    <!-- <h1>Enter Connection String </h1> -->
+    <!-- for msg -->
+    <form action="/setConnectionString" method="POST">
+    {% csrf_token %}
+    <!-- # SQL Query to get all column names from database table in SQL Server -->
+    <!-- <pre>
+        SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Your Table Name' ORDER BY ORDINAL_POSITION
+    </pre> -->
+    <!-- <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Database User" name="USER">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="password" class="form-control" placeholder="Password" name="PASSWORD">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Host Name" name="HOST">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Database Name" name="NAME">
+        </div>
+    </div> -->
+    <div class="row mt-1"><button type="submit" class="btn btn-primary">Submit</button></div>
+    
+    </div>
+    </form>
+
+
+
+</center>
+{% endblock %}
+
