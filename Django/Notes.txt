@@ -149,9 +149,29 @@ def indexPage(request):
 -> https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 
+# Django default authentication system
+python manage.py makemigrations
 
+-> makemigrations : used to check the change inside your database schema
 
+python manage.py migrate
 
+-> migrate : apply the change on database schema
+
+-> makemigrations auto generates migration files containing changes that need to be applied to the database, but doesn't actually change anyhting in your database. migrate will make the actual modifications to your database, based on the migration files.
+
+# create superuser
+python manage.py createsuperuser 
+
+-> to create an admin user/pswd to manage admin page (http://127.0.0.1:8000/admin) (id/pswd : kiran/kiran)
+
+# change the admin page header, title, index_title (https://books.agiliq.com/projects/django-admin-cookbook/en/latest/change_text.html)
+`` \mysite1\urls.py
+admin.site.site_header = "Demo Admin"
+admin.site.site_title = "Demo Admin Portal"
+admin.site.index_title = "Welcome to Demo Researcher Portal"
+
+# Template inharitance
 
 
 
