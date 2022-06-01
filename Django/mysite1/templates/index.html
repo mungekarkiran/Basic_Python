@@ -3,12 +3,57 @@
 {% block title %}Home{% endblock title %}
 
 {% block body %}
-<div>
-    <h1>Home Page</h1>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, aperiam nesciunt! Neque exercitationem, laboriosam commodi nam fuga qui repellat veritatis cumque iure alias consequuntur aperiam ipsam, esse optio distinctio repudiandae.</p>
-    </div>
-    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aperiam voluptate doloremque porro ipsum, quia modi. Sed perspiciatis magni officia quaerat nam tenetur cupiditate facilis autem eaque rerum deserunt modi, culpa laudantium dolore reprehenderit sunt debitis, ut, vero qui alias dolorem quo nostrum aliquid. Cupiditate, odit. Officia similique perferendis facilis?</p></div>
+<div class="container mt-2">
+    {% if flage == 1 %}
+    <h2>{{ msg }}</h2>
+    <h4>Last traded price : <strong>{{ last_trade_price }}</strong> </h4>
+    <hr>
+    <h4>OHLC : </h4>
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Date</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+        </tr>
+        <tr>
+            {% for d in ohlc %}
+            <td>{{ d }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+    <hr>
+    <h4>Price change today : <strong>{{ price_change_today }}</strong> </h4>
+    <hr>
+    <h4>% price change in last 2 weeks : </h4>
+    <table>
 
+        <tr>
+            <th>Date</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>percent_change</th>
+        </tr>
+        {% for i in data %}
+        <tr>
+            <td>{{i.Date}}</td>
+            <td>{{i.Open}}</td>
+            <td>{{i.High}}</td>
+            <td>{{i.Low}}</td>
+            <td>{{i.Close}}</td>
+            <td>{{i.pct_change_price}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <hr><hr>
+
+    {% elif flage == 0 %}
+    <h2>{{ msg }}</h2>
+    {% endif %}
 </div>
+
 {% endblock body %}
