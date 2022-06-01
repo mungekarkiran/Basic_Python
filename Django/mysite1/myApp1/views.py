@@ -9,7 +9,8 @@ def indexPage(request):
     return render(request, 'index.html', context)
 
 def about(request):
-    return HttpResponse('This is about ....')
+    # return HttpResponse('This is about ....')
+    return render(request, 'about.html')
 
 def services(request):
     return HttpResponse('This is services ....')

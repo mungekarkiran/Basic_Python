@@ -172,15 +172,32 @@ admin.site.site_title = "Demo Admin Portal"
 admin.site.index_title = "Welcome to Demo Researcher Portal"
 
 # Template inharitance
+`` templates\base.html
+-> copy all header, footer part to base.html
+
+{% block body %}{% endblock body %}
+-> add between header and footer
+
+<title> {% block title %}{% endblock title %} || Demo Page</title>
+-> add in title
+
+`` templates\index.html
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}This is main body{% endblock body %}
 
 
 
 
 
 
+https://www.youtube.com/watch?v=bzjQnWJWuVc
 
+https://www.youtube.com/watch?v=Bfgtp62VFeU
 
+https://www.youtube.com/watch?v=h1fKWxs7A2c
 
+https://www.youtube.com/watch?v=QDdLvImfq_g
 
 
 
