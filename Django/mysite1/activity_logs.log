@@ -105,3 +105,8 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2022-06-02 01:28:54,878 Symbol : AAPL 
 2022-06-02 01:30:37,142 D:\test\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.
 2022-06-02 01:30:46,630 Symbol : AAPL 
+2022-06-02 14:14:52,800 Symbol : AAPL 
+2022-06-02 14:17:05,357 Symbol : AAPL 
+2022-06-02 14:17:24,890 Symbol : KAPIL 
+2022-06-02 14:50:42,320 Symbol : AAPL 
+2022-06-02 14:52:14,507 Symbol : KAPIL 
