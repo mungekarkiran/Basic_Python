@@ -110,3 +110,8 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2022-06-02 14:17:24,890 Symbol : KAPIL 
 2022-06-02 14:50:42,320 Symbol : AAPL 
 2022-06-02 14:52:14,507 Symbol : KAPIL 
+2022-06-02 22:14:16,623 Symbol : AAPL 
+2022-06-02 22:40:51,447 Symbol : AAPL 
+2022-06-02 22:41:43,033 Symbol : AAPL 
+2022-06-02 22:55:17,128 Symbol : AAPL 
+2022-06-02 23:19:23,923 Symbol : AAPL 

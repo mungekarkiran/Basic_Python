@@ -1,0 +1,27 @@
+<script>
+    $("#search").click(function(){
+        let symbol = $("#symbolid").val();
+        let csr = $("input[name = csrfmiddlewaretoken]").val();
+
+        if (symbol == ''){
+            console.log('Enter valid symbol');
+        }else{
+            mydata = {symbol: symbol, csrfmiddlewaretoken: csr};
+            $.ajax({
+                url: "{% url 'indexPage' %}",
+                method: "POST",
+                data: mydata,
+                dataType: "json",
+                success: function (data) {
+                    // console.log(data);
+                    if (data.symbol){
+                        console.log('data loadded...');
+                        console.log(data.context)
+                        $("form")[0].reset();
+
+                    }
+                }
+            })
+        }
+    });
+</script>
