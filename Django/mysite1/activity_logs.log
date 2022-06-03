@@ -115,3 +115,50 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2022-06-02 22:41:43,033 Symbol : AAPL 
 2022-06-02 22:55:17,128 Symbol : AAPL 
 2022-06-02 23:19:23,923 Symbol : AAPL 
+2022-06-03 10:28:56,409 Symbol : AAPL 
+2022-06-03 10:29:06,393 Symbol : AAPL 
+2022-06-03 10:39:57,821 Symbol : AAPL 
+2022-06-03 10:47:57,710 Symbol : AAPL 
+2022-06-03 10:49:48,086 Symbol : AAPL 
+2022-06-03 10:50:33,375 Symbol : AAPL 
+2022-06-03 10:51:20,881 Symbol : AAPL 
+2022-06-03 10:59:36,401 Symbol : AAPL 
+2022-06-03 11:01:02,493 Symbol : AAPL 
+2022-06-03 11:01:19,591 Symbol : AAPL 
+2022-06-03 11:11:06,934 Symbol : AAPL 
+2022-06-03 11:11:22,029 Symbol : AAPL 
+2022-06-03 11:12:48,896 Symbol : AAPL 
+2022-06-03 11:12:59,724 Symbol : AAPL 
+2022-06-03 11:15:57,206 Symbol : AAPL 
+2022-06-03 11:16:13,043 Symbol : AAPL 
+2022-06-03 11:18:24,343 Symbol : KAPIL 
+2022-06-03 11:22:25,281 C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.
+2022-06-03 11:22:47,296 Symbol : AAPL 
+2022-06-03 11:22:56,157 Symbol : AAPL 
+2022-06-03 11:25:23,327 C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.
+2022-06-03 11:25:42,416 Symbol : AAPL 
+2022-06-03 11:25:47,418 Symbol : AAPL 
+2022-06-03 11:27:46,321 C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.
+2022-06-03 11:28:01,904 Symbol : AAPL 
+2022-06-03 11:28:03,774 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py", line 52, in indexPage
+    return render(request, 'index.html', context = {'context': context})
+TypeError: unhashable type: 'dict'
+2022-06-03 11:28:48,736 Symbol : AAPL 
+2022-06-03 11:28:49,273 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py", line 52, in indexPage
+    return render(request, 'index.html', context = {'context': context})
+TypeError: unhashable type: 'dict'
+2022-06-03 11:29:17,727 C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.
+2022-06-03 11:29:31,008 Symbol : AAPL 
+2022-06-03 11:30:48,827 C:\Users\Kiran\git_python_main\Basic_Python\Django\mysite1\myApp1\views.py changed, reloading.

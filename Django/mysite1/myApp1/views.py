@@ -47,6 +47,7 @@ def indexPage(request):
 
     
     # return HttpResponse('This is indexPage ....')
+    print(context.keys())
     return render(request, 'index.html', context)
 
 def about(request):

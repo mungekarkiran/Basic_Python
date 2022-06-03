@@ -1,4 +1,4 @@
-<script>
+<!-- <script type="text/javascript">
     $("#search").click(function(){
         let symbol = $("#symbolid").val();
         let csr = $("input[name = csrfmiddlewaretoken]").val();
@@ -16,7 +16,7 @@
                     // console.log(data);
                     if (data.symbol){
                         console.log('data loadded...');
-                        console.log(data.context)
+                        console.log(data.msg)
                         $("form")[0].reset();
 
                     }
@@ -24,4 +24,14 @@
             })
         }
     });
+</script> -->
+
+
+<script type="text/javascript">
+    console.log('Hello i am in console script')
+    var context = "{{ msg }}"
+    console.log('mydata.msg => ',context)
+    const  mydata = "{{ msg|safe }}";
+    console.log('context|safe => ',mydata)
+
 </script>
