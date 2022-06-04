@@ -3,6 +3,7 @@ numpy
 flask
 plotly
 scikit-learn
+xgboost
 opencv-python
 imutils
 tensorflow
