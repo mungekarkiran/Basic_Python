@@ -1,0 +1,10 @@
+pandas
+numpy
+flask
+plotly
+scikit-learn
+opencv-python
+imutils
+tensorflow
+keras
+PyPDF2==1.26.0
