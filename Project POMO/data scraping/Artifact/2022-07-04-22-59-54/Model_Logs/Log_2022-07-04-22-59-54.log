@@ -1,0 +1,6 @@
+[2022-07-04 22:59:54,365] root - INFO - ========== Initializing fit_ensemble_voting_classifier ==========
+
+
+[2022-07-04 22:59:54,371] root - INFO - Model : LogisticRegression running...
+[2022-07-04 22:59:54,376] root - INFO - Initializing builMultiLabelModels
+[2022-07-04 22:59:58,166] root - INFO - Classification on Training dataset : [ 'Accuracy': 70.39, 'Loss': 29.61, 'Hamming_loss': 7.93 ]
