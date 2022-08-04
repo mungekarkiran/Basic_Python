@@ -35,3 +35,8 @@ https://note.nkmk.me/en/python-pillow-qrcode/
 https://www.youtube.com/watch?v=FFfr873Zbcg
 
 https://www.youtube.com/watch?v=WSLSRrhFD6U&t=142s
+
+What is XPath? Types of XPath? How to write XPath? | XPath Tutorial for Beginners |
+https://www.youtube.com/watch?v=Em2PfKQ26Zw
+
+https://swagger.io/solutions/api-design/
