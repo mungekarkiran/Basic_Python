@@ -80,14 +80,14 @@ warnings.filterwarnings('ignore')
 app = Flask(__name__)
 
 # start ngrok when app is run
-run_with_ngrok(app)
+# run_with_ngrok(app)
 
 # Model saved with Keras model.save()
 MODEL_PATH = 'model_R50.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
-# model._make_predict_function()          # Necessary
+
 print('\nModel loaded. Start serving...')
 print('\nModel loaded. Check http://127.0.0.1:5000/')
 
@@ -225,7 +225,12 @@ def upload():
         return render_template('index.html', result=result, file_path=file_path[7:],heat=heat,gCam=gCam[8:],test2=preClass,graphJSON=graphJSON)
     return None
 
+@app.route('/WeatherBasedPomegranateDiseasePrediction', methods=['GET', 'POST'])
+def WeatherBasedPomegranateDiseasePrediction():
+
+    return render_template('WeatherBasedPomegranateDiseasePrediction.html')
+
 if __name__ == '__main__':
-    # app.run(debug=True)
-    app.run()
+    app.run(debug=True)
+    # app.run()
 
