@@ -1,0 +1,10 @@
+numpy
+pandas
+opencv-python==4.5.4.60
+cvzone
+pickle-mixin
+easyocr
+opencv-contrib-python
+imutils
+scikit-image
+notebook
