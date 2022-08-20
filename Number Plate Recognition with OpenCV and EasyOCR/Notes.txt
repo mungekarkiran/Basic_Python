@@ -33,3 +33,23 @@ https://stackoverflow.com/questions/72706073/attributeerror-partially-initialize
 
 https://stackoverflow.com/questions/67440510/cv2-error-opencv4-5-2-error-215assertion-failed-src-empty-in-functi
 
+
+
+https://www.google.com/search?q=automatic+number+plate+recoganition+with+opencv+and+easy+OCR&rlz=1C1CHZL_enIN878IN879&oq=automatic+number+plate+recoganition+with+opencv+and+easy+OCR&aqs=chrome..69i57.73746j0j1&sourceid=chrome&ie=UTF-8
+
+https://dontrepeatyourself.org/post/number-plate-recognition-with-opencv-and-easyocr/
+
+https://dontrepeatyourself.org/post/number-plate-detection-with-opencv-and-python/
+
+https://dontrepeatyourself.org/post/7-best-machine-learning-courses-for-beginners-and-advanced/
+
+https://pyimagesearch.com/2020/09/21/opencv-automatic-license-number-plate-recognition-anpr-with-python/
+
+https://rubikscode.net/2022/06/27/automatic-license-plate-detection-with-opencv-imultis-and-easyocr/
+
+https://morioh.com/p/5f8120c5f6a8
+
+https://www.youtube.com/watch?v=qpFrg4gN4Mg
+
+https://www.section.io/engineering-education/license-plate-detection-and-recognition-using-opencv-and-pytesseract/
+
