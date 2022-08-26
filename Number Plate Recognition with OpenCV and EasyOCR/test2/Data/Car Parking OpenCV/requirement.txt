@@ -1,0 +1,9 @@
+numpy
+pandas
+opencv-python==3.4.14.51
+cvzone
+pickle-mixin
+easyocr
+imutils
+scikit-image
+notebook

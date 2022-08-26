@@ -1,0 +1,28 @@
+step 1 : create virtual environment
+
+# LIB Installing
+> pip install virtualenv    (ONLY ONE TIME)
+
+# create a virtualenv --> ISASE 'venv' KA FOLDER BANEGA IF NOT EXIST
+> virtualenv venv   (ONLY ONE TIME)
+
+# activate VENV 
+> venv\Scripts\activate     (RUN EVERY TIME)
+
+# install required LIB
+> pip install -r requirement.txt    (ONLY ONE TIME)
+
+# to get parking space in pickle file (IF PICKLE FILE NOT EXIST THEN RUN ELSE NO NEED TO RUN)
+> python 01_Parking_Space_Picker.py
+
+> PLOT REC. FOR ALL PARKING SPACES (RIGHT CLICK FOR DRAW REC. AND LEFT CLICK FOR REMOVE REC.)
+> TO SAVE PICKLE FILE PRESS 'q'
+
+# to run main code (main.py file to see the output)
+> python 02_main.py     (RUN EVERY TIME)
+
+# to stop the code press 'q'    (RUN EVERY TIME)
+
+# to deactivate venv
+> deactivate    (RUN EVERY TIME)
+

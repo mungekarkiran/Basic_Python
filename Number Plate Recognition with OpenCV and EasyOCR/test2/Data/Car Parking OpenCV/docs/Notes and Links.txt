@@ -1,0 +1,69 @@
+https://www.manxtechgroup.com/10-x-benefits-of-smart-parking-technology-iot/#:~:text=One%20goal%20of%20Smart%20Parking,emissions%2C%20noise%20and%20other%20pollutants.
+
+https://www.irjet.net/archives/V5/i4/IRJET-V5I4201.pdf
+
+https://www.google.com/search?rlz=1C1VDKB_enIN994IN994&q=detect+the+number+of+free+parking+lot&spell=1&sa=X&ved=2ahUKEwjXlNDU1fz3AhWoqFYBHdfIBCcQBSgAegQIARAy&biw=1920&bih=969&dpr=1
+
+https://medium.com/the-research-nest/parking-space-detection-using-deep-learning-9fc99a63875e
+
+https://medium.com/the-research-nest/parking-space-detection-using-deep-learning-9fc99a63875e
+
+https://www.hindawi.com/journals/misy/2020/8875301/
+
+
+
+Smart Parking System Using Image Processing
+
+Project details : 
+
+Aim : to improve parking facilities by the introduction of smart parking system that would reduce empty parking space searching time. 
+
+Intoduction : 
+
+These days, a few people buy cars even though they don't have anywhere to park them, and a few streets end up becoming parking spots, causing significant traffic congestion. Ordinary parking techniques are time-consuming and inefficient, especially in multi-story buildings where drivers must check each slot and walk through multiple floors only to locate and confirm a parking spot. The Proposed system (Smart Parking Systems) obtain information about available parking spaces by using image-processing. The proposed system utilize Python and the OpenCV library to detection of a parking spot is occupied or not from live video. Cameras were placed in strategic spots to detect ticketless parking. Authorized customers can get parking information from the realtime firebase database.
+
+
+Objective : (what you plan to achieve by the end of your project.)
+
+1. To reduce the time taken and the hassle factor of locating an available parking space.
+
+2. To accurately direct a driver to an available space. 
+
+3. To create many environmental benefits; like reduces CO2 emissions, noise and other pollutants.
+
+4. To identify trends, peak-times and other metrics that can be used in forecasting and reporting.
+
+5. To reduces idling and unnecessary driving – therefore optimises traffic flows in built-up areas.
+
+6. To create new business models that are only made possible using technology like app-based or tag-based payments, real-time and electronic payment  and dynamic parking.
+
+7. To embrace Smart City technologies or standards such as ISO 37122.
+
+8. To count, display available parking space and the location of the available parking spaces in parking lot.
+
+
+
+Methodology : (presenting research findings, detailed description of the research process you used to support your findings and it explains your techniques and creates a roadmap for how you reached your conclusions)
+
+The proposed system simply employs image processing techniques to automate parking using surveillance data from the parking lot's cameras. These algorithms detect the empty parking spaces and convey the information to the drivers entering the parking premises. This is used because cameras can capture many cars at once making them efficient and inexpensive and this also adds to added security in parking lots that may prevent theft and damage of the vehicles. One or more cameras are used for video image processing depending on the area to be covered. The area that a camera can scan can be easily changed by simply altering the position of the camera. In this project, the parking lot detection is done by applying the edge detection with boundaries condition method for image detection module.
+
+
+Process : 
+
+System initialization
+
+Image identification (ROI : A region of interest (ROI) is a portion of an image that you want to filter or operate on in some way.)
+
+Image acquisition (The general aim of any image acquisition is to transform an optical image (real-world data) into an array of numerical data which could be later manipulated on a computer.)
+
+Image conversion (binary convertion)
+
+Image Enhancement (remove noise from the image)
+
+Detect the number of free parking lot
+
+Upload data on Firebase Realtime Database
+
+Get data and display on user application
+
+
