@@ -1,0 +1,48 @@
+{% extends "headerAndfooter.htm" %}
+
+{% block content %}
+<br>
+<center>
+<h1>Register Form</h1>
+<form action="/register" method="POST">
+    {% csrf_token %}
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="First name" name="fname">
+        </div>
+        <div class="col mt-1">
+            <input type="text" class="form-control" placeholder="Last name" name="lname">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="email" class="form-control" placeholder="Email Id" name="email">
+        </div>
+    </div>
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <input type="password" class="form-control" placeholder="Password" name="pwd1">
+        </div>
+        <div class="col mt-1">
+            <input type="password" class="form-control" placeholder="Re-Password" name="pwd2">
+        </div>
+    </div>
+
+    <label for="forGender">Gender :</label>
+    <div class="form-check form-check-inline mt-1">
+        <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="M">
+        <label class="form-check-label" for="inlineRadio1" value='M'>Male</label>
+    </div>
+    <div class="form-check form-check-inline mt-1">
+        <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="F">
+        <label class="form-check-label" for="inlineRadio2" value='F'>Female</label>
+    </div>
+    <div class="row mt-1"><button type="submit" class="btn btn-primary">Sign in</button></div>
+    
+    
+</div>
+</form>
+<p> Already Registered? <a href="/login">Login</a> </p>
+</center>
+{% endblock %}
+
