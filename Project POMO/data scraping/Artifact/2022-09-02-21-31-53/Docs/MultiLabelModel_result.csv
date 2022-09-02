@@ -1,0 +1,9 @@
+Model_name,Accuracy,Loss,Hamming_loss,Filename
+LogisticRegression,74.78,25.22,6.57,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_LogisticRegression.pkl
+KNeighborsClassifier,86.41,13.59,3.48,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_KNeighborsClassifier.pkl
+GaussianNB,62.61,37.39,15.38,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_GaussianNB.pkl
+SVC,99.7,0.3,0.06,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_SVC.pkl
+DecisionTreeClassifier,100.0,0.0,0.0,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_DecisionTreeClassifier.pkl
+RandomForestClassifier,100.0,0.0,0.0,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_RandomForestClassifier.pkl
+GradientBoostingClassifier,99.43,0.57,0.11,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_GradientBoostingClassifier.pkl
+AdaBoostClassifier,98.04,1.96,0.43,D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-09-02-21-31-53\Models\MultiLabelModel_AdaBoostClassifier.pkl
