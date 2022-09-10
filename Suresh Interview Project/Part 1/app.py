@@ -10,6 +10,10 @@ import sqlite3
 import time
 import plotly
 import plotly.express as px
+import PyPDF2
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import LabelEncoder
+import re
 
 # variable's
 connection = sqlite3.connect('login.db', timeout=1, check_same_thread=False)
@@ -24,6 +28,17 @@ except Exception as e:
 
 # start app
 app = Flask(__name__)
+
+# function's
+def cleanResume(resumeText):
+    resumeText = re.sub('http\S+\s*', ' ', resumeText)  # remove URLs
+    resumeText = re.sub('RT|cc', ' ', resumeText)  # remove RT and cc
+    resumeText = re.sub('#\S+', '', resumeText)  # remove hashtags
+    resumeText = re.sub('@\S+', '  ', resumeText)  # remove mentions
+    resumeText = re.sub('[%s]' % re.escape("""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""), ' ', resumeText)  # remove punctuations
+    resumeText = re.sub(r'[^\x00-\x7f]',r' ', resumeText) 
+    resumeText = re.sub('\s+', ' ', resumeText)  # remove extra whitespace
+    return resumeText
 
 # routing
 @app.route('/')
@@ -140,21 +155,66 @@ def qanda():
         fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
         graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
-        scores_ext = EXT1-EXT2+EXT3-EXT4+EXT5-EXT6+EXT7-EXT8+EXT9-EXT10
-        scores_est = EST1-EST2+EST3-EST4+EST5+EST6+EST7+EST8+EST9+EST10
-        scores_agr = -AGR1+AGR2-AGR3+AGR4-AGR5-AGR6+AGR7-AGR8+AGR9+AGR10
-        scores_csn = CSN1-CSN2+CSN3-CSN4+CSN5-CSN6+CSN7-CSN8+CSN9+CSN10
-        scores_opn = OPN1-OPN2+OPN3-OPN4+OPN5-OPN6+OPN7+OPN8+OPN9+OPN10
+        loaded_scaler = pickle.load(open('MinMaxScaler_for_personality_type.pkl', 'rb')) 
+        loaded_model = pickle.load(open('personality_type_model.pkl', 'rb')) 
 
+        columns = ['EXT1', 'EXT2', 'EXT3', 'EXT4', 'EXT5', 'EXT6', 'EXT7', 'EXT8', 'EXT9', 'EXT10', 
+        'EST1', 'EST2', 'EST3', 'EST4', 'EST5', 'EST6', 'EST7', 'EST8', 'EST9', 'EST10', 
+        'AGR1', 'AGR2', 'AGR3', 'AGR4', 'AGR5', 'AGR6', 'AGR7', 'AGR8', 'AGR9', 'AGR10', 
+        'CSN1', 'CSN2', 'CSN3', 'CSN4', 'CSN5', 'CSN6', 'CSN7', 'CSN8', 'CSN9', 'CSN10', 
+        'OPN1', 'OPN2', 'OPN3', 'OPN4', 'OPN5', 'OPN6', 'OPN7', 'OPN8', 'OPN9', 'OPN10']
+
+        val = [EXT1, EXT2, EXT3, EXT4, EXT5, EXT6, EXT7, EXT8, EXT9, EXT10, 
+        EST1, EST2, EST3, EST4, EST5, EST6, EST7, EST8, EST9, EST10, 
+        AGR1, AGR2, AGR3, AGR4, AGR5, AGR6, AGR7, AGR8, AGR9, AGR10, 
+        CSN1, CSN2, CSN3, CSN4, CSN5, CSN6, CSN7, CSN8, CSN9, CSN10, 
+        OPN1, OPN2, OPN3, OPN4, OPN5, OPN6, OPN7, OPN8, OPN9, OPN10]
+
+        my_data = pd.DataFrame(data=[val], columns=columns)
+        my_data1 = loaded_scaler.transform(my_data)
+        my_personality = loaded_model.predict(my_data1)
+
+        ext = list(my_data1[0][0:10])
+        est = list(my_data1[0][10:20])
+        agr = list(my_data1[0][20:30])
+        csn = list(my_data1[0][30:40])
+        opn = list(my_data1[0][40:50])
+
+        extroversion = ext[0] - ext[1] + ext[2] - ext[3] + ext[4] - ext[5] + ext[6] - ext[7] + ext[8] - ext[9]
+        neurotic = est[0] - est[1] + est[2] - est[3] + est[4] + est[5] + est[6] + est[7] + est[8] + est[9]
+        agreeable = -agr[0] + agr[1] - agr[2] + agr[3] - agr[4] - agr[5] + agr[6] - agr[7] + agr[8] + agr[9]
+        conscientious = csn[0] - csn[1] + csn[2] - csn[3] + csn[4] - csn[5] + csn[6] - csn[7] + csn[8] + csn[9]
+        open_ = opn[0] - opn[1] + opn[2] - opn[3] + opn[4] - opn[5] + opn[6] + opn[7] + opn[8] + opn[9]
+
+        li = [extroversion, neurotic, agreeable, conscientious, open_]
+        scaled_data = (li - min(li)) / (max(li) - min(li))
+
+        # my_sums = pd.DataFrame([scaled_data], columns=['extroversion', 'neurotic', 'agreeable', 'conscientious', 'open'])
+        # my_sums['cluster'] = my_personality
+
+        # scores_ext = EXT1-EXT2+EXT3-EXT4+EXT5-EXT6+EXT7-EXT8+EXT9-EXT10
+        # scores_est = EST1-EST2+EST3-EST4+EST5+EST6+EST7+EST8+EST9+EST10
+        # scores_agr = -AGR1+AGR2-AGR3+AGR4-AGR5-AGR6+AGR7-AGR8+AGR9+AGR10
+        # scores_csn = CSN1-CSN2+CSN3-CSN4+CSN5-CSN6+CSN7-CSN8+CSN9+CSN10
+        # scores_opn = OPN1-OPN2+OPN3-OPN4+OPN5-OPN6+OPN7+OPN8+OPN9+OPN10
+
+        # new_df = [
+        #     {'y': scores_ext, 'label':'Extroversion'},
+        #     {'y': scores_est, 'label':'Neuroticism'},
+        #     {'y': scores_agr, 'label':'Agreeableness'},
+        #     {'y': scores_csn, 'label':'Conscientiousness'},
+        #     {'y': scores_opn, 'label':'Openness'}
+        #     ]
+        
         new_df = [
-            {'y': scores_ext, 'label':'Extroversion'},
-            {'y': scores_est, 'label':'Neuroticism'},
-            {'y': scores_agr, 'label':'Agreeableness'},
-            {'y': scores_csn, 'label':'Conscientiousness'},
-            {'y': scores_opn, 'label':'Openness'}
+            {'y': scaled_data[0], 'label':'Extroversion'},
+            {'y': scaled_data[1], 'label':'Neuroticism'},
+            {'y': scaled_data[2], 'label':'Agreeableness'},
+            {'y': scaled_data[3], 'label':'Conscientiousness'},
+            {'y': scaled_data[4], 'label':'Openness'}
             ]
 
-        list_of_score = [scores_ext, scores_est, scores_agr, scores_csn, scores_opn]
+        list_of_score = [scaled_data[0], scaled_data[1], scaled_data[2], scaled_data[3], scaled_data[4]] # [scores_ext, scores_est, scores_agr, scores_csn, scores_opn]
         pre_info = {
             0:'Extroversion (E) is the personality trait of seeking fulfillment from sources outside the self or in community. High scorers tend to be very social while low scorers prefer to work on their projects alone.',
             1:'Neuroticism (N) is the personality trait of being emotional.',
@@ -165,9 +225,86 @@ def qanda():
 
         result = pre_info[list_of_score.index(max(list_of_score))]
 
-        return render_template('qanda_result.html', result=result, graphJSON=graphJSON , new_df=new_df)    
+        return render_template('qanda_result.html', result=result, graphJSON=graphJSON , new_df=new_df, my_personality=my_personality)    
 
     return render_template('qanda.html')
+
+@app.route('/jobtitle', methods=['GET', 'POST'])
+def jobtitle():
+
+    # data pre-processing
+    df_path = os.path.join('static//style//csv', 'resume.csv') 
+    resumeDataSet = pd.read_csv(df_path)
+    
+    # word to vectorizer
+    requiredText = resumeDataSet['cleaned_resume'].values
+    # requiredTarget = resumeDataSet['Category'].values
+    word_vectorizer = TfidfVectorizer(
+        sublinear_tf=True,
+        stop_words='english',
+        max_features=1500)
+    word_vectorizer.fit(requiredText)
+    # WordFeatures = word_vectorizer.transform(requiredText)
+    print ("Feature completed .....")
+
+    # LabelEncoder
+    var_mod = ['Category_name']
+    le = LabelEncoder()
+    for i in var_mod: resumeDataSet[i] = le.fit_transform(resumeDataSet[i])
+    print ("CONVERTED THE CATEGORICAL VARIABLES INTO NUMERICALS")
+
+    # load model
+    loaded_model = pickle.load(open('xgb_pro_job.pkl', 'rb')) 
+
+
+    if request.method == 'POST':
+        # Get the file from post request
+        f = request.files['file']
+        
+        file_path = os.path.join('static//style//csv', secure_filename(f.filename)) 
+        # static//style//csv
+        # csv
+        # uploads
+        # Save the file to ./uploads
+        f.save(file_path)
+        
+        pdfFileObj = open(file_path, 'rb')
+
+        # creating a pdf reader object
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        text_data = '' 
+        for ind in range(pdfReader.numPages):
+            pageObj = pdfReader.getPage(ind)
+            data1=pageObj.extractText()
+            text_data = text_data + data1
+        pdfFileObj.close()
+
+        t1 = cleanResume(text_data)
+        test_text = [t1]
+        WordFeatures = word_vectorizer.transform(test_text)
+
+        X_test2=WordFeatures
+        y_pred2 = loaded_model.predict(X_test2)
+
+        prediction= le.inverse_transform(y_pred2)[0]
+
+        y_pred_1 = loaded_model.predict_proba(X_test2)
+        li = list((y_pred_1*100)[0])
+
+        class_li = list(le.classes_)
+
+        df = pd.DataFrame(
+            {
+                "Personality": class_li,
+                "Score in %": li
+                }
+            )
+        fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
+        graphJSON1 = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+        
+        return render_template('jobtitle.htm', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
+
+    return render_template('jobtitle.htm', flag=False)
 
 
 if __name__ == '__main__':
