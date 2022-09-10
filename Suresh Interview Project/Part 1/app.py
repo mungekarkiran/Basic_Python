@@ -254,7 +254,7 @@ def jobtitle():
     print ("CONVERTED THE CATEGORICAL VARIABLES INTO NUMERICALS")
 
     # load model
-    loaded_model = pickle.load(open('xgb_pro_job.pkl', 'rb')) 
+    loaded_model = pickle.load(open('Resume_Classification_KNN.pkl', 'rb')) 
 
 
     if request.method == 'POST':
@@ -302,9 +302,9 @@ def jobtitle():
         fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
         graphJSON1 = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
         
-        return render_template('jobtitle.htm', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
+        return render_template('jobtitle.html', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
 
-    return render_template('jobtitle.htm', flag=False)
+    return render_template('jobtitle.html', flag=False)
 
 
 if __name__ == '__main__':
