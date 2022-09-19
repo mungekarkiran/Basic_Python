@@ -1,0 +1,48 @@
+<div>
+    <!-- Container for output 1 -->
+    {% if SensorData %}
+        <div>
+        <h4><center> <b> History </b> </center></h4>
+        <center>
+        <table>
+            <tr>
+                <th>dateTime</th>
+                <th>Ammonia</th>
+                <th>BOD</th>
+                <th>Boron</th>
+                <th>Chloride</th>
+                <th>Conductivity</th>
+                <th>Dissolved O2(DO)</th>
+                <th>Ni_Na</th>
+                <th>Sodium</th>
+                <th>Temperature</th>
+                <th>Total Coliform</th>
+                <th>Total Dissolved Solids(TDS)</th>
+                <th>Turbidity</th>
+                <th>pH</th>
+            </tr>
+            {% for ul in SensorData %}
+            <tr> 
+                <td>{{ul.val()['dateTime']}}</td>
+                <td>{{ul.val()['Ammonia']}}</td>
+                <td>{{ul.val()['BOD']}}</td>
+                <td>{{ul.val()['Boron']}}</td>
+                <td>{{ul.val()['Chloride']}}</td>
+                <td>{{ul.val()['Conductivity']}}</td>
+                <td>{{ul.val()['Dissolved O2(DO)']}}</td>
+                <td>{{ul.val()['Ni_Na']}}</td>
+                <td>{{ul.val()['Sodium']}}</td>
+                <td>{{ul.val()['Temperature']}}</td>
+                <td>{{ul.val()['Total Coliform']}}</td>
+                <td>{{ul.val()['Total Dissolved Solids(TDS)']}}</td>
+                <td>{{ul.val()['Turbidity']}}</td>
+                <td>{{ul.val()['pH']}}</td>
+            </tr>
+            {% endfor %}
+        <table>
+        </center>
+        </div>
+    {% else %}
+        <div></div>
+    {% endif %}
+</div>

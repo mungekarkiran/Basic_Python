@@ -1,0 +1,291 @@
+{% extends "base.html" %} {% block content %}
+
+ <style>
+    body {
+      overflow-y: visible;
+    }
+
+    .accordion i {
+      float: right;
+    }
+
+    span {
+      color: black;
+      font-size: 1.4em;
+    }
+
+	.faq-title {
+  margin: 20px;
+  font-size: 2.3em;
+  text-align: center;
+  color: green;
+}
+  </style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<h2 class="faq-title">Frequently Asked Question(FAQs)</h2>
+
+  <div class="accordion" id="accordionExample">
+    
+    <!-- <div class="card">  
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <span>
+              What is Aquaponic Farming ?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus, labore voluptatem culpa id
+          aspernatur provident deleniti. Quis fugiat molestiae maiores, neque sunt libero ratione illo ab mollitia,
+          culpa deleniti?
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              How many fish do i need for Aquaponic System ?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+          officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+          moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+          butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+          haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="card">
+      <div class="card-header" id="headingSix">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <span>
+              What are the different cold-water and warm water fish species ?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+        <div class="card-body">
+         
+            Cold Water Fish Species 
+              1.  Mahaseer
+              2.  Snow Trout
+              3.  Barilius
+              4.  Labeo
+              5.  Garra
+              6.  Cyprinus Carpio
+              7.  Trouts: 
+                • Salmo trutta fabrio, Salmo eredius, Salmo gairdinarii
+                • Oncorhynchus mykiss (rainbow trout), Oncohrynchus nakrii
+              
+              Warm Water Fish Species 
+                Bagarius bagarius, Catla catla, Channa marulius, C. punctatus, C. striatus, Cirrhinus mrigala, Clarias batrachus, Heteropneustes fossilis, Labeo bata, L.
+
+         
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              What is the investment cost of Lake/Pond ?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse7" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          Cost of the Lake and pond depends upon location, land, and lake / pond type?
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              How many mature fishes can be maintained in the pond/ lake? 
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse8" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          It depends upon the water capacity of ponds in liters. Ideally, one fish needs eight liters of water. If artificial aerator is used, then one fish needs four liters of water.
+        </div>
+      </div>
+    </div>    
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              How much profit can be taken from fish farming ?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse9" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          It depends upon the water quality and availability. 1 - 2 Lakhs net profit / acre can be easily taken using  the species Catla, Rohu, Mrigal, Common carp and Silver carp. 
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+               How to check reduced oxygen level in water manually?  
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse10" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          When foam starts accumulating on the water or presence of air bubbles is an indication of reduced oxygen level in water. Fishes are coming frequently on the water surface is also an indication of reduced oxygen level in water.  
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              Can you tell us whether fish farming business is profitable?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse11" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          It is a very profitable business. Minimum fish rate per kg is 300-400 Rs depending upon the size and fish species. Some of the species are costlier.  
+        </div>
+      </div>
+    </div>    
+
+
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              Can catfish grow in concrete constructed pond?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse12" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          Yes. Catfish can grow in the concrete constructed pond.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              What are the different services are provided by Aquaculture Technologies?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse13" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          
+            Services provided by Aquaculture Technologies
+              • Feasibility Reports
+              • Site selection
+              • Land purchase
+              • Pond construction
+              • Seed selection or supply
+              • Staff, 
+              • Complete or partial management,
+              • Harvest staff
+              • Training,
+              • Marketing
+
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none collapsed" type="button"
+            data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapseTwo">
+            <span>
+              What is duration for fish to grow to become  marketable size ? or what is the duration to get return on investment?
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="collapse14" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          It depends upon the fish species. But generally, it takes 6-8 months above 1 Kg provided you fed fishes properly. Bigger fishes are providing a higher price.  Fishes can be sellable between 10-18 months. Above 15 Months, higher profit can be obtained.
+        </div>
+      </div>
+    </div>  <hr>
+  
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+{% endblock %}

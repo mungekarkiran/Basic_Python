@@ -1,0 +1,56 @@
+{% extends "base.html" %} {% block content %}
+<style>
+.heading-h1 {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+<div style="margin-top: 65px">
+<h1 class="heading-h1">Automated Water Quality Monitoring as a Service</h1>
+
+<br>
+<div class="container">
+  
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <a href="/WaterQuality">
+  <img src="{{ url_for('static', filename='style/img/Water Quality.jpg' ) }}" class="card-img-top" alt="Water Quality.jpg">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title">Aquaponics Farming Prediction</h5>
+    <p class="card-text">Water quality refers to the chemical, physical, and biological characteristics of water based on the standards of its usage.</p>
+    <a href="/WaterQuality" class="btn btn-primary">Continue Reading...</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <a href="/BestUse">
+  <img src="{{ url_for('static', filename='style/img/Best Use.jpg' ) }}" class="card-img-top" alt="Best Use.jpg">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title">Best Use of Water for Different Applications</h5>
+    <p class="card-text">Water can be used for direct and indirect purposes. Direct purposes include bathing, drinking, and cooking, while examples of indirect purposes are the use of water in processing wood to make paper and in producing steel for automobiles.</p>
+    <a href="/BestUse" class="btn btn-primary">Continue Reading...</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <a href="/BorneDisease">
+  <img src="{{ url_for('static', filename='style/img/Borne Diseases.jpg' ) }}" class="card-img-top" alt="Borne Diseases.jpg">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title">Water Borne Diseases Prediction</h5>
+    <p class="card-text">Water sources can transmit water-borne diseases, which have been linked to 502,000 diarrheal deaths every year.</p>
+    <a href="/BorneDisease" class="btn btn-primary">Continue Reading...</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+{% endblock %}
+

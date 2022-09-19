@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    
+
+	<script src="https://kit.fontawesome.com/5130183192.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="{{ url_for('static', filename='style/img/newLogo2.jpeg' ) }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/css/styles.css' ) }}">
+    
+    <title>Water Quality</title>
+
+	<style>
+		@media(min-width: 768px){
+		.dropdown-item {
+			transition: border-bottom;
+			transition-duration: 0.2s;
+			transition-timing-function: ease-in;
+		}
+
+		.dropdown-item:hover {
+			border-bottom: 2px solid #2f56b0;
+		}
+
+
+		#dropdown-menu-id li.nav-item {
+			font-size: 1.5em;
+			padding: 15px 20px;
+		}
+		#navbar .nav-link {
+			color: white !important;
+			font-weight: bold;
+		}
+		#navbar li.nav-item {
+			/*transition: border-bottom;
+			transition-duration: 0.2s;
+			transition-timing-function: ease-in;*/
+			color: white;
+			text-decoration: None;
+			margin: 0px 20px;
+			padding: 10px 10px;
+			position: relative;
+			z-index: 0;
+			cursor: pointer;
+		}
+
+		#navbar li.nav-item:before, #navbar li.nav-item:after {
+			position:absolute;
+			opacity: 0.5;
+			height: 100%;
+			width: 2px;
+			content: '';
+			background: #FFF;
+			transition: all 0.3s;
+		}
+
+		#navbar li.nav-item:before {
+			
+			left: 0px;
+			top: 0px;
+		}
+		#navbar li.nav-item:after {
+			
+			right: 0px;
+			bottom: 0px;
+		}
+
+
+		#navbar li.nav-item:hover:before, #navbar li.nav-item:hover:after  {
+			/*border-bottom: 5px solid #2f56f0;*/
+			opacity: 1;
+			height: 2px;
+			width: 100%;
+		}
+	}
+
+		.navbar-dark {
+			background-color: #2f56b0 !important;
+		}
+
+		@media (max-width: 767px) {
+			
+			  #navbar {
+			    width: 100%;
+			  }
+
+			  #navbar ul {
+			   /* width: 100%;*/
+			    margin-left: 0% !important;
+			    margin-top: 10px;
+			  }
+
+			  #navbar li {
+			   /* width: 50%;*/
+			    margin: 0px auto 0 auto;
+			  }
+
+			  #navbar .dropdown {
+			  	/*width: 100%;*/
+			  	width: 75%;
+			  	margin-left: 124px;
+			  }
+
+			  .dropdown-menu li {
+			  	margin-left: 0px !important;
+			  	margin-right: 0px !important
+			  }
+			}
+
+	</style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-fluid" id="navbar" style="padding: 0 !important;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!--<a class="navbar-brand" href="/">
+      <img src="{{ url_for('static', filename='style/img/newLogo2.jpeg' ) }}" alt="" width="40" height="44">
+    </a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="dropdown-menu-id">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Modules
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/WaterQuality">Aquaponics Farming Prediction</a></li>
+            <li><a class="dropdown-item" href="/BestUse">Best Use of Water for Different Applications</a></li>
+            <li><a class="dropdown-item" href="/BorneDisease">Water Borne Diseases Prediction</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/Aquaponic">Aquaponics Farming</a></li>
+            <li><a class="dropdown-item" href="/FAQ">FAQ</a></li>
+            <li><a class="dropdown-item" href="/VideoResources">Video Resource's</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About">About us</a>
+        </li>
+		
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/GetSensorData">Get Sensor Data</a>
+        </li> -->
+      </ul>
+    </div>
+</nav>
+</div>
+<center>{% block content %}{% endblock %}</center>
+
+
+
+<!--   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+  integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+  </body>
+
+</html>

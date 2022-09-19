@@ -1,0 +1,71 @@
+{% extends "base.html" %} {% block content %}
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
+<div class="container">
+  <img src="{{ url_for('static', filename='style/img/About Us.jpg' ) }}" alt="Snow" style="width:100%; height:350px;">
+  <div class="centered">
+    <u>
+    <h1>About Us</h1>
+    <br><br><br>
+    <h3>Bhushan Nemade, Research Scholar.</h3>
+    <h3>Dr. Deven Shah, Ph.D Guide.</h3>
+    </u>
+  </div>
+</div>
+<br>
+<h2>Want to know more about Aquaponic Farming ?</h2>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+    </div>
+    <div class="col">
+      <input type="email" class="form-control" placeholder="Email Id" aria-label="Email Id" required>
+    </div>
+  </div> <br>
+  <div class="row">
+    <div class="col">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" name="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thank you</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for your feedback. Our team will contact you shortly.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
