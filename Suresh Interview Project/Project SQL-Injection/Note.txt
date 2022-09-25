@@ -5,3 +5,7 @@ https://www.javatpoint.com/flask-flashing#:~:text=The%20flash()%20method%20is,wh
 Colab : cryptography code.ipynb working
 
 Injection : john" OR "a"="a";--
+
+Jinja : 
+https://www.javatpoint.com/flask-flashing#:~:text=The%20flash()%20method%20is,which%20is%20an%20HTML%20template.
+
