@@ -38,7 +38,7 @@ def mylogin():
             return render_template('home.html')
         else:
             flash("Wrong email, password!")
-            # return '<b>Wrong email, password!</b>'
+            return '<b>Wrong email, password!</b>'
 
 @app.route('/myreg', methods=['GET', 'POST'])
 def myreg():
