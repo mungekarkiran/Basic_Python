@@ -3,6 +3,7 @@
 
 <div id="chart1"></div>
 <div id="chart2"></div>
+<div id="chart3"></div>
 
 <!-- script -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -13,6 +14,10 @@
 
     var graphs2 = {{ graph2JSON | safe}};
     Plotly.plot("chart2", graphs2,{});
+
+    var graphs3 = {{ graph3JSON | safe}};
+    Plotly.plot("chart3", graphs3,{});
+
 </script>
 
 
