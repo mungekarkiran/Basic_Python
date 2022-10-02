@@ -204,6 +204,22 @@
     </div>
     <br>
     
+    <div class="row">
+        <div class="col">
+            <center> 
+            <h3> Dataset View </h3>
+            <div id="chart4"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Input View </h3>
+            <div id="chart5"></div>
+            </center>
+        </div>
+    </div>
+    <br>
+    
     {% endif %}
 </div>
 
@@ -220,6 +236,12 @@
 
     var graphs3 = {{ graph3JSON | safe }};
     Plotly.plot("chart3", graphs3, {});
+
+    var graphs4 = {{ graph4JSON | safe }};
+    Plotly.plot("chart4", graphs4, {});
+
+    var graphs5 = {{ graph5JSON | safe }};
+    Plotly.plot("chart5", graphs5, {});
 
 </script>
 
