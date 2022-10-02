@@ -1,0 +1,95 @@
+col_list = ['age', 'blood_pressure', 'specific_gravity', 'albumin', 'sugar', 'red_blood_cells', 'pus_cell',
+            'pus_cell_clumps', 'bacteria', 'blood_glucose_random', 'blood_urea', 'serum_creatinine', 'sodium',
+            'potassium', 'haemoglobin', 'packed_cell_volume', 'white_blood_cell_count', 'red_blood_cell_count',
+            'hypertension', 'diabetes_mellitus', 'coronary_artery_disease', 'appetite', 'peda_edema', 'aanemia']
+
+, col_names= col_list
+
+{{col_names}}
+
+
+    <!-- d-flex justify-content-center align-items-center -->
+    <div class="row">
+        <!-- <div class="clo-2"></div> -->
+        {{col_names}}
+        <div class="clo-6">
+            <form action="/" method="post">
+                <table class="table table-striped text-center">
+                    <tbody>
+                        <tr>
+                            <th scope="row">abc </th>
+                            <td><input type="text" value=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">abc </th>
+                            <td><input type="text" value=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">abc </th>
+                            <td><input type="text" value=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">abc </th>
+                            <td><input type="text" value=""></td>
+                        </tr>
+                        <!-- button -->
+                        <tr>
+                            <td colspan="12"><button type="submit" class="btn btn-primary">Submit</button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+        <div class="clo-6">
+            <h1>Expected Disease</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% if flag %}
+<h1>Expected Disease</h1>
+<br>
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+        <!-- <div class="clo-2"></div> -->
+        <div class="clo-4">
+            <h3><u>Your Symptoms</u></h3>
+            <ol>
+                {% for sym in symptoms %}
+                <li><strong>{{ sym }}</strong></li>
+                {% endfor %}
+            </ol>
+        </div>
+        <div class="clo-4">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="clo-4">
+            <h3><u>Disease Probability</u></h3>
+            <p><i><strong
+                        style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">"
+                        {{ result }} "</strong></i> with <strong
+                    style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{
+                    (symptom3[1]/5)*100 }}%</strong> Chances.</p>
+        </div>
+        <!-- <div class="clo-2"></div> -->
+    </div>
+</div>
+{% endif %}
+
