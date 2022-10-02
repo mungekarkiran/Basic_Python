@@ -126,8 +126,19 @@ def getResult():
             msg = 'Patient have a Chronic Kidney Disease and need to received medical treatment from a doctor.'
         else:
             msg = 'Patient not have a Chronic Kidney Disease.'
-        
-        return render_template('home.html', msg = msg, graph1JSON=graph1JSON, graph2JSON=graph2JSON, graph3JSON=graph3JSON)
+
+        df_pca = pd.read_csv('Dataset/pca_3d.csv')
+        fig_pca = px.scatter_3d(df_pca, x='PCA1', y='PCA2', z='PCA3', color='Class')
+        graph4JSON = json.dumps(fig_pca, cls=plotly.utils.PlotlyJSONEncoder)
+
+        pca_model = pickle.load(open('Models//pca_3d.pkl', 'rb')) 
+        input_data = pca_model.transform([input_list])
+        df_pca_out = pd.DataFrame(data=input_data, columns=['PCA1', 'PCA2', 'PCA3'])
+
+        fig_pca_out = px.scatter_3d(df_pca_out, x="PCA1", y="PCA2", z="PCA3", color=[result_pred])
+        graph5JSON = json.dumps(fig_pca_out, cls=plotly.utils.PlotlyJSONEncoder)
+
+        return render_template('home.html', msg = msg, graph1JSON=graph1JSON, graph2JSON=graph2JSON, graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON)
         
 
 if __name__ == '__main__':
