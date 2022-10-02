@@ -161,16 +161,67 @@
     </div>
     <br>
 
+    {% if msg %}
     <div class="row">
-        <div class="col">
+        <div class="col" height="100" width="100">
             <center> 
             <h1> Predicted Results : </h1>
             <b> {{ msg }} </b>
             </center>
         </div>
     </div>
-
+    <br>
+    
+    <div class="row">
+        <div class="col">
+            <center> 
+            <h3> Predicted Result by Model 0 </h3>
+            <div id="chart1"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Predicted Results by Model 1 </h3>
+            <div id="chart2"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Predicted Results by Model 2 </h3>
+            <div id="chart3"></div>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    <div class="row">
+        <div class="col" height="100" width="100">
+            <center> 
+            <h1> Predicted Results : </h1>
+            <b> {{ msg }} </b>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    {% endif %}
 </div>
+
+
+<!-- script -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script type="text/javascript">
+    var graphs1 = {{ graph1JSON | safe }};
+    Plotly.plot("chart1", graphs1, {});
+
+    var graphs2 = {{ graph2JSON | safe }};
+    Plotly.plot("chart2", graphs2, {});
+
+    var graphs3 = {{ graph3JSON | safe }};
+    Plotly.plot("chart3", graphs3, {});
+
+</script>
 
 
 {% endblock %}
