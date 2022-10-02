@@ -1,24 +1,45 @@
-{% extends "base.html" %}
-{% block content %}
+{% extends "base.html" %} {% block content %}
 
-<div id="chart1"></div>
-<div id="chart2"></div>
-<div id="chart3"></div>
+<!-- <div id="chart1" height="50" width="50"></div>
+<div id="chart2" height="50" width="50"></div>
+<div id="chart3" height="50" width="50"></div> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="chart1"></div>
+        </div>
+        <div class="col">
+            <div id="chart2"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="chart3"></div>
+        </div>
+        <div class="col">
+            <div id="chart4"></div>
+        </div>
+    </div>
+
+</div>
 
 <!-- script -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <script type="text/javascript">
-    var graphs1 = {{ graph1JSON | safe}};
-    Plotly.plot("chart1", graphs1,{});
+    var graphs1 = {{ graph1JSON | safe }};
+    Plotly.plot("chart1", graphs1, {});
 
-    var graphs2 = {{ graph2JSON | safe}};
-    Plotly.plot("chart2", graphs2,{});
+    var graphs2 = {{ graph2JSON | safe }};
+    Plotly.plot("chart2", graphs2, {});
 
-    var graphs3 = {{ graph3JSON | safe}};
-    Plotly.plot("chart3", graphs3,{});
+    var graphs3 = {{ graph3JSON | safe }};
+    Plotly.plot("chart3", graphs3, {});
+
+    var graphs4 = {{ graph4JSON | safe }};
+    Plotly.plot("chart4", graphs4, {});
 
 </script>
-
 
 {% endblock %}
