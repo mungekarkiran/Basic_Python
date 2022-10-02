@@ -34,7 +34,12 @@ def index():
     fig3 = px.scatter_3d(df3, x='sepal_length', y='sepal_width', z='petal_width', color='species')
     graph3JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
 
-    return render_template('index.html', title=title, graph1JSON=graph1JSON, graph2JSON=graph2JSON, graph3JSON=graph3JSON) 
+    # data from px
+    df4 = px.data.election()
+    fig4 = px.scatter_ternary(df4, a="Joly", b="Coderre", c="Bergeron", hover_name="district", color="winner", size="total", size_max=15, color_discrete_map = {"Joly": "blue", "Bergeron": "green", "Coderre":"red"} )
+    graph4JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
+
+    return render_template('index.html', title=title, graph1JSON=graph1JSON, graph2JSON=graph2JSON, graph3JSON=graph3JSON, graph4JSON=graph4JSON) 
 
 if __name__ == '__main__':
     app.run(debug=True)
