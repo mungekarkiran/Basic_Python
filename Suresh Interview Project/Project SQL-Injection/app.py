@@ -33,9 +33,11 @@ def mylogin():
         result = cursor.fetchall()
         print('result : ', result)
 
+        user_id = result[0][1].split('@')[0].upper()
+
         if len(result) > 0:
             flash("You are authorized user !!!")
-            return render_template('home.html')
+            return render_template('home.html', user_id=user_id)
         else:
             flash("Wrong email, password!")
             return '<b>Wrong email, password!</b>'
