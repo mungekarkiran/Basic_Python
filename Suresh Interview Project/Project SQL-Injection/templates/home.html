@@ -1,7 +1,169 @@
 {% extends "base.html" %}
 {% block content %}
 <!-- main body -->
-<center>
-<h1>You are authorized user !!!</h1>
-</center>
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Hello "{{user_id}}"</strong>, You are authorized user !!!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <br>
+
+        </div>
+
+        <div class="col-6">
+
+            <div class="card mb-3">
+                <img src="https://source.unsplash.com/1080x720/?economics,life" class="card-img-top" alt="economics,life">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing. </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt deleniti suscipit ut omnis culpa, cupiditate autem soluta tempore ratione ipsa doloribus magnam error atque commodi ducimus ipsum quaerat assumenda nihil earum? Porro, amet? </p>
+                    <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur.</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam nihil quas vitae, impedit nemo iste pariatur dicta molestiae laborum dolor id doloribus! Sed rem illo, sequi voluptates aspernatur laborum iste blanditiis atque nam qui iusto accusamus ducimus ea.</p>
+                    <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit.</small></p>
+                </div>
+                <img src="https://source.unsplash.com/1080x720/?job,work" class="card-img-bottom" alt="job,work">
+            </div>
+            <br>
+
+            <div class="card text-center">
+                <div class="card-header">
+                    Lorem, ipsum dolor.
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident placeat odio.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Lorem, ipsum dolor.
+                </div>
+            </div>
+            <br>
+
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis nisi voluptate iusto temporibus, ipsam cupiditate tempora ad cumque. Totam ipsum sed voluptatem magni ad.</p>
+                    <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></p>
+                </div>
+                <img src="https://source.unsplash.com/1080x720/?women,gold" class="card-img-bottom" alt="women,gold">
+            </div>
+            <br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consequatur suscipit nulla numquam praesentium adipisci totam esse, dignissimos recusandae voluptates, explicabo officiis consectetur nesciunt. Architecto voluptas omnis harum impedit assumenda.</p>
+                    <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit.</small></p>
+                </div>
+                <img src="https://source.unsplash.com/1080x720/?galaxy,planets" class="card-img-bottom" alt="galaxy,planets">
+            </div>
+            <br>
+
+
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptate assumenda obcaecati doloremque maxime at optio velit facilis deleniti dignissimos, ullam impedit doloribus nam sed saepe, commodi fugit cum sapiente minima! Magnam consequuntur at eaque harum aspernatur et quia accusamus facere aliquam veritatis! Corporis, obcaecati.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum illo veniam cum nesciunt officiis. Tenetur fugit corporis deleniti vitae.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </div>
+</div>
 {% endblock %}
