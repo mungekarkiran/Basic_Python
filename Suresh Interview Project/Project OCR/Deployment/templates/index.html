@@ -1,0 +1,70 @@
+{% extends "base.html" %} 
+{% block content %}
+        <center>
+        <br>
+        <div>
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" class="file">
+                <button type="submit" class="btn btn-primary">Submit</button>
+				
+            </form>
+        </div>
+        <br>
+        </center> 
+
+        {% if file_path %}
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Uploaded Image</h3>
+                    <div>
+                        <!--  -->
+                        <img src="{{url_for('static', filename=file_path)}}" class="rounded mx-auto d-block" 
+                        style="height:600px; width:500px;" alt="Uploaded Image">
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>OCR Result</h3>
+                    <div>
+                        <!--  -->
+                        <img src="{{url_for('static', filename=output_file_path)}}" class="rounded mx-auto d-block" 
+                        style="height:600px; width:500px;" alt="OCR Result">
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <!--  -->
+                        <h2>detected_words</h2>
+                        <p>{{detected_words}} </p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div>
+                        <!--  -->
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem perferendis quo laboriosam cum accusamus fuga earum dolorum obcaecati placeat molestiae deserunt, doloribus minus, ea iusto? Earum quae impedit accusantium? </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <!--  -->
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem perferendis quo laboriosam cum accusamus fuga earum dolorum obcaecati placeat molestiae deserunt, doloribus minus, ea iusto? Earum quae impedit accusantium? </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <br>
+        <br>
+
+        
+        
+{% endblock %}
