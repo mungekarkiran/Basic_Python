@@ -13,6 +13,8 @@ import plotly.express as px
 import PyPDF2
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
+from sklearn.feature_extraction.text import CountVectorizer # Counter Vectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import re
 
 # variable's
@@ -25,6 +27,9 @@ try:
     connection.commit()
 except Exception as e: 
     print('Table idpass is NOT created : \n',e)
+
+# CountVectorizer
+cv = CountVectorizer()
 
 # start app
 app = Flask(__name__)
@@ -256,7 +261,6 @@ def jobtitle():
     # load model
     loaded_model = pickle.load(open('Resume_Classification_RFC.pkl', 'rb')) 
 
-
     if request.method == 'POST':
         # Get the file from post request
         f = request.files['file']
@@ -305,6 +309,47 @@ def jobtitle():
         return render_template('jobtitle.html', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
 
     return render_template('jobtitle.html', flag=False)
+
+
+@app.route('/resumesimilaritysystem', methods=['GET', 'POST'])
+def resumesimilaritysystem():
+    if request.method == 'POST':
+        # Get the file from post request
+        f = request.files['file']
+        job_decription = request.form.get('job_decription')
+        
+        # make file path
+        file_path = os.path.join('static//style//csv', secure_filename(f.filename)) 
+        # Save the file to ./uploads
+        f.save(file_path)
+        # open file 
+        pdfFileObj = open(file_path, 'rb')
+        # creating a pdf reader object
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        text_data = '' 
+        for ind in range(pdfReader.numPages):
+            pageObj = pdfReader.getPage(ind)
+            data1=pageObj.extractText()
+            text_data = text_data + data1
+        pdfFileObj.close()
+
+        resume_data = text_data
+
+        # list of text
+        text = [resume_data, job_decription]
+        # count matrix 
+        count_matrix = cv.fit_transform(text)
+        # print similarity score
+        similarity_score = cosine_similarity(count_matrix)
+        # get the match percent.
+        match_percent = round(similarity_score[1][0]*100,2)
+        print(f"Your reseme maches about {match_percent}% of the Job Description.")
+
+
+
+    return render_template('rss.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True) #debug=True
