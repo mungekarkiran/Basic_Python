@@ -10,12 +10,16 @@ import sqlite3
 import time
 import plotly
 import plotly.express as px
+from wordcloud import WordCloud
 import PyPDF2
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import CountVectorizer # Counter Vectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import re
+from pyresparser import ResumeParser
+import spacy
+spacy.load("en_core_web_sm")
 
 # variable's
 connection = sqlite3.connect('login.db', timeout=1, check_same_thread=False)
@@ -310,7 +314,6 @@ def jobtitle():
 
     return render_template('jobtitle.html', flag=False)
 
-
 @app.route('/resumesimilaritysystem', methods=['GET', 'POST'])
 def resumesimilaritysystem():
     if request.method == 'POST':
@@ -343,11 +346,34 @@ def resumesimilaritysystem():
         similarity_score = cosine_similarity(count_matrix)
         # get the match percent.
         match_percent = round(similarity_score[1][0]*100,2)
-        print(f"Your reseme maches about {match_percent}% of the Job Description.")
+        # print(f"Your reseme maches about {match_percent}% of the Job Description.")
+
+        data = ResumeParser(file_path).get_extracted_data()
+        # print(f"Data : {data} \n\n\n")
+
+        img_path = r"static/style/img/wordcloud.jpg"
+        #convert list to string and generate
+        unique_string=(" ").join(data['skills'])
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41).generate(unique_string)
+        wordcloud.to_file(img_path)
+
+        img_path1 = r"static/style/img/wordcloud1.jpg"
+        #convert list to string and generate
+        unique_string = job_decription
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41).generate(unique_string)
+        wordcloud.to_file(img_path1)
+
+        img_path2 = r"static/style/img/wordcloud2.jpg"
+        #convert list to string and generate
+        unique_string = resume_data
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41).generate(unique_string)
+        wordcloud.to_file(img_path2)
+
+        return render_template('rss_result.html', flag=True, match_percent=match_percent, 
+        data=data['skills'], img_path=img_path, img_path1=img_path1, img_path2=img_path2)
 
 
-
-    return render_template('rss.html')
+    return render_template('rss.html', flag=False)
 
 
 
