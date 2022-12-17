@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+{% if flag %}
+
+{{ match_percent }}
+<br>
+{{ data }}
+<br>
+{{ img_path }}
+<br>
+<img src="{{ url_for('static', filename = img_path[7:]) }}" alt="">
+<hr><hr>
+<img src="{{ url_for('static', filename = img_path1[7:]) }}" alt="">
+<hr><hr>
+<img src="{{ url_for('static', filename = img_path2[7:]) }}" alt="">
+
+
+{% endif %}
+{% endblock %}
