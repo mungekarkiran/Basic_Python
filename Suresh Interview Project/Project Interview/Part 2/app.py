@@ -357,40 +357,38 @@ def resumesimilaritysystem():
         img_path = r"static/style/img/wordcloud.jpg"
         #convert list to string and generate
         unique_string=(" ").join(data['skills'])
-        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", 
+        random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
         wordcloud.to_file(img_path)
 
         img_path1 = r"static/style/img/wordcloud1.jpg"
         #convert list to string and generate
-        unique_string = job_decription
-        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
+        unique_string = resume_data
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", 
+        random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
         wordcloud.to_file(img_path1)
 
         img_path2 = r"static/style/img/wordcloud2.jpg"
         #convert list to string and generate
-        unique_string = resume_data
-        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
+        unique_string = job_decription
+        wordcloud = WordCloud(width = 1000, height = 500, background_color="white", 
+        random_state=41, collocations=False, stopwords = STOPWORDS).generate(unique_string)
         wordcloud.to_file(img_path2)
 
         graph_values = [{
-                    'labels': ['similar', 'not similar'],
+                    'labels': ['Similar', 'Dissimilar'],
                     'values': [match_percent, 100-match_percent],
                     'type': 'pie',
-                    'insidetextfont': {'color': '#FFFFFF',
-                                        'size': '14',
-                    },
-                    'textfont': {'color': '#FFFFFF',
-                                        'size': '14',
-                    },
+                    'insidetextfont': {'color': '#FFFFFF', 'size': '14',},
+                    'textfont': {'color': '#FFFFFF', 'size': '14',},
         }]
 
         layout = {
-                    'title': '<b>Top 10 Most Mentioned Programming Languages in /r/askcomputerscience</b>',
-
+                    'title': '<b>Similarities between Your Resume and Job Description</b>',
         }
 
         return render_template('rss_result.html', flag=True, match_percent=match_percent, 
-        data=data['skills'], img_path=img_path, img_path1=img_path1, img_path2=img_path2, 
+        data=sorted(data['skills']), img_path=img_path, img_path1=img_path1, img_path2=img_path2, 
         graph_values=graph_values, layout=layout)
 
 
