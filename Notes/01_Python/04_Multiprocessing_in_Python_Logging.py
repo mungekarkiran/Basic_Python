@@ -1,3 +1,7 @@
+'''
+Multiprocessing in Python: Logging
+https://www.youtube.com/watch?v=KpDKpgzvmrY&list=PL5tcWHG-UPH3SX16DI6EP1FlEibgxkg_6&index=4
+'''
 import logging
 import time
 from multiprocessing import Process, Lock, Value
