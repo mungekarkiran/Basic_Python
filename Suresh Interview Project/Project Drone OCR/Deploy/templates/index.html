@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+    <br>
+    <div>
+        <h1>Submit Your Image</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" class="file">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <br>
+</center>
+
+{% if flag %}
+
+    number_plate : {{ number_plate }}
+    <br>
+
+    img_file_path : {{ img_file_path }}
+    <br>
+
+    cropped_image_file_path : {{ cropped_image_file_path }}
+    <br>
+
+    <img src="{{ img_file_path }}" class="rounded mx-auto d-block" style="height:400px; width:400px;" alt="img_file_path">
+    <br>
+
+    <img src="{{ cropped_image_file_path }}" class="rounded mx-auto d-block" style="height:400px; width:400px;" alt="cropped_image_file_path">
+    <br>
+
+{% endif %}
+
+{% endblock %}
