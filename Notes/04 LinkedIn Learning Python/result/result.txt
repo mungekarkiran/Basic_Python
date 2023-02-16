@@ -1,0 +1,10 @@
+Total bytecount : 42251.0 
+File List : 
+______________________________
+archive.zip 
+Ch1 Basic.ipynb 
+Ch2 Working with files.ipynb 
+newfile.txt 
+testzip.zip 
+textfile.txt 
+textfile.txt.bak 
