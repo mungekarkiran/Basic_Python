@@ -13,6 +13,7 @@
         </center> 
 
         {% if file_path %}
+
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -46,18 +47,21 @@
                 <div class="col">
                     <div>
                         <!--  -->
-                        <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem perferendis quo laboriosam cum accusamus fuga earum dolorum obcaecati placeat molestiae deserunt, doloribus minus, ea iusto? Earum quae impedit accusantium? </p>
+                        <h1>Download Excel File</h1>
+                        <p>Click the button below to download the file:</p>
+	                    <a href="{{url_for('static', filename=download_file)}}" download>
+                            <button>Download</button>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col">
+                <!-- <div class="col">
                     <div>
-                        <!--  -->
+                        
                         <h2>Lorem ipsum dolor sit amet.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem perferendis quo laboriosam cum accusamus fuga earum dolorum obcaecati placeat molestiae deserunt, doloribus minus, ea iusto? Earum quae impedit accusantium? </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         {% endif %}

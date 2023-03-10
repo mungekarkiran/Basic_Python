@@ -50,7 +50,7 @@ def upload():
         # read text from image
         result = reader.readtext(img)
         detected_words = {word[1]:round(word[2]*100,2) for word in result}
-        print(f"result : {detected_words}")
+        # print(f"result : {detected_words}")
 
         # draw bounding box
         spacer = 100
@@ -71,7 +71,7 @@ def upload():
         print('Successfully saved')
 
 
-        return render_template('index.html', file_path=file_path[7:], output_file_path=output_filename[7:], detected_words=detected_words)
+        return render_template('index.html', file_path=file_path[7:], output_file_path=output_filename[7:], detected_words=detected_words, download_file="example.jpg")
     return None
 
 if __name__ == '__main__':
