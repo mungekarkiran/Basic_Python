@@ -21,6 +21,10 @@ app.secret_key = "ajg6tfrAbOk=*j8BxqP2IyxvJzk2UoNUVXQ==*TKLwYo8kZGAOdDIbqEQbYA==
 def index():
     return render_template('index.html')
 
+@app.route('/secure')
+def index1():
+    return render_template('index1.html')
+
 @app.route('/mylogin', methods=['GET', 'POST'])
 def mylogin():
     if request.method == 'POST':
@@ -34,6 +38,30 @@ def mylogin():
         print('result : ', result)
 
         user_id = result[0][1].split('@')[0].upper()
+
+        if len(result) > 0:
+            flash("You are authorized user !!!")
+            return render_template('home.html', user_id=user_id)
+        else:
+            flash("Wrong email, password!")
+            return '<b>Wrong email, password!</b>'
+
+@app.route('/mylogin1', methods=['GET', 'POST'])
+def mylogin1():
+    if request.method == 'POST':
+
+        email = request.form.get('email')
+        password = request.form.get('password')
+
+        sql = "SELECT * FROM login WHERE email = ? AND pass = ?;"
+        param = (email, password)
+        cursor.execute(sql, param)
+        connection.commit()
+        result = cursor.fetchall()
+        print('result : ', result)
+
+        # user_id = result[0][1].split('@')[0].upper()
+        user_id = email.split('@')[0].upper()
 
         if len(result) > 0:
             flash("You are authorized user !!!")

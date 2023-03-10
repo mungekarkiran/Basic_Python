@@ -9,3 +9,8 @@ Injection : john" OR "a"="a";--
 Jinja : 
 https://www.javatpoint.com/flask-flashing#:~:text=The%20flash()%20method%20is,which%20is%20an%20HTML%20template.
 
+
+links (to stop):
+https://www.youtube.com/watch?v=k7n90A9X8C8
+https://www.youtube.com/watch?v=1d8b0F7As4I
+https://www.youtube.com/watch?v=a8g6HRL2ed0
