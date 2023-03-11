@@ -91,6 +91,12 @@
 	<script type="text/javascript">
 		var graphs = {{ graphJSON1 | safe }};
 		Plotly.plot("chart1", graphs, {});
+
+		var graphs_40 = {{ graphJSON1_40 | safe }};
+		Plotly.plot("chart1_40", graphs_40, {});
+
+		var graphs_60 = {{ graphJSON1_60 | safe }};
+		Plotly.plot("chart1_60", graphs_60, {});
 	</script>
 
 	<script>

@@ -33,7 +33,6 @@ try:
 except Exception as e: 
     print('Table idpass is NOT created : \n',e)
 
-
 # start app
 app = Flask(__name__)
 
@@ -199,6 +198,8 @@ def jobtitle():
 
     # load model
     loaded_model = pickle.load(open('Resume_Classification_RFC.pkl', 'rb')) 
+    loaded_model_40p = pickle.load(open('40p_Resume_Classification_RFC.pkl', 'rb')) 
+    loaded_model_60p = pickle.load(open('60p_Resume_Classification_RFC.pkl', 'rb')) 
 
     if request.method == 'POST':
         # Get the file from post request
@@ -228,11 +229,19 @@ def jobtitle():
 
         X_test2=WordFeatures
         y_pred2 = loaded_model.predict(X_test2)
+        y_pred2_40p = loaded_model_40p.predict(X_test2)
+        y_pred2_60p = loaded_model_60p.predict(X_test2)
 
         prediction= le.inverse_transform(y_pred2)[0]
+        prediction_40p= le.inverse_transform(y_pred2_40p)[0]
+        prediction_60p= le.inverse_transform(y_pred2_60p)[0]
 
         y_pred_1 = loaded_model.predict_proba(X_test2)
         li = list((y_pred_1*100)[0])
+        y_pred_1_40p = loaded_model_40p.predict_proba(X_test2)
+        li_40p = list((y_pred_1_40p*100)[0])
+        y_pred_1_60p = loaded_model_60p.predict_proba(X_test2)
+        li_60p = list((y_pred_1_60p*100)[0])
 
         class_li = list(le.classes_)
 
@@ -244,8 +253,26 @@ def jobtitle():
             )
         fig = px.bar(df, x="Personality", y="Score in %", color="Personality")
         graphJSON1 = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+
+        df_40 = pd.DataFrame(
+            {
+                "Personality": class_li,
+                "Score in %": li_40p
+                }
+            )
+        fig_40 = px.bar(df_40, x="Personality", y="Score in %", color="Personality")
+        graphJSON1_40 = json.dumps(fig_40, cls=plotly.utils.PlotlyJSONEncoder)
+
+        df_60 = pd.DataFrame(
+            {
+                "Personality": class_li,
+                "Score in %": li_60p
+                }
+            )
+        fig_60 = px.bar(df_60, x="Personality", y="Score in %", color="Personality")
+        graphJSON1_60 = json.dumps(fig_60, cls=plotly.utils.PlotlyJSONEncoder)
         
-        return render_template('jobtitle.html', flag=True, text_data=t1, rds=prediction, graphJSON1=graphJSON1, li=li, class_li=class_li, max_li=round(max(li),2))
+        return render_template('jobtitle.html', flag=True, text_data=t1, rds=prediction, rds_40=prediction_40p, rds_60=prediction_60p, graphJSON1=graphJSON1, graphJSON1_40=graphJSON1_40, graphJSON1_60=graphJSON1_60, li=li, class_li=class_li, max_li=round(max(li),2), max_li_40=round(max(li_40p),2), max_li_60=round(max(li_60p),2))
 
     return render_template('jobtitle.html', flag=False)
 
