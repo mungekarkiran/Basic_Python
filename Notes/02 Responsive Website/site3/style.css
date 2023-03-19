@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
+    background-color: #e5f9fc;
+    /* opacity: .5; */
+}
+.logo img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    /* margin-bottom: 1rem; */
+    margin-right: 10rem;
+    /* position: absolute; */
+    width: 100%;
+    padding: 0px 7px;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    background-color: #01b6d6;
+    color: #fff;
+}
+.hero {
+    background-image: url(image/hero-bg7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 555px;
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    text-align: center;
+    color: #06b3b9;
+    margin: 0 auto;
+}
+.hero-content h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    /* margin-top: 180px; */
+    font-weight: 500;    
+}
+.hero-content p {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+.about {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.services {
+  padding: 50px;
+  background-color: #fff;
+}
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.service {
+  margin-bottom: 40px;
+}
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.service p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.team {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+.team h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team-member {
+  margin: 40px;
+  text-align: center;
+}
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+.team-member h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.team-member p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.contact {
+  padding: 50px;
+  background-color: #fff;
+}
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+}
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
