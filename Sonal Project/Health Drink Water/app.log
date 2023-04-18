@@ -1,0 +1,13 @@
+2023-04-14 19:16:07,289 | [comtypes.client._code_cache : INFO] | Imported existing <module 'comtypes.gen' from 'C:\\Users\\munge\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-04-14 19:16:07,289 | [comtypes.client._code_cache : INFO] | Using writeable comtypes cache directory: 'C:\Users\munge\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+2023-04-14 19:16:49,135 | [root : INFO] | user_name : Kiran, water_level : 100 milliliters, water_level_pct : 2.5 percent.
+2023-04-14 19:18:28,023 | [root : INFO] | user_name : Kiran, water_level : 200 milliliters, water_level_pct : 5.0 percent.
+2023-04-14 19:20:07,245 | [root : INFO] | user_name : Kiran, water_level : 300 milliliters, water_level_pct : 7.5 percent.
+2023-04-14 19:21:46,162 | [root : INFO] | user_name : Kiran, water_level : 400 milliliters, water_level_pct : 10.0 percent.
+2023-04-14 19:23:24,704 | [root : INFO] | user_name : Kiran, water_level : 500 milliliters, water_level_pct : 12.5 percent.
+2023-04-14 19:25:04,331 | [root : INFO] | user_name : Kiran, water_level : 600 milliliters, water_level_pct : 15.0 percent.
+2023-04-14 19:26:44,116 | [root : INFO] | user_name : Kiran, water_level : 700 milliliters, water_level_pct : 17.5 percent.
+2023-04-14 19:28:23,123 | [root : INFO] | user_name : Kiran, water_level : 800 milliliters, water_level_pct : 20.0 percent.
+2023-04-14 20:51:24,488 | [comtypes.client._code_cache : INFO] | Imported existing <module 'comtypes.gen' from 'C:\\Users\\munge\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-04-14 20:51:24,489 | [comtypes.client._code_cache : INFO] | Using writeable comtypes cache directory: 'C:\Users\munge\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+2023-04-14 20:52:04,330 | [root : INFO] | user_name : kiran, water_level : 100 milliliters, water_level_pct : 2.5 percent.
