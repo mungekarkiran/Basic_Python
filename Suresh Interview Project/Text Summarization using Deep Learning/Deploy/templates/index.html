@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css' ) }}">
+</head>
+<body>
+    <header>
+        <!-- <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> -->
+        <div class="hero">
+            <h1>Text Summarizer</h1>
+            <p>Summarize your text with ease</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Text to Summarize</h2>
+            <form action="/predict" method="post">
+                <textarea placeholder="Paste your text here" rows="10" name="text"></textarea>
+                <label for="num_sentences">Number of Sentences in Summary:</label><br>
+		        <input type="number" id="num_sentences" name="num_sentences" min="1" max="10" value="5"><br><br>
+                <button type="submit">Summarize</button>
+            </form>
+        </section>
+        <section>
+            <h2>Summary</h2>
+            <div class="summary">
+                {% if flag %}
+                <p>{{ summary_result }}</p>
+                {% else %}
+                <p>Your summary will appear here</p>
+                {% endif %}
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Text Summarizer</p>
+    </footer>
+</body>
+</html>
