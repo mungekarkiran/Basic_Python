@@ -57,6 +57,8 @@ def input_verification(msg, k, i):
         if len(verification_result) > 0:
             # Output.set(verification_result[0][1])
             Output.set(decode(k, msg))
+        else:
+            messagebox.showinfo('Error', 'Wrong password. Please try again.')    
     else:
         messagebox.showinfo('Ishan', 'Please Choose one of Encryption or Decrption. Try again.')
 
@@ -104,7 +106,7 @@ Output = StringVar()
 headingFrame1 = Frame(wn,bg="gray91",bd=5)
 headingFrame1.place(relx=0.2,rely=0.1,relwidth=0.7,relheight=0.16)
 
-headingLabel = Label(headingFrame1, text=" Welcome to \nEncryption and Decryption \nby Ishan Kapadia", fg='grey19', font=('Courier',13,'bold'))
+headingLabel = Label(headingFrame1, text=" Welcome to \nEncryption and Decryption \n", fg='grey19', font=('Courier',13,'bold')) # by Ishan Kapadia
 headingLabel.place(relx=0,rely=0, relwidth=1, relheight=1)
 
 
@@ -117,7 +119,7 @@ msg.place(x=200,y=250)
 label2 = Label(wn, text='Enter the password', font=('Courier',10))
 label2.place(x=10,y=300)
 
-InpKey = Entry(wn, textvariable=key,  width=35,font=('calibre',10,'normal'))
+InpKey = Entry(wn, textvariable=key, width=35, font=('calibre',10,'normal'), show="*")
 InpKey.place(x=200,y=300)
 
 
