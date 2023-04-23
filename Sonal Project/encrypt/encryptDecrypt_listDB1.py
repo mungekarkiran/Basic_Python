@@ -38,7 +38,7 @@ def input_verification(msg, k, i):
         # find in list
         if len(user_input) > 0:
             for user_data in user_input:
-                if str(msg) == user_data[0] and k == user_data[1]:
+                if str(msg) == user_data[2] and k == user_data[1]:
                     Output.set(decode(k, msg))    
                     break    
                 else:
@@ -51,7 +51,12 @@ def Result():
     msg = Message.get()
     k= key.get()
     i = mode.get()
-    input_verification(msg, k, i)
+    if len(msg)==0:
+        messagebox.showinfo('Error', 'Enter a valid message.') 
+    elif len(k)==0:
+        messagebox.showinfo('Error', 'Enter a valid password.') 
+    else:
+        input_verification(msg, k, i)
 
 #Function that executes on clicking Reset function
 def Reset():
