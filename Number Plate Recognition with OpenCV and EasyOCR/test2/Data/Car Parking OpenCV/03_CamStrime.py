@@ -1,8 +1,8 @@
 import cv2
 
 # capture live video strime
-URL = "http://192.168.0.91:8080/video"
-capture = cv2.VideoCapture(URL)
+URL = "http://192.168.0.115:8080/video"
+capture = cv2.VideoCapture(0)
 
 while 1:
 
