@@ -1,0 +1,7 @@
+scikit-learn
+wordcloud
+PyPDF2<3.0
+pyresparser
+
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_lg 

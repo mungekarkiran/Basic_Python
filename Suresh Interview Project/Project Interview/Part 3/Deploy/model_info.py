@@ -1,8 +1,16 @@
 import os
 import re
+import time
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+from sklearn.metrics import calinski_harabasz_score
 
 STATIC_DIR = "static"
 MODEL_DIR = "all_models"
+STYLE_DIR = "style"
+CSV_DIR = "csv"
+CSV_FILE_PATH = os.path.join(STATIC_DIR, STYLE_DIR, CSV_DIR, "PersonalitySystem_test.csv")
 
 
 model_list = [os.path.join(STATIC_DIR, MODEL_DIR, 'personality_type_model_2C.pkl'), 
@@ -47,3 +55,20 @@ def cleanResume(resumeText):
     resumeText = re.sub(r'[^\x00-\x7f]',r' ', resumeText) 
     resumeText = re.sub('\s+', ' ', resumeText)  # remove extra whitespace
     return resumeText
+
+def get_silhouette_score(scaler, model, k):
+    X = pd.read_csv(CSV_FILE_PATH)
+    X = scaler.transform(X)
+    # fit KMeans clustering model
+    kmeans = KMeans(n_clusters=k, random_state=42).fit(X)
+    # calculate silhouette score
+    # Silhouette Coefficient: Measures how similar an object is to its own cluster compared to other clusters.
+    silhouette_avg = (round(silhouette_score(X, kmeans.labels_)*100,3))
+    # print("The average silhouette score is :", silhouette_avg)
+    
+    # Calculate Calinski-Harabasz index
+    # Calinski-Harabasz Index: Measures the ratio of between-cluster variance to within-cluster variance.
+    ch_score = round(calinski_harabasz_score(X, kmeans.labels_),3)
+    # print("Calinski-Harabasz index:", ch_score)
+    time.sleep(0.5)
+    return silhouette_avg, ch_score

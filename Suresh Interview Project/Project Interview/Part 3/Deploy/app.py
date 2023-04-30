@@ -166,7 +166,8 @@ def qanda():
             loaded_model = pickle.load(open(md, 'rb'))     
             my_personality = loaded_model.predict(my_data1)[0]
             # print(f"{md} : {my_personality}")
-            cluster_personality_list.append((ind+2, my_personality))
+            silhouette_avg, ch_score = get_silhouette_score(loaded_scaler, loaded_model, ind+2)
+            cluster_personality_list.append((ind+2, my_personality, silhouette_avg, ch_score))
 
         return render_template('qanda_result.html', flag=True, graphJSON=graphJSON, results=cluster_personality_list, pre_info=pre_info[li.index(max(li))])    
 
