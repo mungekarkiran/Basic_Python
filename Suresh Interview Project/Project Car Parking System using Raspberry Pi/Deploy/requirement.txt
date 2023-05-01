@@ -1,0 +1,13 @@
+virtualenv
+numpy
+pandas
+opencv-python==4.7.0.72
+opencv-python-headless==3.4.18.65
+opencv-contrib-python 
+cvzone
+pickle-mixin
+easyocr
+imutils
+scikit-image
+notebook
+pip install PyQt5
