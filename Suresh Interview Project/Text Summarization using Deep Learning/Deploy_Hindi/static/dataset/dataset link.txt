@@ -1,0 +1,7 @@
+https://www.kaggle.com/datasets/disisbig/hindi-text-short-and-large-summarization-corpus?resource=download
+
+https://www.kaggle.com/code/soniharshita/mandate-2
+
+https://www.kaggle.com/code/kerneler/starter-wordcloud-hindi-font-33f7a989-f/input
+
+https://www.kaggle.com/datasets/rsrishav/wordcloud-hindi-font
