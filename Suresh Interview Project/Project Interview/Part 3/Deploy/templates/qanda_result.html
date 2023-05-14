@@ -17,12 +17,43 @@
         <h1> From the Cluster of {{ res[0] }} </h1>
         <h3> Your personality belongs to <strong>{{ res[1] }}_Cluster</strong>.</h3>
         <h5> {{ pre_info }}</h5>
+        <h5> The average silhouette score is : <strong>{{ res[2] }}</strong>.</h5>
+        <h5> The Calinski-Harabasz index is : <strong>{{ res[3] }}</strong>.</h5>
       </div>
+      <hr>
       <div class="col-2"></div>
     </div>
   </div>
   <br>
   {% endfor %}
+
+  <br>
+
+  <div class="container">
+    <table class="table table-success table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Cluster Size</th>
+          <th scope="col">Personality Cluster</th>
+          <th scope="col">Personality Type</th>
+          <th scope="col">Average Silhouette Score</th>
+          <th scope="col">Calinski Harabasz Index Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for res in results %}
+        <tr>
+          <th scope="row" class="align-middle">{{ res[0] }}</th>
+          <td class="align-middle">Cluster_{{ res[1] }}</td>
+          <td class="align-middle">{{ pre_info[:16] }}</td>
+          <td class="align-middle">{{ res[2] }}</td>
+          <td class="align-middle">{{ res[3] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <br><br>
 
   <a class="btn btn-outline-info" href="/jobtitle" role="button">Click to Find Your Job Title</a>
   <br><br><br>

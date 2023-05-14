@@ -22,6 +22,7 @@
 
         {% if flag %}
         <div class="row">
+            <h1>Dataset Size 962 rows</h1>
             <div class="col-6">
                 <h2>Role Score</h2>
                 <br>
@@ -31,25 +32,11 @@
                 <h2>Job Title</h2>
                 <br>
                 Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li }}%</strong> score. 
-                
             </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-6">
-                <h2>Role Score</h2>
-                <br>
-                <div id="chart1_40" class="chart"></div>
-            </div>
-            <div class="col-6">
-                <h2>Job Title</h2>
-                <br>
-                Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds_40 }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li_40 }}%</strong> score. 
-                
-            </div>
-        </div>
-        <hr>
-        <div class="row">
+            <h1>Dataset Size 577 rows</h1>
             <div class="col-6">
                 <h2>Role Score</h2>
                 <br>
@@ -59,10 +46,53 @@
                 <h2>Job Title</h2>
                 <br>
                 Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds_60 }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li_60 }}%</strong> score. 
-                
             </div>
         </div>
         <hr>
+        <div class="row">
+            <h1>Dataset Size 384 rows</h1>
+            <div class="col-6">
+                <h2>Role Score</h2>
+                <br>
+                <div id="chart1_40" class="chart"></div>
+            </div>
+            <div class="col-6">
+                <h2>Job Title</h2>
+                <br>
+                Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds_40 }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li_40 }}%</strong> score. 
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="container">
+            <table class="table table-primary table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Dataset Size (rows)</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Score (%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="align-middle">962</th>
+                  <td class="align-middle">{{ rds }}</td>
+                  <td class="align-middle">{{ max_li }}</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="align-middle">577</th>
+                    <td class="align-middle">{{ rds_60 }}</td>
+                    <td class="align-middle">{{ max_li_60 }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="align-middle">384</th>
+                    <td class="align-middle">{{ rds_40 }}</td>
+                    <td class="align-middle">{{ max_li_40 }}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+          <br><br>
     </div>
 
     {% endif %}
