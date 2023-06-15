@@ -44,8 +44,12 @@ def predict():
         summary_rule_based_img_path = get_hindi_wordcloud(summary_rule_based)
         result3 = ["TFIDF sentence weighting", summary_rule_based, summary_rule_based_img_path]
 
+        summary_bart = summarise_bart_summary_generation(text)
+        summary_bart_img_path = get_hindi_wordcloud(summary_bart)
+        result4 = ["Bidirectional Encoder Representations from Transformers (BERT)", summary_bart, summary_bart_img_path]
+
         # return render_template('index.html', flag=True, summary_result=summary_result)
-        return render_template('index.html', flag=True, result1=result1, result2=result2, result3=result3)
+        return render_template('index.html', flag=True, result1=result1, result2=result2, result3=result3, result4=result4)
     return render_template('index.html', flag=False)
 
 if __name__ == '__main__':

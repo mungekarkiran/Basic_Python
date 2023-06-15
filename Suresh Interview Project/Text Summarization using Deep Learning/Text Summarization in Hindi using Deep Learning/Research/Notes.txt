@@ -1,0 +1,14 @@
+Fake News Detection for Hindi Language
+https://github.com/Siddhartha15/Hindi-Fake-News-Detection
+https://github.com/Siddhartha15
+https://www.kaggle.com/code/kerneler/starter-wordcloud-hindi-font-33f7a989-f/input
+https://www.kaggle.com/datasets/rsrishav/wordcloud-hindi-font
+
+Dataset
+/kaggle/input/hindi-text-short-and-large-summarization-corpus/train.csv
+/kaggle/input/hindi-text-short-and-large-summarization-corpus/test.csv
+/kaggle/input/extendedhindistopwords/final_stopwords.txt
+/kaggle/input/wordcloud-hindi-font/city_states_data.json
+/kaggle/input/wordcloud-hindi-font/Hindi_StopWords.txt
+/kaggle/input/wordcloud-hindi-font/Nirmala.ttf
+

@@ -15,6 +15,9 @@ from nltk.tokenize import SpaceTokenizer
 from nltk.cluster.util import cosine_distance
 from indicnlp.tokenize import sentence_tokenize
 
+from transformers import BartForConditionalGeneration, BartTokenizer
+from googletrans import Translator
+
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -347,6 +350,34 @@ def generate_summary_rule_based(clean_sentences,compression_ratio):
     return summary
 
 
+def preprocess_text(text, tokenizer):
+    # Tokenize the text
+    tokenized_text = tokenizer.encode(text, truncation=True, max_length=1024, return_tensors='pt')
+
+    # Return the tokenized input text
+    return tokenized_text
+
+def translate_english_to_hindi(text):
+    translator = Translator(service_urls=['translate.google.com'])
+    translation = translator.translate(text, src='en', dest='hi')
+    print(f"Type of translation : {type(translation)}")
+    print(f"Type of translation.text : {type(translation.text)}")
+    return translation.text
+
+def summarise_bart_summary_generation(sentences):
+    # Load the BERT-based model and tokenizer
+    model_name = "facebook/bart-large-cnn"
+    model = BartForConditionalGeneration.from_pretrained(model_name)
+    tokenizer = BartTokenizer.from_pretrained(model_name)
+    tokenized_input = preprocess_text(sentences, tokenizer)
+
+    # Generate the summary
+    summary_ids = model.generate(tokenized_input, num_beams=4, max_length=150, early_stopping=True)
+    summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
+
+    # Example usage
+    hindi_text = translate_english_to_hindi(summary)
+    return hindi_text
 
 
 def create_hindi_wordcloud(hindi_text, font_path, save_path):
