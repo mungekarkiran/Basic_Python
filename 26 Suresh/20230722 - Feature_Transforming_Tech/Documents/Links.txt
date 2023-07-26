@@ -1,0 +1,17 @@
+# https://scikit-learn.org/stable/modules/preprocessing.html
+# https://stackoverflow.com/questions/62212734/how-to-write-a-custom-transformer-in-scikit-learn-that-will-switch-conditionally
+
+
+https://builtin.com/data-science/train-test-split
+
+features = ['bedrooms','bathrooms','sqft_living','sqft_lot','floors']
+X = df.loc[:, features]
+y = df.loc[:, ['price']]
+
+https://www.shiksha.com/online-courses/articles/train-test-split/
+
+#Get Target data
+y = dataset[‘Species’]
+#Load X Variables into a Pandas Dataframe with columns
+X = dataset.drop(['Species'], axis = 1)
+
