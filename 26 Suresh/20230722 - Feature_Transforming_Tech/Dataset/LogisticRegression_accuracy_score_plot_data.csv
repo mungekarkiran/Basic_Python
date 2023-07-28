@@ -1,0 +1,15 @@
+classifier,scaler,accuracy_score
+LogisticRegression,MinMaxScaler,100.0
+LogisticRegression,StandardScaler,100.0
+LogisticRegression,MaxAbsScaler,100.0
+LogisticRegression,RobustScaler,100.0
+LogisticRegression,QuantileTransformer,100.0
+LogisticRegression,PowerTransformer,100.0
+LogisticRegression,Normalizer,26.42
+LogisticRegression,MinMaxScaler,100.0
+LogisticRegression,StandardScaler,100.0
+LogisticRegression,MaxAbsScaler,100.0
+LogisticRegression,RobustScaler,100.0
+LogisticRegression,QuantileTransformer,100.0
+LogisticRegression,PowerTransformer,100.0
+LogisticRegression,Normalizer,26.42
