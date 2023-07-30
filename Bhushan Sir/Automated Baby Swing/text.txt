@@ -1,0 +1,13 @@
+The swing consists of a sturdy frame that supports the seat where the baby sits or lies down. The seat is typically made of a comfortable and secure material like fabric or cushioning. The swing consists of a side handel attached to the seat hub on the swing arms, so the seat will rotate and baby can swing side to side and front to back. The well adjested straps are use for safty and it's like holding it in a mother's arms.
+
+The swinging mechanism converts the rotational motion of the motor into a back-and-forth swinging motion. It typically involves a pivot point or a set of arms that attach to the seat and move it in a controlled manner. A motor is responsible for generating the motion in the swing and offer adjustable swing speeds. It is usually located at the top of the swing frame and is connected to a swinging mechanism. The control signals are sent to the microcontroller, which adjusts the motor's speed and direction accordingly.
+
+A couple of vibe unite is fixed in the bottom of the swing to enhance the calming effect. The vibe unite can be controlled through the microcontroller or the user interface to feels soft massage which can reduce crying and fussiness, support more restful sleep, and alleviate common wail-inducers like constipation and colic.
+
+The bed is equipped with a mechanism for repositioning a rigid body with a flexible sheet to alleviate bedsores and other ailments. A mechanism for raising and lowering the height of baby bed. 
+
+
+
+Motion sensors can detect the baby's movements and provide data to adjust the swing motion or activate safety features.
+
+The microcontroller is the brain of the smart baby swing. It receives input from sensors, controls the motor, adjusts swing speed and motion, and manages other features like the vibe unite. It ensures that the swing operates within safe parameters and responds to user settings.
