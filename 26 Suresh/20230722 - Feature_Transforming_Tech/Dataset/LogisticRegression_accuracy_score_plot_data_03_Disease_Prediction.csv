@@ -1,8 +1,8 @@
 classifier,scaler,accuracy_score
-LogisticRegression,MinMaxScaler,76.19
-LogisticRegression,StandardScaler,77.92
-LogisticRegression,MaxAbsScaler,76.19
-LogisticRegression,RobustScaler,77.92
-LogisticRegression,QuantileTransformer,77.06
-LogisticRegression,PowerTransformer,75.76
-LogisticRegression,Normalizer,64.07
+LogisticRegression,MinMaxScaler,65.08
+LogisticRegression,StandardScaler,64.29
+LogisticRegression,MaxAbsScaler,65.87
+LogisticRegression,RobustScaler,64.29
+LogisticRegression,QuantileTransformer,65.87
+LogisticRegression,PowerTransformer,61.9
+LogisticRegression,Normalizer,65.87

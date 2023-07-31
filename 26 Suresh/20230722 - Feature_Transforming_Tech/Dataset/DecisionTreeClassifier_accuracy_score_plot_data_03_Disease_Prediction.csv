@@ -1,8 +1,8 @@
 classifier,scaler,accuracy_score
-DecisionTreeClassifier,MinMaxScaler,68.4
-DecisionTreeClassifier,StandardScaler,68.83
-DecisionTreeClassifier,MaxAbsScaler,70.56
-DecisionTreeClassifier,RobustScaler,67.97
-DecisionTreeClassifier,QuantileTransformer,68.4
-DecisionTreeClassifier,PowerTransformer,70.56
-DecisionTreeClassifier,Normalizer,62.77
+DecisionTreeClassifier,MinMaxScaler,51.59
+DecisionTreeClassifier,StandardScaler,52.38
+DecisionTreeClassifier,MaxAbsScaler,51.59
+DecisionTreeClassifier,RobustScaler,50.0
+DecisionTreeClassifier,QuantileTransformer,50.0
+DecisionTreeClassifier,PowerTransformer,50.0
+DecisionTreeClassifier,Normalizer,54.76
