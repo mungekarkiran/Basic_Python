@@ -3,5 +3,3 @@ Personality prediction using ML
 Dataset : https://www.kaggle.com/datasets/tunguz/big-five-personality-test
 
 Libs :
-!pip install country-converter
-!pip install pycountry-convert
