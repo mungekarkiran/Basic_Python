@@ -112,7 +112,7 @@ while True:
     try:
         text = result[0][-2]
         text = preprocess_number_plate(text)
-        print(f"text Plate : {text}")
+        # print(f"text Plate : {text}")
         if text != None:
             font = cv2.FONT_HERSHEY_SIMPLEX
             res = cv2.putText(frame, 
