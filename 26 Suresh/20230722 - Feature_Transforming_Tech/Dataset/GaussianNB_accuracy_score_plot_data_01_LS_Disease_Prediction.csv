@@ -1,0 +1,8 @@
+classifier,scaler,accuracy_score
+GaussianNB,MinMaxScaler,51.81
+GaussianNB,StandardScaler,51.81
+GaussianNB,MaxAbsScaler,51.81
+GaussianNB,RobustScaler,51.81
+GaussianNB,QuantileTransformer,54.82
+GaussianNB,PowerTransformer,52.41
+GaussianNB,Normalizer,48.8

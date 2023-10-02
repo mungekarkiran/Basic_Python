@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+KNeighborsClassifier,MinMaxScaler,0.6062
+KNeighborsClassifier,StandardScaler,0.6258
+KNeighborsClassifier,MaxAbsScaler,0.6161
+KNeighborsClassifier,RobustScaler,0.6305
+KNeighborsClassifier,QuantileTransformer,0.6258
+KNeighborsClassifier,PowerTransformer,0.6209
+KNeighborsClassifier,Normalizer,0.6012

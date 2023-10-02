@@ -1,0 +1,8 @@
+classifier,scaler,accuracy_score
+RandomForestClassifier,MinMaxScaler,71.08
+RandomForestClassifier,StandardScaler,67.47
+RandomForestClassifier,MaxAbsScaler,69.28
+RandomForestClassifier,RobustScaler,66.87
+RandomForestClassifier,QuantileTransformer,67.47
+RandomForestClassifier,PowerTransformer,65.06
+RandomForestClassifier,Normalizer,69.88

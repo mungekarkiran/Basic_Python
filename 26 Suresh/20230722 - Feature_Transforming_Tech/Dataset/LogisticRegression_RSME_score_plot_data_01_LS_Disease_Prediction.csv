@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+LogisticRegression,MinMaxScaler,0.6985
+LogisticRegression,StandardScaler,0.7028
+LogisticRegression,MaxAbsScaler,0.7028
+LogisticRegression,RobustScaler,0.7071
+LogisticRegression,QuantileTransformer,0.6766
+LogisticRegression,PowerTransformer,0.6811
+LogisticRegression,Normalizer,0.6899
