@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Video Stream</title>
+</head>
+<body>
+    <h1>Webcam Video Stream</h1>
+    <video id="videoElement" autoplay></video>
+
+    <script>
+        const videoElement = document.getElementById('videoElement');
+        
+        // Define the WebSocket server URL
+        const serverUrl = 'ws://192.168.116.1:8888'; // Replace with your server's IP
+        
+        // Create a WebSocket connection
+        const socket = new WebSocket(serverUrl);
+        
+        socket.addEventListener('message', (event) => {
+            if (event.data instanceof Blob) {
+                const reader = new FileReader();
+                reader.onload = function () {
+                    videoElement.src = reader.result;
+                };
+                reader.readAsDataURL(event.data);
+            }
+        });
+
+        socket.addEventListener('close', () => {
+            console.log('Connection closed.');
+        });
+
+        socket.addEventListener('error', (error) => {
+            console.error('WebSocket Error:', error);
+        });
+    </script>
+</body>
+</html>
