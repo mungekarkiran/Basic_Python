@@ -7,6 +7,7 @@ def detect_face(video_file_path:str) -> str:
     # Load the video file
     print('Load the video file')
     video_capture = cv2.VideoCapture(video_file_path)
+    # cv2.resize(image, (new_w, new_h))
 
     # Get the video dimensions and frame rate
     # print('Get the video dimensions and frame rate')
@@ -16,17 +17,18 @@ def detect_face(video_file_path:str) -> str:
 
     # Create a directory to save the modified video
     # print('Create a directory to save the modified video')
-    os.makedirs("output_videos", exist_ok=True)
+    # os.makedirs("output_videos", exist_ok=True)
 
     # Generate a file name
     # print('Generate a file name')
     video_now = str(datetime.now()).replace('-','').replace(':','').replace(' ','_').replace('.','_')
-    face_detect_video_file_path = f'output_videos/face_detect_output_video_{video_now}.avi'
+    face_detect_video_file_path = os.path.join('static', 'style', 'video', f'face_detect_output_video_{video_now}.mp4') # avi
 
     # Define the codec and create a VideoWriter object to save the modified video
     # print('Define the codec and create a VideoWriter object to save the modified video')
-    fourcc = cv2.VideoWriter_fourcc(*'XVID') 
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v') # *'XVID' 
     output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, fps, (width, height))
+    # output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, 20.0, (320, 240))
 
     while True:
         # Capture frame-by-frame

@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+    <div class="container">
+        <h1>Resume Classification</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <form action="/emotion" method="post" enctype="multipart/form-data">
+                    <p>Upload your video in (.mp4 formate) :</p>
+                    <input type="file" name="file" class="file">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <br>
+
+        {% if flag %}
+        <div class="row">
+            <div class="col-6">
+                <h2>video tag</h2>
+                {{ result_video }} || {{ result_video[7:] }}
+                <br>
+                <video width="320" height="240" autoplay controls loop>
+                    <source src="{{ url_for('static', filename = result_video[7:]) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- video tag -->
+                <!-- <div id="chart1" class="chart"></div> -->
+            </div>
+            <div class="col-6">
+                <h2>bar graph or pie chart</h2>
+                <br>
+                <video width="320" height="240" controls="" autoplay="" loop="">
+                    <source src="static\output_video_20231011_104939_988987.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+
+                <!-- bar graph or pie chart -->
+                <!-- Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li }}%</strong> score.  -->
+            </div>
+        </div>
+    </div>
+
+    {% endif %}
+
+    </div>
+
+</center>
+
+{% endblock %}

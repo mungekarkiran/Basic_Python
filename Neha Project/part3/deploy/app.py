@@ -1,6 +1,7 @@
 # lib's
 import pandas as pd
-from flask import Flask, flash, render_template, request, jsonify, Response
+from flask import Flask, flash, render_template, request, jsonify, Response, send_file
+from werkzeug.utils import secure_filename
 import json
 import os
 import pickle
@@ -165,6 +166,30 @@ def qanda():
         return render_template('qanda_result.html', result=result, graphJSON=graphJSON , my_personality=my_personality)    
 
     return render_template('qanda.html')
+
+@app.route('/emotion', methods=['GET', 'POST'])
+def emotion():
+    if request.method == 'POST':
+        # Get the file from post request
+        f = request.files['file']
+        file_path = os.path.join('static', 'style', 'video', secure_filename(f.filename)) 
+        f.save(file_path)
+
+        # face detection from video
+        import face_detection_from_video as fdv
+        face_video_path = fdv.detect_face(file_path)
+        
+        # emotion detection from video
+        import emotion_detection_from_video as edv
+        model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
+        saved_video_path = edv.detect_emotion(face_video_path, model_file_path)
+        time.sleep(1)
+        print(f"saved_video_path : {saved_video_path[7:]}")
+        
+        # return render_template('emotion.html', flag=True, result_video=saved_video_path)
+        return send_file(saved_video_path)    
+
+    return render_template('emotion.html', flag=False)
 
 if __name__ == '__main__':
     app.run(debug=True) #debug=True

@@ -1,5 +1,8 @@
 import cv2
+import os
+import time
 import numpy as np
+from datetime import datetime
 import keras.utils as image 
 from tensorflow.keras.models import load_model
 
@@ -24,12 +27,15 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
 
     # Define the codec for the output video
     # print('Define the codec for the output video')
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v') # *'XVID'
 
     # Create VideoWriter object to save the modified video
     # print('Create VideoWriter object to save the modified video')
-    saved_video_path = 'output_videos/output_video.avi'
+    video_now = str(datetime.now()).replace('-','').replace(':','').replace(' ','_').replace('.','_')
+    saved_video_path = os.path.join('static', f'output_video_{video_now}.mp4')
+    # os.path.join('static', 'style', 'video', f'output_video_{video_now}.avi')
     out = cv2.VideoWriter(saved_video_path, fourcc, fps, (width, height))
+    # out = cv2.VideoWriter(saved_video_path, fourcc, 20.0, (320, 240))
 
     while True:
         # Capture frame-by-frame
@@ -74,7 +80,8 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
                 predicted_emotion = emotions[max_index]
 
                 cv2.putText(frame, predicted_emotion, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-                # print(x+w, y+h, predicted_emotion)
+                print(predicted_emotion)
+                time.sleep(0.2)
         
         # Write the frame with marked faces to the output video
         # print('Write the frame with marked faces to the output video')
@@ -85,9 +92,9 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
             break
 
     # Release the video objects
-    print('Release the video objects')
     cap.release()
     out.release()
     cv2.destroyAllWindows()
+    print('Release the video objects')
 
     return saved_video_path
