@@ -186,11 +186,12 @@ def emotion():
         time.sleep(1)
         print(f"saved_video_path : {saved_video_path[7:]}")
         
-        # return render_template('emotion.html', flag=True, result_video=saved_video_path)
-        return send_file(saved_video_path)    
+        return render_template('emotion.html', flag=True, result_video=saved_video_path)
+        # return send_file(saved_video_path)    
 
     return render_template('emotion.html', flag=False)
 
 if __name__ == '__main__':
     app.run(debug=True) #debug=True
     # app.run(debug=False,host='0.0.0.0', port=5000)
+    # ffmpeg -i 'static/output_video_20231011_174546_216927.mp4' -vcodec libx264 -f mp4 output.mp4

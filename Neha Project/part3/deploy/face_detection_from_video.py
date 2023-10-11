@@ -1,5 +1,6 @@
 import os
 import cv2
+import time
 import face_recognition
 from datetime import datetime
 
@@ -26,7 +27,7 @@ def detect_face(video_file_path:str) -> str:
 
     # Define the codec and create a VideoWriter object to save the modified video
     # print('Define the codec and create a VideoWriter object to save the modified video')
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v') # *'XVID' 
+    fourcc = cv2.VideoWriter_fourcc(*'avc1') # *'XVID'   *'mp4v'
     output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, fps, (width, height))
     # output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, 20.0, (320, 240))
 
@@ -41,6 +42,7 @@ def detect_face(video_file_path:str) -> str:
         # Find all the faces and face encodings in the current frame
         # print('Find all the faces and face encodings in the current frame')
         face_locations = face_recognition.face_locations(frame)
+        time.sleep(0.3)
 
         # Loop through each face in this frame
         # print('Loop through each face in this frame')

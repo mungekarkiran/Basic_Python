@@ -27,12 +27,12 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
 
     # Define the codec for the output video
     # print('Define the codec for the output video')
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v') # *'XVID'
+    fourcc = cv2.VideoWriter_fourcc(*'avc1') # *'XVID'  *'mp4v'  *'H264'   *'MJPG'   *"vp80"   *'avc1'
 
     # Create VideoWriter object to save the modified video
     # print('Create VideoWriter object to save the modified video')
     video_now = str(datetime.now()).replace('-','').replace(':','').replace(' ','_').replace('.','_')
-    saved_video_path = os.path.join('static', f'output_video_{video_now}.mp4')
+    saved_video_path = os.path.join('static', 'style', 'video', f'output_video_{video_now}.mp4')
     # os.path.join('static', 'style', 'video', f'output_video_{video_now}.avi')
     out = cv2.VideoWriter(saved_video_path, fourcc, fps, (width, height))
     # out = cv2.VideoWriter(saved_video_path, fourcc, 20.0, (320, 240))
