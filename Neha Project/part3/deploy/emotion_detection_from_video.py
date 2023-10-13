@@ -4,12 +4,13 @@ import time
 import numpy as np
 from datetime import datetime
 import keras.utils as image 
-from tensorflow.keras.models import load_model
+# from tensorflow.keras.models import load_model
 
-def detect_emotion(video_file_path:str, model_file_path:str) -> str:
+# def detect_emotion(video_file_path:str, model_file_path:str) -> str:
+def detect_emotion(video_file_path:str, emotion_model) -> str:
     # Load pre-trained emotion detection model
     print('Load pre-trained emotion detection model')
-    emotion_model = load_model(model_file_path)  # You need to have a pre-trained model file
+    # emotion_model = load_model(model_file_path)  # You need to have a pre-trained model file
 
     # Load the pre-trained Haar Cascade for face detection
     print('Load the pre-trained Haar Cascade for face detection')
@@ -27,12 +28,12 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
 
     # Define the codec for the output video
     # print('Define the codec for the output video')
-    fourcc = cv2.VideoWriter_fourcc(*'avc1') # *'XVID'  *'mp4v'  *'H264'   *'MJPG'   *"vp80"   *'avc1'
+    fourcc = cv2.VideoWriter_fourcc(*"H264") # *'XVID'  *'mp4v'  *'H264'   *'MJPG'   *"vp80"   *'avc1'
 
     # Create VideoWriter object to save the modified video
     # print('Create VideoWriter object to save the modified video')
     video_now = str(datetime.now()).replace('-','').replace(':','').replace(' ','_').replace('.','_')
-    saved_video_path = os.path.join('static', 'style', 'video', f'output_video_{video_now}.mp4')
+    saved_video_path = os.path.join('static', f'output_video_{video_now}.mp4')
     # os.path.join('static', 'style', 'video', f'output_video_{video_now}.avi')
     out = cv2.VideoWriter(saved_video_path, fourcc, fps, (width, height))
     # out = cv2.VideoWriter(saved_video_path, fourcc, 20.0, (320, 240))
@@ -92,9 +93,9 @@ def detect_emotion(video_file_path:str, model_file_path:str) -> str:
             break
 
     # Release the video objects
+    print('Release the video objects and close the window')
     cap.release()
     out.release()
     cv2.destroyAllWindows()
-    print('Release the video objects')
 
     return saved_video_path

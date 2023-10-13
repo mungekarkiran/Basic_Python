@@ -9,6 +9,10 @@ import sqlite3
 import time
 import plotly
 import plotly.express as px
+from tensorflow.keras.models import load_model
+
+model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
+emotion_model = load_model(model_file_path)
 
 # variable's
 connection = sqlite3.connect('login.db', timeout=1, check_same_thread=False)
@@ -181,10 +185,12 @@ def emotion():
         
         # emotion detection from video
         import emotion_detection_from_video as edv
-        model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
-        saved_video_path = edv.detect_emotion(face_video_path, model_file_path)
+        # model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
+        # saved_video_path = edv.detect_emotion(face_video_path, model_file_path)
+        saved_video_path = edv.detect_emotion(face_video_path, emotion_model)
+
         time.sleep(1)
-        print(f"saved_video_path : {saved_video_path[7:]}")
+        print(f"saved_video_path : {saved_video_path}")
         
         return render_template('emotion.html', flag=True, result_video=saved_video_path)
         # return send_file(saved_video_path)    
@@ -194,4 +200,3 @@ def emotion():
 if __name__ == '__main__':
     app.run(debug=True) #debug=True
     # app.run(debug=False,host='0.0.0.0', port=5000)
-    # ffmpeg -i 'static/output_video_20231011_174546_216927.mp4' -vcodec libx264 -f mp4 output.mp4
