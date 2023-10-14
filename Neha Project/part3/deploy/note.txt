@@ -2,5 +2,27 @@ working
 
 *"vp80"
 
+H264
+
+
+=================================
+
+
+*'X264'
+
+*'avc1'
+
+pip install libx264-dev
+
+*"h264"
 
 https://pypi.org/project/videoio/
+
+FourCC is a 4-byte code used to specify the video codec. The list of available codes can be found in fourcc.org. It is platform dependent. The following codecs work fine for me.
+In Fedora: DIVX, XVID, MJPG, X264, WMV1, WMV2. (XVID is more preferable. MJPG results in high size video. X264 gives very small size video)
+In Windows: DIVX (More to be tested and added)
+In OSX: MJPG (.mp4), DIVX (.avi), X264 (.mkv).
+
+
+https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html
+
