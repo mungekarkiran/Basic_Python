@@ -3,7 +3,7 @@
 
 <center>
     <div class="container">
-        <h1>Resume Classification</h1>
+        <h1>Facial Emotion Based Personality Prediction</h1>
     </div>
 
     <div class="container-fluid">
@@ -23,25 +23,30 @@
         {% if flag %}
         <div class="row">
             <div class="col-6">
-                <h2>video tag</h2>
-                {{ result_video }} || {{ result_video[7:] }}
+                <h2>Output Video</h2>
                 <br>
                 <video width="320" height="240" autoplay controls loop>
                     <source src="{{ url_for('static', filename = result_video[7:]) }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <h3>{{ result_video[7:] }}</h3>
+                <hr>
+                <h2>Personality</h2>
+                {% for pl in personalitys_list %}
+                    <ul><li><strong><i> {{ pl }} </i></strong></li></ul> 
+                {% endfor %}
+                <hr>
                 <!-- video tag -->
                 <!-- <div id="chart1" class="chart"></div> -->
             </div>
             <div class="col-6">
                 <h2>bar graph or pie chart</h2>
                 <br>
-                <video width="320" height="240" controls="" autoplay="" loop="">
-                    <source src="static\output_video_20231011_104939_988987.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-
-
+                <title>Plotly Bar Plot</title>
+                <div style="width: 90%; height: 40%;">
+                {{ plot_div | safe }}
+                </div>
+                <!-- <iframe src="{{ url_for('static', filename = result_video[7:]) }}" frameborder="0" allowfullscreen></iframe> -->
                 <!-- bar graph or pie chart -->
                 <!-- Your resume is match for <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">" {{ rds }} "</strong> position with <strong style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: red;">{{ max_li }}%</strong> score.  -->
             </div>
