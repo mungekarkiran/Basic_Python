@@ -16,10 +16,6 @@ def detect_face(video_file_path:str) -> str:
     height = int(video_capture.get(4))
     fps = video_capture.get(cv2.CAP_PROP_FPS)
 
-    # Create a directory to save the modified video
-    # print('Create a directory to save the modified video')
-    # os.makedirs("output_videos", exist_ok=True)
-
     # Generate a file name
     # print('Generate a file name')
     video_now = str(datetime.now()).replace('-','').replace(':','').replace(' ','_').replace('.','_')
@@ -27,7 +23,7 @@ def detect_face(video_file_path:str) -> str:
 
     # Define the codec and create a VideoWriter object to save the modified video
     # print('Define the codec and create a VideoWriter object to save the modified video')
-    fourcc = cv2.VideoWriter_fourcc(*"H264") # *'XVID'   *'mp4v'
+    fourcc = cv2.VideoWriter_fourcc(*"H264") 
     output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, fps, (width, height))
     # output_video = cv2.VideoWriter(face_detect_video_file_path, fourcc, 20.0, (320, 240))
 

@@ -8,6 +8,17 @@ import keras.utils as image
 
 # def detect_emotion(video_file_path:str, model_file_path:str) -> str:
 def detect_emotion(video_file_path:str, emotion_model) -> str:
+
+    key_counts = {'Angry':0, 'Disgust':0, 'Fear':0, 'Happy':0, 'Neutral':0, 'Sad':0, 'Surprise':0}
+    personalitys_data = {
+        'Angry': 'Frequent anger might be associated with low agreeableness. Individuals who often experience anger might be less agreeable, meaning they are less likely to be cooperative or friendly.', 
+        'Disgust': 'High disgust levels may be related to neuroticism. Disgust and neuroticism often go hand in hand, as individuals with high neuroticism tend to experience more disgust.', 
+        'Fear': 'Frequent fear may be related to neuroticism. Individuals who experience fear more often may have higher levels of neuroticism.', 
+        'Happy': 'High levels of happiness may be associated with extroversion and openness. Happy individuals might be more sociable (extroversion) and open to new experiences (openness).', 
+        'Neutral': 'Neutral may be associated with agreeableness and conscientiousness. Content individuals may be more agreeable (friendly) and conscientious (organized and responsible).', 
+        'Sad': 'High levels of happiness may be associated with extroversion and openness. Happy individuals might be more sociable (extroversion) and open to new experiences (openness).', 
+        'Surprise': 'Frequent surprise might indicate openness to experience. People who are often surprised by new things may have a higher degree of openness to experience.'}
+
     # Load pre-trained emotion detection model
     print('Load pre-trained emotion detection model')
     # emotion_model = load_model(model_file_path)  # You need to have a pre-trained model file
@@ -58,7 +69,11 @@ def detect_emotion(video_file_path:str, emotion_model) -> str:
         # Loop through the detected faces
         # print('Loop through the detected faces')
         for (x, y, w, h) in faces:
-            if w > 100 and h > 100:
+            # x = top
+            # y = right
+            # w = bottom
+            # h = left
+            if w > 200 and h > 200:
                 # Crop the face region
                 # print('Crop the face region')
                 face = frame[y:y+h, x:x+w]
@@ -82,7 +97,19 @@ def detect_emotion(video_file_path:str, emotion_model) -> str:
 
                 cv2.putText(frame, predicted_emotion, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                 print(predicted_emotion)
-                time.sleep(0.2)
+                # Check if the key exists in the dictionary
+                if predicted_emotion in key_counts:
+                    # If it exists, increment the count
+                    key_counts[predicted_emotion] += 1
+                else:
+                    # If it doesn't exist, initialize the count to 1
+                    key_counts[predicted_emotion] = 1
+
+                # Draw a rectangle around the face
+                # cv2.rectangle(image, pt1, pt2, color, thickness)
+                # where pt1 is starting point-->(x,y) and pt2 is end point-->(x+w,y+h).
+                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                time.sleep(1)
         
         # Write the frame with marked faces to the output video
         # print('Write the frame with marked faces to the output video')
@@ -91,11 +118,20 @@ def detect_emotion(video_file_path:str, emotion_model) -> str:
         # Break the loop when the 'q' key is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
+    
+    # Calculate the total sum of values
+    total = sum(key_counts.values())
 
+    # Convert values to percentages
+    percentage_data = {key: (value / total) * 100 for key, value in key_counts.items()}
+
+    result = [key for key, value in percentage_data.items() if value > 0]
+    personalitys_list = [value for key, value in personalitys_data.items() if key in result]
+    
     # Release the video objects
     print('Release the video objects and close the window')
     cap.release()
     out.release()
     cv2.destroyAllWindows()
 
-    return saved_video_path
+    return saved_video_path, percentage_data, personalitys_list

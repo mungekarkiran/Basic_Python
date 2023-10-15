@@ -9,6 +9,7 @@ import sqlite3
 import time
 import plotly
 import plotly.express as px
+import plotly.graph_objects as go
 from tensorflow.keras.models import load_model
 
 model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
@@ -180,19 +181,37 @@ def emotion():
         f.save(file_path)
 
         # face detection from video
-        import face_detection_from_video as fdv
-        face_video_path = fdv.detect_face(file_path)
+        # import face_detection_from_video as fdv
+        # face_video_path = fdv.detect_face(file_path)
+        face_video_path = file_path
         
         # emotion detection from video
         import emotion_detection_from_video as edv
         # model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
         # saved_video_path = edv.detect_emotion(face_video_path, model_file_path)
-        saved_video_path = edv.detect_emotion(face_video_path, emotion_model)
+        saved_video_path, data, personalitys_list = edv.detect_emotion(face_video_path, emotion_model)
 
         time.sleep(1)
         print(f"saved_video_path : {saved_video_path}")
+
+        # Extract data
+        categories = list(data.keys())
+        values = list(data.values())
+
+        # Create a Plotly bar plot
+        fig = go.Figure([go.Bar(x=categories, y=values)])
+
+        # Update layout if needed
+        fig.update_layout(
+            title='Emotions % Count Plot',
+            xaxis_title='Emotions',
+            yaxis_title='Count'
+        )
+
+        # Convert the Plotly figure to HTML
+        plot_div = fig.to_html(full_html=False)
         
-        return render_template('emotion.html', flag=True, result_video=saved_video_path)
+        return render_template('emotion.html', flag=True, result_video=saved_video_path, plot_div=plot_div, personalitys_list=personalitys_list)
         # return send_file(saved_video_path)    
 
     return render_template('emotion.html', flag=False)
