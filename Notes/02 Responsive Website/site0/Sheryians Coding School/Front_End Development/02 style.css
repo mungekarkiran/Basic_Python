@@ -1,0 +1,131 @@
+/* understanding CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* . == class */
+/* # == id */
+/* p == tag */
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+p {
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    /* margin create space outside tag */
+    /* margin : top right bottom left */
+    /* margin : (top, bottom) (right, left) */
+    /* margin : (all) colock wise */
+    background-color: red;
+}
+
+.p-margin{
+    width: 20%;
+    height: 30%;
+    margin-left: 55px;
+    background-color: aqua;
+}
+
+.p-padding{
+    width: 20%;
+    height: 20%;
+    background-color: bisque;
+    padding: 20px;
+    /* padding create space inside tag */
+}
+
+.img-main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1670324374550-c0898f81fc1b?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D);
+    background-size: cover; 
+    /* to cover full screen */
+    background-position: center;
+    /* to see part of image */
+}
+
+#car1{
+    width: 100px;
+    height: 120px;
+    background-color: aqua;
+}
+
+#car2{
+    width: 100px;
+    height: 140px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+}
+
+#car3{
+    width: 100px;
+    height: 160px;
+    background-color: red;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+#small-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 60%;
+}
+
+#small-small-box{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    left: 20%;
+    top: 30%
+}
+
+#box0{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(229, 255, 0, 0.486);
+    display: flex;
+    /* used to shift it vertical */
+    justify-content: space-around;
+    /* center, end, start, space-between */
+    /* use it when you have to work with width */
+    align-items: center;
+    /* use it when you have to work with height */
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(75, 235, 60, 0.445);
+}
+
+#box2{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(60, 171, 235, 0.568);
+}
+
+#box3{
+    width: 110px;
+    height: 110px;
+    background-color: rgba(235, 60, 191, 0.438);
+}
