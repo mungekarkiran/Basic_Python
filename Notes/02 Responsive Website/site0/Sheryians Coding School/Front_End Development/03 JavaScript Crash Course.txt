@@ -1,0 +1,20 @@
+js
+- == Basic topics 
+-- == Advance topics
+
+- word vs leyword
+- var const let
+-- the difference
+-- window object 
+-- browser context API
+-- stack
+-- heap memory
+-- execution context
+-- lexical environment
+- hoisting
+- types in js
+-- how to copy reference values
+- conditionals
+- if else else-if
+-- truthy vs falsy
+- switch
