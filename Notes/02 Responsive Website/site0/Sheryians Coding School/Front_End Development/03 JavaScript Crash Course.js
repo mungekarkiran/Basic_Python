@@ -36,3 +36,30 @@ var d1 = c1;
 
 d1.pop();
 // console.log(c1, d1);
+
+// conditionals - if else else-if 
+if(condition){ // true or false
+
+} 
+else{
+
+}
+
+// else-if
+if(condition1){ // true or false
+
+} 
+else if(condition2){
+
+}
+else if(condition3){
+
+}
+else if(condition4){
+
+}
+else{
+
+}
+
+// loop
