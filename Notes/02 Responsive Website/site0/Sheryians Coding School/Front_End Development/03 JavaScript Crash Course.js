@@ -38,28 +38,44 @@ d1.pop();
 // console.log(c1, d1);
 
 // conditionals - if else else-if 
-if(condition){ // true or false
+// if(condition){ // true or false
 
-} 
-else{
+// } 
+// else{
 
-}
+// }
 
 // else-if
-if(condition1){ // true or false
+// if(condition1){ // true or false
 
-} 
-else if(condition2){
+// } 
+// else if(condition2){
 
+// }
+// else if(condition3){
+
+// }
+// else if(condition4){
+
+// }
+// else{
+
+// }
+
+// loop - for
+// for(Start; end; change){   
+// }
+for(var i = 0; i<11; i++){
+    console.log(i);
 }
-else if(condition3){
 
-}
-else if(condition4){
-
-}
-else{
-
+for(var i = 25; i<51; i++){
+    console.log(i);
 }
 
-// loop
+// loop - while
+var a = 12;
+while(a<20){
+    console.log(a);
+    a++;
+}
