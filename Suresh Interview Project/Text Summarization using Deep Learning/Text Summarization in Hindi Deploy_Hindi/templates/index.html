@@ -43,24 +43,28 @@
                         <div class="col">
                             <h2>Method : {{result1[0]}} </h2>
                             <p>{{result1[1]}}</p>
-                            <img src="{{ url_for('static', filename = result1[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result1">
+                            <!-- <img src="{{ url_for('static', filename = result1[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result1"> -->
+                            <img src="{{ result1[2] }}" class="img-fluid" width="600" height="400" alt="Result1">
                         </div>
                         <div class="col">
                             <h2>Method : {{result2[0]}} </h2>
                             <p>{{result2[1]}}</p>
-                            <img src="{{ url_for('static', filename = result2[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result2">
+                            <!-- <img src="{{ url_for('static', filename = result2[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result2"> -->
+                            <img src="{{ result2[2] }}" class="img-fluid" width="600" height="400" alt="Result2">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <h2>Method : {{result3[0]}} </h2>
                             <p>{{result3[1]}}</p>
-                            <img src="{{ url_for('static', filename = result3[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result3">
+                            <!-- <img src="{{ url_for('static', filename = result3[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result3"> -->
+                            <img src="{{ result3[2] }}" class="img-fluid" width="600" height="400" alt="Result3">
                         </div>
                         <div class="col">
                             <h2>Method : {{result4[0]}} </h2>
                             <p>{{result4[1]}}</p>
-                            <img src="{{ url_for('static', filename = result4[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result3">
+                            <!-- <img src="{{ url_for('static', filename = result4[2][7:]) }}" class="img-fluid" width="600" height="400" alt="Result3"> -->
+                            <img src="{{ result4[2] }}" class="img-fluid" width="600" height="400" alt="Result3">
                         </div>
                     </div>
                 </div>

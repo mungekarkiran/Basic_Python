@@ -8,6 +8,11 @@ from TextSummarization_utils import *
 import warnings
 warnings.filterwarnings('ignore')
 
+IMG_FOLDER = os.path.join('static', 'img') 
+
+if not os.path.exists(IMG_FOLDER):
+    os.makedirs(IMG_FOLDER)
+
 # Define a flask app
 app = Flask(__name__)
 
