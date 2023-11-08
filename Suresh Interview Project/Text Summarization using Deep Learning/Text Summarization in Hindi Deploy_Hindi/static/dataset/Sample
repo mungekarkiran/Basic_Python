@@ -13,3 +13,13 @@ transformers==2.11.0
 torch 
 torchvision 
 torchaudio
+
+
+https://www.geeksforgeeks.org/classifying-data-using-support-vector-machinessvms-in-python/
+https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
+https://realpython.com/linear-regression-in-python/
+https://www.analyticsvidhya.com/blog/2022/02/linear-regression-with-python-implementation/
+
+
+seaborn
+imblearn
