@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+LinearRegression,MinMaxScaler,0.32
+LinearRegression,StandardScaler,0.32
+LinearRegression,MaxAbsScaler,0.32
+LinearRegression,RobustScaler,0.32
+LinearRegression,QuantileTransformer,0.3219
+LinearRegression,PowerTransformer,0.3245
+LinearRegression,Normalizer,0.3199

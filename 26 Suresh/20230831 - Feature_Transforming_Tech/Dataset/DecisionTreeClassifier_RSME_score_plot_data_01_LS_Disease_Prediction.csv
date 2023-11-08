@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+DecisionTreeClassifier,MinMaxScaler,0.2582
+DecisionTreeClassifier,StandardScaler,0.2828
+DecisionTreeClassifier,MaxAbsScaler,0.3055
+DecisionTreeClassifier,RobustScaler,0.2828
+DecisionTreeClassifier,QuantileTransformer,0.2828
+DecisionTreeClassifier,PowerTransformer,0.2309
+DecisionTreeClassifier,Normalizer,0.1155

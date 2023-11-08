@@ -1,8 +1,8 @@
 classifier,scaler,RSME_score
-GaussianNB,MinMaxScaler,0.6942
-GaussianNB,StandardScaler,0.6942
-GaussianNB,MaxAbsScaler,0.6942
-GaussianNB,RobustScaler,0.6942
-GaussianNB,QuantileTransformer,0.6722
-GaussianNB,PowerTransformer,0.6899
-GaussianNB,Normalizer,0.7156
+GaussianNB,MinMaxScaler,0.6811
+GaussianNB,StandardScaler,0.6811
+GaussianNB,MaxAbsScaler,0.6811
+GaussianNB,RobustScaler,0.6811
+GaussianNB,QuantileTransformer,0.6855
+GaussianNB,PowerTransformer,0.6677
+GaussianNB,Normalizer,0.6942

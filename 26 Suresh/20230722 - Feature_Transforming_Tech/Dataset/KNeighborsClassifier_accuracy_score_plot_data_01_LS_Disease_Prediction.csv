@@ -1,8 +1,8 @@
 classifier,scaler,accuracy_score
-KNeighborsClassifier,MinMaxScaler,63.25
-KNeighborsClassifier,StandardScaler,60.84
-KNeighborsClassifier,MaxAbsScaler,62.05
-KNeighborsClassifier,RobustScaler,60.24
-KNeighborsClassifier,QuantileTransformer,60.84
-KNeighborsClassifier,PowerTransformer,61.45
-KNeighborsClassifier,Normalizer,63.86
+KNeighborsClassifier,MinMaxScaler,60.84
+KNeighborsClassifier,StandardScaler,62.05
+KNeighborsClassifier,MaxAbsScaler,57.83
+KNeighborsClassifier,RobustScaler,61.45
+KNeighborsClassifier,QuantileTransformer,55.42
+KNeighborsClassifier,PowerTransformer,58.43
+KNeighborsClassifier,Normalizer,60.84

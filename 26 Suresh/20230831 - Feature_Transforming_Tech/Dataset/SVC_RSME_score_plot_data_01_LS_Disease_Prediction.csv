@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+SVC,MinMaxScaler,0.2309
+SVC,StandardScaler,0.2828
+SVC,MaxAbsScaler,0.2309
+SVC,RobustScaler,0.2582
+SVC,QuantileTransformer,0.2828
+SVC,PowerTransformer,0.2582
+SVC,Normalizer,0.4761

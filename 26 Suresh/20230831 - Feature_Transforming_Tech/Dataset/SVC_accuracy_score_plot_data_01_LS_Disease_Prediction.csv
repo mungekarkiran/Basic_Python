@@ -1,0 +1,8 @@
+classifier,scaler,accuracy_score
+SVC,MinMaxScaler,94.67
+SVC,StandardScaler,92.0
+SVC,MaxAbsScaler,94.67
+SVC,RobustScaler,93.33
+SVC,QuantileTransformer,92.0
+SVC,PowerTransformer,93.33
+SVC,Normalizer,77.33

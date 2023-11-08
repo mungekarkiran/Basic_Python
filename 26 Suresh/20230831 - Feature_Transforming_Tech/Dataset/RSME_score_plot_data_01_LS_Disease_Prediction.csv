@@ -1,0 +1,6 @@
+classifier,RSME_score
+LogisticRegression,0.383
+KNeighborsClassifier,0.4619
+GaussianNB,0.4
+DecisionTreeClassifier,0.2828
+RandomForestClassifier,0.2582

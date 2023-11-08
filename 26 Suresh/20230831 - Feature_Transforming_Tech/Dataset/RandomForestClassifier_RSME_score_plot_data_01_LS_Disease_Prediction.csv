@@ -1,0 +1,8 @@
+classifier,scaler,RSME_score
+RandomForestClassifier,MinMaxScaler,0.2582
+RandomForestClassifier,StandardScaler,0.2309
+RandomForestClassifier,MaxAbsScaler,0.2582
+RandomForestClassifier,RobustScaler,0.2582
+RandomForestClassifier,QuantileTransformer,0.2
+RandomForestClassifier,PowerTransformer,0.2
+RandomForestClassifier,Normalizer,0.2309
