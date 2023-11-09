@@ -16,7 +16,7 @@
 10. added point 10 - done
 
 11. added point 11 - done
-12. added point 12
+12. added point 12 - done
 
 ------------------------------
 
@@ -26,19 +26,24 @@
 2. study link - done
 
 3. added point 3 - done
-4. added point 4
+4. added point 4 - done
 
 5. added point 5 - done
-6. added point 6
+6. added point 6 - done
 
 ------------------------------
 
 @ 31/10/2023
 
 1. added point 1
+2. added point 2 - done
+
+------------------------------
+
+@ 09/11/2023
+
+1. added point 1
 2. added point 2
-
-
 
 
 
