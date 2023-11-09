@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- https://source.unsplash.com/720x600/?paper,pen -->
+<!-- https://source.unsplash.com/1080x720/?job,work,happy -->
+
+
+<!-- main body -->
+<br><br>
+<center>
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename='style/img/generate_qr_code.png' ) }}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Generate QR ID</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, assumenda.</p>
+                    <a href="/generate_id" class="btn btn-primary">Visit me</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename='style/img/scan_qr_code.png' ) }}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Scan QR ID</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates</p>
+                    <a href="/scan_id" class="btn btn-primary">Visit me</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ url_for('static', filename='style/img/videointerview.jpg' ) }}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Resume Similarity</h5>
+                    <p class="card-text">Use an Applicant Tracking System and organize job applications. Make an ATS-Friendly Resume.</p>
+                    <a href="/resumesimilaritysystem" class="btn btn-primary">Visit me</a>
+                </div>
+            </div>
+        </div> -->
+
+        
+
+    </div>
+</div>
+
+</center>
+
+{% endblock %}
