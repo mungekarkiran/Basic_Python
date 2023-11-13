@@ -12,7 +12,13 @@ plotly
 scikit-learn
 pickle-mixin
 scipy
+qrcode
+qrtools
 
+pip install Flask opencv-python qrcode[pil] pyzbar
 
 wordcloud
 PyPDF2
+
+# pip uninstall qrcode
+# pip install qrcode==6.1
