@@ -91,8 +91,8 @@ def read_qr_code():
                     qr_cursor.execute(query)
                     conn.commit()
                     conn.close()
-                    print(f"{data} inserted !!!")
-                time.sleep(0.5)
+                    # print(f"{data} inserted !!!")
+                time.sleep(0.3)
         else:
             cv2.imshow("QR Code Scanner", frame)
 

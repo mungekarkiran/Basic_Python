@@ -303,3 +303,10 @@ index.html
 </html>
 
 
+
+
+Notes:
+
+https://stackoverflow.com/questions/32913226/auto-refresh-page-every-30-seconds
+https://stackoverflow.com/questions/25754405/how-can-i-extract-hours-and-minutes-from-a-datetime-datetime-object
+https://note.nkmk.me/en/python-opencv-qrcode/
