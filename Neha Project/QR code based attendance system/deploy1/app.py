@@ -1,22 +1,13 @@
 # lib's
-# import pandas as pd
-# import numpy as np
-# from flask import Flask, flash, render_template, request, jsonify, Response
-# import json
-# import os
-# from werkzeug.utils import secure_filename
-# import pickle
-# import sqlite3
-# import time
-# import plotly
-# import plotly.express as px
-
 from flask import Flask, request, render_template, redirect, url_for
 import qrcode
 import sqlite3
 import time
 import os
-
+import cv2
+from pyzbar.pyzbar import decode
+import datetime
+from werkzeug.utils import secure_filename
 
 # variable's
 connection = sqlite3.connect('login.db', timeout=1, check_same_thread=False)
@@ -28,6 +19,89 @@ try:
     connection.commit()
 except Exception as e: 
     print('Table idpass is NOT created : \n',e)
+
+# Create a SQLite3 database and table
+conn = sqlite3.connect('qr_codes.db')
+qr_cursor = conn.cursor()
+
+# create qr_codes table
+try:
+    query = """
+        CREATE TABLE IF NOT EXISTS qr_codes (
+            count_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+            data TEXT, 
+            date TEXT,
+            hrs TEXT,
+            roll_num TEXT,
+            name TEXT,
+            class TEXT,
+            division TEXT
+            ); """
+    qr_cursor.execute(query)
+    conn.commit()
+    conn.close()
+except Exception as e: 
+    print('Table qr_codes is NOT created : \n',e)
+
+# Function to read QR code and store data in the database
+def read_qr_code():
+    cap = cv2.VideoCapture(0)
+
+    while True:
+        _, frame = cap.read()
+        decoded_objects = decode(frame)
+        # print(f"decoded_objects : {decoded_objects}")
+        date = str(datetime.date.today())
+        hrs = str(datetime.datetime.now().hour)
+
+        if len(decoded_objects) != 0:
+            for obj in decoded_objects:
+                data = obj.data.decode('utf-8')
+                data_dict = eval(data)
+                # print(f"data : {data_dict} | {type(data_dict)}")
+                
+                # You can perform additional actions with the data if needed
+                rect_points = obj.rect
+                # print(f"rect_points : {rect_points} | {type(rect_points)} ")
+                left, top = rect_points.left, rect_points.top
+                width, height = rect_points.width, rect_points.height
+                start_point, end_point = (left, top), ((left+width), (top+height)) # (x, y), (x+w, y+h)
+                frame = cv2.rectangle(frame, start_point, end_point, (0, 255, 0), 3)
+                cv2.imshow("QR Code Scanner", frame)
+                
+                # Store data in SQLite3 database
+                conn = sqlite3.connect('qr_codes.db')
+                qr_cursor = conn.cursor()
+
+                query = f"""
+                SELECT date, hrs, roll_num
+                FROM qr_codes
+                WHERE date = '{date}'
+                AND hrs = '{hrs}'
+                AND roll_num = '{data_dict["roll_num"]}'; """
+                qr_cursor.execute(query)
+                result = qr_cursor.fetchall()
+                # print(f"result : {result}")
+
+                if len(result) == 0:
+                    query = f"""
+                    INSERT INTO qr_codes (data, date, hrs, roll_num, name, class, division) 
+                    VALUES ("{data}", "{date}", "{hrs}", "{data_dict["roll_num"]}", "{data_dict["name"]}", 
+                    "{data_dict["class"]}", "{data_dict["division"]}"); """
+                    qr_cursor.execute(query)
+                    conn.commit()
+                    conn.close()
+                    print(f"{data} inserted !!!")
+                time.sleep(0.5)
+        else:
+            cv2.imshow("QR Code Scanner", frame)
+
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+    cap.release()
+    cv2.destroyAllWindows()
+
 
 # start app
 app = Flask(__name__)
@@ -44,7 +118,6 @@ app.config['QR_FOLDER'] = QR_FOLDER
 
 if not os.path.exists(QR_FOLDER):
     os.makedirs(QR_FOLDER)
-
 
 # routing
 @app.route('/')
@@ -138,34 +211,24 @@ def generate_id():
         return render_template("id_card.html", data_dict=data_dict, photo_path=photo_path)
     return render_template("generate_id.html")
 
-@app.route('/jobtitle', methods=['GET', 'POST'])
-def jobtitle():
+# Flask route to display the stored QR code data
+@app.route('/scan_id')
+def display_qr_codes():
+    conn = sqlite3.connect('qr_codes.db')
+    qr_cursor = conn.cursor()
+    qr_cursor.execute('SELECT * FROM qr_codes')
+    qr_codes = qr_cursor.fetchall()
+    conn.close()
 
-    # data pre-processing
-    df_path = os.path.join('static//style//csv', 'resume.csv') 
-        
-    return render_template('jobtitle.html', flag=False)
-
-@app.route('/resumesimilaritysystem', methods=['GET', 'POST'])
-def resumesimilaritysystem():
-    if request.method == 'POST':
-        # Get the file from post request
-        f = request.files['file']
-        job_decription = request.form.get('job_decription')
-        
-        # make file path
-        file_path = os.path.join('static//style//csv', secure_filename(f.filename)) 
-        # Save the file to ./uploads
-        f.save(file_path)
-    
-        return render_template('rss_result.html', flag=True)
-
-
-    return render_template('rss.html', flag=False)
-
-
+    return render_template('scan_id.html', qr_codes=qr_codes)
 
 if __name__ == '__main__':
+    # Run the QR code reading function in a separate thread
+    import threading
+    qr_code_thread = threading.Thread(target=read_qr_code)
+    qr_code_thread.start()
+
+    # Run the Flask app
     app.run(debug=True) #debug=True
     # app.run(debug=False,host='0.0.0.0', port=5000)
 
