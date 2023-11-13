@@ -113,8 +113,8 @@ def task_reminder() -> None:
             time.sleep(1800) # sleep for 1/2 hrs.
 
         # time.sleep(3600) # sleep for 1 hrs.
-        time.sleep(1800) # sleep for 1/2 hrs.
-        # time.sleep(60*2) # sec * min * hrs
+        # time.sleep(1800) # sleep for 1/2 hrs.
+        time.sleep(60*2) # sec * min * hrs
 
 # Create a tkinter window
 root = tk.Tk()
