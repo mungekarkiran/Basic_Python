@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IP Camera Video Stream</title>
+</head>
+<body>
+    <h1>IP Camera Video Stream</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    <form method="POST" action="/capture">
+        <input type="hidden" id="image_data" name="image_data">
+        <button type="button" id="captureButton">Capture Image</button>
+    </form>
+    <script>
+        const video = document.getElementById('video');
+        const image_data = document.getElementById('image_data');
+        const captureButton = document.getElementById('captureButton');
+
+        captureButton.addEventListener('click', function() {
+            // Create a canvas element and draw the current frame on it
+            const canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            // Convert the canvas content to a data URL (base64 encoded)
+            const imageDataUrl = canvas.toDataURL('image/jpeg');
+
+            // Set the data URL as the value of the hidden input field
+            image_data.value = imageDataUrl;
+
+            // Submit the form to capture the image
+            const form = document.querySelector('form');
+            form.submit();
+        });
+    </script>
+</body>
+</html>
