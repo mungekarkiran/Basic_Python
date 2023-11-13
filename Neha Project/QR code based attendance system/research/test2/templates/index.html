@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Capture</title>
+</head>
+<body>
+    <h1>Webcam Video Stream</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="captureButton">Capture Image</button>
+    <canvas id="canvas" style="display: none;"></canvas>
+
+    <script>
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const captureButton = document.getElementById('captureButton');
+        
+        // Check for webcam access
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                video.srcObject = stream;
+            })
+            .catch(function(err) {
+                console.error('Error accessing the webcam: ', err);
+            });
+
+        // Capture button click event
+        captureButton.addEventListener('click', function() {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+            canvas.toBlob(function(blob) {
+                var formData = new FormData();
+                formData.append('image', blob, 'captured_image.jpg');
+                fetch('/capture', {
+                    method: 'POST',  // Changed to POST
+                    body: formData,
+                })
+                .then(response => response.text())
+                .then(result => {
+                    alert(result);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
