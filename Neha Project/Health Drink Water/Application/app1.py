@@ -75,7 +75,7 @@ def show_notification() -> None:
     time.sleep(5)
     say(msg)
 
-    time.sleep(10)
+    time.sleep(15)
     water_level += 100
     water_level_pct = round((water_level/daily_max_limit)*100, 1)
     msg1 = f"Congratulations!! You successfully achieved {water_level_pct} percent of your daily water drinking target. Till now you have drank a total of {water_level} milliliters of water. Have a nice day dear."
@@ -108,7 +108,7 @@ def task_reminder() -> None:
         # function call lunch notification 
         now = datetime.now()
         hrs = int(now.strftime("%H"))
-        if hrs == 13:
+        if hrs == 1:
             show_lunch_notification() 
             time.sleep(1800) # sleep for 1/2 hrs.
 

@@ -1,0 +1,3 @@
+pyinstaller --onefile -w .\app1.py
+
+pyinstaller --onefile --hidden-import plyer.platforms.win.notification -w .\app1.py

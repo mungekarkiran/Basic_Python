@@ -1,2 +1,4 @@
 plyer
 pyttsx3
+pyinstaller
+auto-py-to-exe
