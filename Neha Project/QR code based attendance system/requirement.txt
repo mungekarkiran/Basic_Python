@@ -22,3 +22,5 @@ PyPDF2
 
 # pip uninstall qrcode
 # pip install qrcode==6.1
+
+pip install --upgrade opencv-python pyzbar zipfile36

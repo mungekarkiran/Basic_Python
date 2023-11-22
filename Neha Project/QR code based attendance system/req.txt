@@ -1,0 +1,16 @@
+numpy
+pandas
+flask
+Pillow
+opencv-python
+qrcode
+qrtools
+pyzbar
+pickle-mixin
+notebook
+matplotlib
+seaborn
+plotly
+scikit-learn
+pickle-mixin
+scipy
