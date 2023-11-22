@@ -7,6 +7,8 @@ from plyer import notification
 import pyttsx3
 import logging
 
+import winsound
+
 # Config the log file
 logging.basicConfig(
     filename='app.log', 
@@ -84,7 +86,7 @@ def show_notification() -> None:
     logging.info(f"user_name : user, water_level : {water_level} milliliters, water_level_pct : {water_level_pct} percent.")
 
 def show_lunch_notification():
-    msg = f"Please have you lunch."
+    msg = f"Please have your lunch."
     notification.notify(
         title = "Stay Healthy and Happy",
         message = msg,
@@ -108,7 +110,16 @@ def task_reminder() -> None:
         # function call lunch notification 
         now = datetime.now()
         hrs = int(now.strftime("%H"))
+        print(f"hrs : {hrs}")
         if hrs == 13:
+            # Set frequency to 2000 Hertz
+            frequency = 2000
+            # Set duration to 1500 milliseconds (1.5 seconds)
+            duration = 1500
+            # Make beep sound on Windows
+            winsound.Beep(frequency, duration)
+            winsound.Beep(frequency, duration)
+            
             show_lunch_notification() 
             time.sleep(1800) # sleep for 1/2 hrs.
 

@@ -1,3 +1,10 @@
 pyinstaller --onefile -w .\app1.py
 
 pyinstaller --onefile --hidden-import plyer.platforms.win.notification -w .\app1.py
+
+Creating a Stand Alone Executable from a Python Script using PyInstaller
+https://www.youtube.com/watch?v=t51bT7WbeCM
+
+Issue with plyer library of python when creating a executable using pyinstaller
+https://stackoverflow.com/questions/56281839/issue-with-plyer-library-of-python-when-creating-a-executable-using-pyinstaller
+
