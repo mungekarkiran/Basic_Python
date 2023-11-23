@@ -3,6 +3,7 @@ import numpy as np
 from pyzbar.pyzbar import decode
 import zipfile
 from io import BytesIO
+import base64
 
 def read_qr_code(image_path):
     # Read the image
@@ -21,7 +22,23 @@ def read_qr_code(image_path):
 
 def extract_zip_from_qr(qr_data, output_path):
     # Convert the base64-encoded string to bytes
-    zip_data = bytes(qr_data, 'utf-8')
+    # zip_data = bytes(qr_data, 'utf-8')
+    # Assuming qr_data is the base64-encoded string
+    # zip_data = base64.b64decode(qr_data)
+    # Assuming qr_data is the base64-encoded string
+    # try:
+    #     # Decode the base64 string with UTF-8 encoding
+    #     zip_data = base64.b64decode(qr_data, validate=True).decode('utf-8')
+    # except UnicodeDecodeError:
+    #     print("Failed to decode base64 data with UTF-8 encoding.")
+    #     # If UTF-8 decoding fails, you may need to try a different encoding based on your data
+    # Assuming qr_data is the base64-encoded string
+    try:
+        # Decode the base64 string to binary data
+        zip_data = base64.b64decode(qr_data, validate=True)
+    except ValueError as e:
+        print("Failed to decode base64 data.", e)
+        # Handle the error appropriately
 
     # Extract the ZIP file content
     with zipfile.ZipFile(BytesIO(zip_data), 'r') as zip_ref:

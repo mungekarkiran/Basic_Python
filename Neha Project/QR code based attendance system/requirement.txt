@@ -24,3 +24,5 @@ PyPDF2
 # pip install qrcode==6.1
 
 pip install --upgrade opencv-python pyzbar zipfile36
+
+https://realpython.com/python-generate-qr-code/

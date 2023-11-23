@@ -1,0 +1,17 @@
+pip install virtualenv
+
+virtualenv
+
+powershell as Admin
+set-executionpolicy remotesigned
+
+venv\Scripts\activate
+
+deactivate
+
+
+pip freeze >> requirments.txt
+
+
+ex. : pip install numpy==1.15.4
+pip install -r .\requirments.txt
