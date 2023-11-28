@@ -8,3 +8,5 @@ scikit-learn
 pickle-mixin
 scipy
 openpyxl
+xlrd >= 2.0.1
+tqdm

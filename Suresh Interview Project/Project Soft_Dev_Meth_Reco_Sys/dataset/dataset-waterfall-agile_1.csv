@@ -1,0 +1,34 @@
+Unnamed: 1,Unnamed: 2,Unnamed: 3
+Parameters,Traditional Software Development Approach,Agile Software Development Approach
+All the Requirements are completely defined early in the SDLC,YES,NO
+Requirements are easily defined and understandable,YES,NO
+Requirements are changed frequently,NO,YES
+Limited User Involvement,YES,NO
+User Participation in All Phases,NO,YES
+Little Domain Knowledge- new to Technology ,YES,NO
+Little experience on Tools,YES,NO
+Training Availability when needed,NO,YES
+Availability of Tester from the start of Project,NO,YES
+Availability of technical leadership skilled professionals,NO,YES
+Small project size,YES,NO
+Medium to Large project size,NO,YES
+Improvement of an Old System,NO,YES
+Stable Funding,YES,NO
+Tight Schedule,NO,YES
+Slower Deployment time,YES,NO
+Faster Delivery,NO,YES
+Reusable Components,NO,YES
+Scarce Resources,YES,NO
+Faster Deploymet times,NO,YES
+Adaptive to Customer needs,NO,YES
+"Continous Feedback
+",NO,YES
+Need of Documentation,YES,NO
+Flexibility,NO,YES
+Continous Feedback,NO,YES
+Adaptive to Customer needs,NO,YES
+Risk Analysis & Management,NO,YES
+Possibility of risk association,YES,NO
+Security,NO,YES
+Less Guarantee of success ,YES,NO
+successful guarateed product delivery on time,NO,YES
