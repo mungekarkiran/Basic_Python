@@ -1,0 +1,36 @@
+Self-Supervised Generalized Zero Shot Learning for Medical Image Classification Using Novel Interpretable Saliency Maps
+https://ieeexplore.ieee.org/abstract/document/9744030
+
+Self-Supervised Generalized Zero Shot Learning for Medical Image Classification Using Novel Interpretable Saliency Maps
+https://pubmed.ncbi.nlm.nih.gov/35349437/#:~:text=In%20many%20real%20world%20medical,recognize%20seen%20and%20unseen%20classes.
+
+sci-hub
+https://sci-hub.ee/
+
+Zero-Shot Learning
+https://paperswithcode.com/task/zero-shot-learning
+
+Introducing Zero Shot Object Tracking
+https://www.youtube.com/watch?v=9YChMNW1Hug
+https://github.com/roboflow/zero-shot-object-tracking
+
+Zero Shot Image Classification with OpenAI CLIP using ZSIC | Build Emoji Classifier No Training Data 		***
+https://www.youtube.com/watch?v=1Xz9P3PkLkw&t=259s
+https://github.com/PrithivirajDamodaran/ZSIC
+https://www.kaggle.com/code/nulldata/emoji-classifier-zero-shot-image-classification/notebook
+
+What is Zero Shot Learning | How Zero-shot Classification model works | NLP | transformers | Code
+https://www.youtube.com/watch?v=PH_eb1udpew
+
+Transfer Learning Using Keras(ResNet-50)| Complete Python Tutorial|
+https://www.youtube.com/watch?v=JcU72smpLJk
+
+Zero-Shot Classification (Learning) with Embeddings
+https://www.youtube.com/watch?v=jgYAhUZL2g8
+
+Zero Shot Classification With HuggingFace Pipeline | ML | NLP | Python
+https://www.youtube.com/watch?v=oOXFqIrDdzQ&t=13s
+
+Zero Shot Classification with HuggingFace Pipeline
+https://www.youtube.com/watch?v=J6D-S9gfgwk
+
