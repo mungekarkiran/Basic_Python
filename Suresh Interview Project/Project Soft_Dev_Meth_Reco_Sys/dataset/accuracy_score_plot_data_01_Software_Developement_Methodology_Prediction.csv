@@ -1,0 +1,6 @@
+classifier,accuracy_score
+LogisticRegression,66.65
+KNeighborsClassifier,94.74
+GaussianNB,67.68
+DecisionTreeClassifier,100.0
+RandomForestClassifier,100.0
