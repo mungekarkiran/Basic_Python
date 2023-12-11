@@ -10,3 +10,6 @@ def voiceChange():
 
 if __name__ == "__main__":
     voiceChange()
+
+
+# https://www.codespeedy.com/how-to-change-voice-in-pyttsx3-in-python-male-to-female/
