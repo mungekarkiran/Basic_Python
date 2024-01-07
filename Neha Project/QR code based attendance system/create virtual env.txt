@@ -1,17 +1,25 @@
+- Installing virtualenv
 pip install virtualenv
 
-virtualenv
+- Check your installation
+virtualenv --version
 
-powershell as Admin
+- Create a virtualenv 
+virtualenv venv
+
+- If any error
+Open powershell as Admin
 set-executionpolicy remotesigned
 
+- Activate it
 venv\Scripts\activate
 
+- Deactivate the virtual environment
 deactivate
 
-
+- Get list of libs
 pip freeze >> requirments.txt
 
-
+- How to install libs
 ex. : pip install numpy==1.15.4
 pip install -r .\requirments.txt
