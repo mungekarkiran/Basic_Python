@@ -1,6 +1,6 @@
 numpy
 pandas
-notebook
+notebook==6.1.5
 matplotlib
 seaborn
 plotly
