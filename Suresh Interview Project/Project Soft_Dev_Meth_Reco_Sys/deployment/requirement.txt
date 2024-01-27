@@ -1,0 +1,23 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scipy
+scikit-learn
+pickle-mixin
+flask
+PyPDF2
+wordcloud
+pyresparser
+yellowbrick
+notebook
+
+python -m spacy download en
+python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_sm
+
+pip install 'PyPDF2<3.0'
+pip install PyPDF2==2.12.1
+
+https://stackoverflow.com/questions/66149878/e053-could-not-read-config-cfg-resumeparser
