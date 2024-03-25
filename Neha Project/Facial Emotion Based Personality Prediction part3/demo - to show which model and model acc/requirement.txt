@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+opencv-python
+flask
+tensorflow
+keras
+werkzeug
+scipy
+scikit-learn
+pickle-mixin
+flask
+notebook
+
+

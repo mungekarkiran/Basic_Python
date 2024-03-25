@@ -10,7 +10,8 @@ import time
 import plotly
 import plotly.express as px
 import plotly.graph_objects as go
-from tensorflow.keras.models import load_model
+# from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 model_file_path = os.path.join('static', 'style', 'model', 'Emotion_model_18_0.636_0.994.h5')
 emotion_model = load_model(model_file_path)
@@ -198,15 +199,21 @@ def emotion():
         categories = list(data.keys())
         values = list(data.values())
 
-        # Create a Plotly bar plot
-        fig = go.Figure([go.Bar(x=categories, y=values)])
+        # # Create a Plotly bar plot
+        # fig = go.Figure([go.Bar(x=categories, y=values)])
 
-        # Update layout if needed
-        fig.update_layout(
-            title='Emotions % Count Plot',
-            xaxis_title='Emotions',
-            yaxis_title='Count'
-        )
+        # # Update layout if needed
+        # fig.update_layout(
+        #     title='Emotions % Count Plot',
+        #     xaxis_title='Emotions',
+        #     yaxis_title='Count'
+        # )
+
+        # # Convert the Plotly figure to HTML
+        # plot_div = fig.to_html(full_html=False)
+
+        # Create the pie chart using Plotly
+        fig = px.pie(names=categories, values=values)
 
         # Convert the Plotly figure to HTML
         plot_div = fig.to_html(full_html=False)
