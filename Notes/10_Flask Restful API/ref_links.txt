@@ -1,0 +1,3 @@
+CodeWithHarry - Creating a Rest API using Flas and Jsonify in Python.
+fake json api - https://jsonplaceholder.typicode.com/
+ProgrammingKnowledge - RESTfull API with Flask.

@@ -1,0 +1,9 @@
+To create virtual env :
+virtualenv -p python3 venv_name 
+OR
+virtualenv venv_name 
+
+To activate newely created Venv :
+venv_name\Scripts\activate
+
+deactivate 
