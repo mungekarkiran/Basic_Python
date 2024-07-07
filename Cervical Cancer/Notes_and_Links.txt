@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/loveall/cervical-cancer-risk-classification/code
+https://www.kaggle.com/code/piadave/cervical-cancer-risk-classification-prediction
+https://www.kaggle.com/code/amolkunde0786/starter-cervical-cancer-risk-76808b31-2
