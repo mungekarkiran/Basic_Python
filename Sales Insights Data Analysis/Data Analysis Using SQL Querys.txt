@@ -37,3 +37,17 @@ on t.market_code = m.markets_code
 where d.year = 2020
 and m.markets_name = 'Chennai'
 ;
+
+select distinct currency from sales.transactions;
+'INR'
+'INR\r'
+
+SELECT count(*) FROM sales.transactions where currency = 'INR\r';
+
+SELECT count(*) FROM sales.transactions where currency = 'INR';
+
+SELECT count(*) FROM sales.transactions where currency = 'USD\r';
+
+SELECT count(*) FROM sales.transactions where currency = 'USD';
+
+SELECT * FROM sales.transactions where currency = 'USD\r' or currency = 'USD';
