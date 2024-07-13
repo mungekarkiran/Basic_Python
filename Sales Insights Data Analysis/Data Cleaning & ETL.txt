@@ -1,0 +1,21 @@
+= Table.SelectRows(sales_markets, each ([zone] <> ""))
+
+= Table.SelectRows(sales_transactions, each ([sales_amount] <> -1 and [sales_amount] <> 0))
+
+= Table.AddColumn(#"Filtered Rows", "Custom_col", each if [currency] = "USD" then 1 else 0)
+
+= Table.AddColumn(#"Filtered Rows", "norma_sales_amount", each if [currency] = "USD" or [currency] = "USD#(cr)" then [sales_amount]*83.52 else [sales_amount])
+
+NOTE : currency rate will change as per year, so use the currency conversion table if available.
+
+[currency] = "USD" or [currency] = "USD#(cr)"
+
+= Table.SelectRows(#"Added Conditional Column o convert USD to INR", each ([currency] = "INR#(cr)" or [currency] = "USD#(cr)"))
+
+-------------------
+
+Measures : 
+
+Revenue = sum('sales transactions'[sales_amount]) 
+
+Sales Qnt = sum('sales transactions'[sales_qty])
