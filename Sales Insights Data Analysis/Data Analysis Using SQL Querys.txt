@@ -1,0 +1,39 @@
+SELECT count(*) FROM sales.customers;
+
+SELECT count(*) FROM sales.transactions;
+
+SELECT * FROM sales.transactions where currency = 'USD';
+
+SELECT * 
+FROM sales.transactions as t
+join sales.date as d
+on t.order_date = d.date
+where d.year = 2020
+;
+
+SELECT sum(t.sales_amount) 
+FROM sales.transactions as t
+join sales.date as d
+on t.order_date = d.date
+where d.year = 2020
+;
+
+SELECT (t.sales_amount) 
+FROM sales.transactions as t
+join sales.date as d
+on t.order_date = d.date
+join sales.markets as m
+on t.market_code = m.markets_code
+where d.year = 2020
+and m.markets_name = 'Chennai'
+;
+
+SELECT distinct product_code, (t.sales_amount) 
+FROM sales.transactions as t
+join sales.date as d
+on t.order_date = d.date
+join sales.markets as m
+on t.market_code = m.markets_code
+where d.year = 2020
+and m.markets_name = 'Chennai'
+;
