@@ -1,2 +1,4 @@
 - Create a virtualenv 
 virtualenv venv_zsl
+
+Add notes
