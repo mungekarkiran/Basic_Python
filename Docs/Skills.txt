@@ -1,0 +1,273 @@
+--------------------------------------
+Data Analytics
+--------------------------------------
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Data Management Deduplication Data Cleansing Advanced Excel Data Collection
+Data ValidationData Research Data Integrity Conditional Formatting Data Extraction Data Mining HLOOKUP Dedupe Pivot Table VLOOKUP Data Analysis Data Profiling Data Processing Data Analytics
+
+Required Candidate profile
+Should have good experience in large amount of data management
+Excellent at Advanced Excel
+Eye for details
+Team worker
+Ability to work independently
+Integrity & professionalism
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Data AnalysisSQL DatabaseEtl ProcessBlob StorageSQL Azure
+bData ManagementStar Schema ModelingData ModelingData AnalyticsSql Data Warehouse
+
+Key Skills
+Computer science Data analysis Coding Analytical Machine learning Agile Natural language processing Monitoring Python Recruitment
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+data analysis
+SQL queriesData validationData modelingtechnical specificationsdatabase queriestechnical documentationETLchange managementPython
+
+### Keywords and Skill Set for ATS-Friendly Resume:
+
+#### Technical Skills:
+1. Python
+2. SQL
+3. ETL
+4. Data Validation
+5. Data Modeling
+6. Alteryx
+7. BI Tools
+8. Data Extract, Transform, Load (ETL)
+9. Complex SQL Queries
+10. Data Analysis
+11. Unit Testing
+12. Database Queries
+13. Technical Documentation
+14. Technical Specifications
+15. Data Workflows
+
+#### Soft Skills:
+1. Communication (Written and Oral)
+2. Project Management
+3. Requirements Gathering
+4. Problem-Solving
+5. Business Process Improvement
+6. Time Management
+7. Team Collaboration
+
+#### Keywords:
+1. Business Requirements
+2. Data Validation
+3. Data Modeling
+4. End-to-End Project Management
+5. ETL Workflows
+6. Alteryx Workflows
+7. BI Reports
+8. Complex SQL Joins
+9. Python Libraries
+10. Unit Tests
+11. Troubleshooting
+12. Technical Documentation
+13. Security Risk Management
+14. Change Management Process
+15. Technology Control
+16. Process Improvement
+17. Data Transformation
+18. Impactful Presentations
+19. Stakeholder Communication
+20. Compensating Controls
+
+#### Example Headline:
+Experienced Data Analyst with Proficiency in Python, SQL, ETL, Alteryx, and BI Tools | Skilled in Data Validation, Data Modeling, and End-to-End Project Management
+
+#### Example Skill Set Section for Resume:
+- **Technical Skills**: Python, SQL, ETL, Data Validation, Data Modeling, Alteryx, BI Tools, Complex SQL Queries, Data Analysis, Unit Testing, Database Queries, Technical Documentation
+- **Soft Skills**: Effective Communication (Written and Oral), Project Management, Requirements Gathering, Problem-Solving, Business Process Improvement, Time Management, Team Collaboration
+
+#### Example Keywords Section for Resume:
+- **Keywords**: Business Requirements, Data Validation, Data Modeling, End-to-End Project Management, ETL Workflows, Alteryx Workflows, BI Reports, Complex SQL Joins, Python Libraries, Unit Tests, Troubleshooting, Technical Documentation, Security Risk Management, Change Management Process, Technology Control, Process Improvement, Data Transformation, Impactful Presentations, Stakeholder Communication, Compensating Controls
+
+This setup will ensure your resume is ATS-friendly and aligns with the job description provided.
+
+
+
+https://www.capgemini.com/in-en/jobs/d0bBuJAB3WcOPeNgaO3b/data-analyst---b/
+Job Description
+Job Responsibilities
+
+•              You will be working as a hands on engineer, developing new features and fixing bugs for an (internal) machine learning model that identifies errors in vehicle telematics.
+
+•              You will be working in an Agile scrum team working on different modules or subsystems of the test framework  
+
+Job Description - Grade Specific
+Mandatory Skills
+
+•              Expert knowledge in Python
+
+•              Expert knowledge in popular machine learning libraries and frameworks, such as TensorFlow, Keras, scikit-learn.
+
+•              Proficient understanding and application of clustering algorithms (e.g., K-means, hierarchical clustering) for grouping similar data points.
+
+•              Expertise in classification algorithms (e.g., decision trees, support vector machines, random forests) for tasks such as image recognition, natural language processing, and recommendation systems.
+
+•              Proficiency in working with databases, both relational and non-relational like MySQL with experience in designing database schemas and optimizing queries for efficient data retrieval.
+
+•              Strong knowledge in areas like Object Oriented Analysis and Design, Multi-threading, Multi process handling and Memory management.
+
+•              Good knowledge model evaluation metrics and techniques.
+
+•              Experience in deploying machine learning models to production environments.
+
+•              Currently working in an Agile scrum team and proficient in using version control systems (e.g., Git) for collaborative development. 
+
+Desired Skills
+
+•             Knowledge of RESTful API design and implementation experience in developing web applications using Flask or Dash
+
+•              Knowledge of automotive communication protocols like SOME-IP, SOME-IP SD, CAN, Flexray, MOST and Ethernet.
+
+•              Excellent communication skills
+
+Skills (competencies)
+
+
+
+Key Skills
+Market analysisData analysisSenior AnalystAnalyticalMarket researchHealthcarepower biContinuous improvementSQLPython
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Financial Planning
+Financial AnalysisPowerBIforecastingfinancial reportingTableaufinancial modelingbudgeting
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Financial Analysis
+ForecastsMISp&LFinancial PlanningBudgetingVariance AnalysisForecasting
+https://www.naukri.com/job-listings-financial-analyst-pharma-company-location-lower-parel-virtual-cfo-mumbai-3-to-7-years-170724010496?src=simJobDeskACP&sid=17214488351299109&xp=2&px=1
+Interested candidates can share your updated resume to gayatri.jadhav@virtual-cfo.in or call/WhatsApp 8369659847
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Power BiData AnalysisDashboard DevelopmentTableauAir Cargo
+Business AnalyticsData MiningProcess Optimization
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+exceltableauPower BiSQL
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Import ExportData collectionData Cleansing
+
+
+
+Job description
+As a Data Analyst, you will harness the power of data to drive informed decision-making and strategic initiatives. Your responsibilities include collecting, cleaning, analyzing, and visualizing data, ensuring its accuracy and relevance to provide actionable insights. Your expertise will transform raw data into meaningful information, supporting business goals and maintaining data governance and compliance.
+
+Key Responsibilities -
+
+As a Data Analyst, you will play a crucial role in driving data-informed decisions and strategies.
+
+Your main responsibilities include:
+
+Gathering accurate and complete data from various sources.
+Cleaning and preprocessing data to prepare it for analysis.
+Applying statistical methods to uncover trends, patterns, and correlations.
+Creating visual representations of data to effectively communicate insights.
+Generating regular and ad-hoc reports summarizing analysis results.
+Writing SQL queries to extract and manipulate data.
+Ensuring compliance with data governance policies and regulations.
+Using analytical skills to address business challenges with data-driven solutions.
+
+This position requires a keen analytical mindset, strong technical skills, and a proactive approach to problem-solving. If you are passionate about leveraging data to drive business success, we encourage you to apply.
+
+
+Skills Required -
+
+Mandatory
+
+1. Data Collection: Gather data from various sources and ensure its accuracy and completeness.
+
+2. Data Cleaning and Preprocessing: Prepare data for analysis by identifying and correcting errors, handling missing data, and transforming data formats as needed.
+
+3. Data Analysis: Apply statistical methods and tools to interpret data and uncover trends, patterns, and correlations.
+
+4. Data Visualization: Create visual representations of data (charts, graphs, dashboards) to communicate findings effectively.
+
+5. Reporting: Generate regular and ad-hoc reports to stakeholders, summarizing analysis results and insights.
+
+6. Database Querying: Write SQL queries to extract and manipulate data from databases.
+
+7. Problem-Solving: Use analytical skills to address business questions and challenges using data-driven approaches.
+
+8. Tools and Technologies: Utilize software tools such as Excel, SQL, Python, R, Tableau, Power BI, etc., to conduct analysis.
+
+9. Data Governance: Ensure compliance with data governance policies and regulations regarding data handling and protection.
+
+Desirable -
+
+1. Data Pipeline Development: Create and maintain efficient pipelines to collect, process, and transfer data.
+
+2. Data Integration: Integrate data from various sources into a cohesive system while ensuring quality and reliability.
+
+3. Database Management: Manage and optimize databases (SQL and NoSQL) for performance and scalability.
+
+4. Data Modeling: Design and maintain data models for databases and data warehouses.
+
+5. ETL (Extract, Transform, Load): Develop processes to transform raw data into usable formats for analysis.
+
+6. Data Architecture Design: Collaborate on designing data systems that meet business needs and support analytics.
+
+7. Data Security: Implement policies and measures to protect data and ensure compliance.
+
+8. Performance Optimization: Monitor and optimize data systems for efficiency and scalability.
+
+9. Data Quality Management: Ensure data accuracy, completeness, and consistency.
+
+10. Cloud Platforms: Utilize cloud services for building and deploying data solutions.
+
+11. Automation and Orchestration: Automate data pipelines and infrastructure management.
+
+Qualifications -
+
+B.Tech in Data Science or related streams from premier institutions
+Experience: Proven expertise 3+ years
+Good communication and interpersonal skills
+Ability to thrive in a fast-paced and high-performing environment.
+Self-starter who can operate autonomously in a dynamic environment by being well organized and detailed oriented.
+Ability to work with cross-functional teams to understand data needs and provide insights to support decision-making.
+Drive to Stay updated with industry trends and advancements in data analysis techniques and tools.
+Able to work with teams, document processes, and provide technical support.
+
+Please note - We are looking for immediate joiner (or max. NP 30 days).
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+ETL SQL Python
+R Power BI Tableau
+
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Power BiTableauData VisualizationData AnalyticsSQL Scripting
+LodBusiness IntelligenceData BlendingKPIBiM CodeChartsPower QuerySQLFiltersData QualityData ManipulationDaxData SecurityDashboardsData WarehousingData ModelingPower Bi DesktopData Reporting
+
+
+
+
+
+
+--------------------------------------
+AI and Machine Learning Engineer
+--------------------------------------
+
+
+
+
+
+
+
+
+
