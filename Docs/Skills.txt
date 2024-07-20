@@ -263,6 +263,88 @@ LodBusiness IntelligenceData BlendingKPIBiM CodeChartsPower QuerySQLFiltersData 
 AI and Machine Learning Engineer
 --------------------------------------
 
+Key Skills
+Computer sciencedeep learningUsageNeural networksService industryMachine learningNatural language processingResearchAWSPython
+
+Key Skills
+Computer science data science Risk assessment Finance Machine learning Manager Technology Commerce Data mining Financial services SQL
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Artificial IntelligenceMachine Learning
+Predictive ModelingRecommender SystemsCnnLogistic RegressionLstmNatural Language ProcessingNeural NetworksML ModelsDeep LearningModel DevelopmentLinear RegressionStatistical ModelingPredictive Analytics
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Ml
+PytorchTensorflowRawsazurePython
+
+ML Delivery Lifecycle
+Data Exploration
+Feature Engineering
+Online&Offline Evaluation of ML Deployment
+Active in ML & AI Community
+Workflow
+Python &Jupyter Notebooks
+R
+Github
+MLflow
+Docker
+Azure/Amazon ML
+Open CV
+Spark/PySpark
+Open AI API
+NLP
+Ci/CD
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Pyspark Azure Feature Engineering MLflow Jupyter Notebook
+Amazon ML Open AI API Github Data Exploration R NLP Docker Spark Python
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+PysparkAws SagemakerMachine LearningPython
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Data Engineering
+REST APIpythonAzure CloudData PipelineKafkaDatabricksAWSazure
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+AzureMLOPSDockerRest APIKubernetes
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+PysparkAws GlueAWS
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Machine LearningAWSPython
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+AI Development
+C#AzureNLPAzure Open AIAImachine learningMicrosoft AIAWSPython
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Artificial intelligence
+GCP MlopsVertex AIData scienceAI EngineerAnalyticsPythonSQL
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+NLPAWS
+deep learningRSagemakerMLOpsDockerNLUNLGmachine learningPythonKubernetes
+
+Key Skills
+Computer scienceCloud computingRSSAnalyticalMachine learningJavascriptForecastingSDLCSQLPython
+
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+Azure DatabricksPython
+RSCALASnowflakeMachine Learning AlgorithmsData VisualizationSQL
 
 
 
