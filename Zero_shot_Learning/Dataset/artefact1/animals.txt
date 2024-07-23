@@ -1,0 +1,95 @@
+antelope
+grizzly
+bear
+grizzly bear
+grizzly_bear
+killer
+whale
+killer whale
+killer_whale
+beaver
+dalmatian
+persian
+cat
+persian cat
+persian_cat
+horse
+german
+shepherd
+german shepherd
+german_shepherd
+blue
+whale
+blue whale
+blue_whale
+siamese
+cat
+siamese cat
+siamese_cat
+skunk
+mole
+tiger
+hippopotamus
+leopard
+moose
+spider
+monkey
+spider monkey
+spider_monkey
+humpback
+whale
+humpback whale
+humpback_whale
+elephant
+gorilla
+ox
+fox
+sheep
+seal
+chimpanzee
+hamster
+squirrel
+rhinoceros
+rabbit
+bat
+giraffe
+wolf
+chihuahua
+rat
+weasel
+otter
+buffalo
+zebra
+giant
+panda
+giant panda
+giant_panda
+deer
+bobcat
+pig
+lion
+mouse
+polar
+bear
+polar bear
+polar_bear
+collie
+walrus
+raccoon
+cow
+dolphin
+african
+alligator
+amphibian
+amur
+ants
+bull
+chimp
+dog
+water
+frog
+goat
+lizard
+orangutan
+rhino
+turtle
