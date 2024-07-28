@@ -1,0 +1,5 @@
+- Create a virtualenv 
+virtualenv venv_multican
+
+Add notes
+Dataset link : https://www.kaggle.com/datasets/obulisainaren/multi-cancer/data
