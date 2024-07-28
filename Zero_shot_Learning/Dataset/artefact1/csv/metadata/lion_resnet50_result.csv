@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\lion\lion_10067.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10068.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10069.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10070.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10071.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10072.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10073.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"
+..\Dataset\artefact1\test\lion\lion_10074.jpg,lion,lion,7,7,"['giant panda', 'tiger', 'pig', 'leopard', 'deer']"

@@ -1,0 +1,11 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10001.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10002.jpg,chimpanzee,gorilla,0,5,"['chimpanzee', 'orangutan', 'rhinoceros', 'elephant', 'panda']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10003.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10004.jpg,chimpanzee,gorilla,0,5,"['chimpanzee', 'orangutan', 'rhinoceros', 'elephant', 'panda']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10005.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10006.jpg,chimpanzee,walrus,0,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10007.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10008.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10009.jpg,chimpanzee,ox,0,10,"['horse', 'goat', 'deer', 'cow', 'bull']"
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10010.jpg,chimpanzee,ox,0,10,"['horse', 'goat', 'deer', 'cow', 'bull']"

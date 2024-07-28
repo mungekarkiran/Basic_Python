@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10196.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10197.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10198.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10199.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10200.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10201.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10202.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"
+..\Dataset\artefact1\test\siamese_cat\siamese+cat_10203.jpg,siamese_cat,siamese_cat,13,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']"

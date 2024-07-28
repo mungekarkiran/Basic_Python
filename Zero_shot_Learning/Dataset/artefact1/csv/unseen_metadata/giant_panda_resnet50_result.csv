@@ -1,0 +1,11 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10001.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10002.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10003.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10004.jpg,giant_panda,monkey,1,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10005.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10006.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10007.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10008.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10009.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']"
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10010.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']"

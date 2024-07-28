@@ -1,0 +1,11 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\unseen\rat\rat_10001.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10002.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10003.jpg,rat,skunk,8,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']"
+..\Dataset\artefact1\unseen\rat\rat_10004.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10005.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10006.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10007.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10008.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10009.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
+..\Dataset\artefact1\unseen\rat\rat_10010.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']"
