@@ -350,6 +350,124 @@ RSCALASnowflakeMachine Learning AlgorithmsData VisualizationSQL
 
 
 
+as a Data Analyst with 3 years of expirience give me key words and skill set which is ATS frindly and acording to below job description "About the job
+This role is for one of the Weekday's clients
+
+We are seeking a detail-oriented and technically proficient Data Analyst to join our team. The ideal candidate will have strong expertise in ETL processes, SQL, Power BI, data migration, and data mapping. This role involves transforming data into actionable insights, ensuring data integrity, and supporting data-driven decision-making within the organization.
+
+Responsibilities
+
+ETL Development and Management: Design, develop, and maintain ETL processes to extract, transform, and load data from various sources into data warehouses or other storage solutions. Ensure data accuracy and consistency throughout the ETL lifecycle.
+Data Analysis and Reporting: Use SQL to query, analyze, and manipulate data to generate meaningful insights. Create and maintain reports and dashboards in Power BI to support business operations and strategic decision-making.
+Data Migration: Plan and execute data migration projects, ensuring seamless data transfer between systems. Validate and verify data post-migration to ensure completeness and accuracy.
+Data Mapping: Develop and maintain data mapping documentation to ensure accurate data integration across systems. Work closely with stakeholders to understand data requirements and establish clear mapping rules.
+Data Quality Assurance: Conduct data quality assessments and implement data cleansing procedures. Identify and resolve data discrepancies and inconsistencies.
+Collaboration and Communication: Work collaboratively with cross-functional teams, including IT, finance, marketing, and operations, to understand data needs and deliver effective solutions. Communicate findings and recommendations to stakeholders clearly and concisely.
+Documentation and Training: Maintain comprehensive documentation of ETL processes, data mappings, and analytical methodologies. Provide training and support to end-users on data tools and best practices.
+
+Required Skills And Qualifications
+
+Education: Bachelor’s degree in Computer Science, Information Technology, Data Science, or a related field. Advanced degrees and certifications are a plus.
+Technical Proficiency:
+ETL: Expertise in designing and implementing ETL processes using tools such as SSIS, Informatica, or Talend.
+SQL: Advanced skills in SQL for querying, data manipulation, and performance optimization.
+Power BI: Proficiency in creating interactive and visually appealing dashboards and reports in Power BI.
+Data Migration: Experience in planning and executing data migration projects.
+Data Mapping: Strong understanding of data mapping concepts and techniques.
+Analytical Skills: Strong analytical and problem-solving abilities. Experience in data analysis, data profiling, and statistical analysis.
+Attention to Detail: High level of accuracy and attention to detail. Ability to identify and resolve data quality issues.
+Communication Skills: Excellent verbal and written communication skills. Ability to present complex data insights in a clear and understandable manner.
+Project Management: Experience managing data projects, including timelines, deliverables, and stakeholder communication.
+
+Preferred Qualifications
+
+Experience with additional data visualization tools such as Tableau or QlikView.
+Knowledge of programming languages such as Python or R for data analysis.
+Familiarity with cloud-based data solutions (e.g., AWS, Azure, Google Cloud).
+Understanding of data governance and compliance standards.
+
+Location: Bengaluru, Mumbai, India (Remote)
+
+Skills: etl,data migration,data mapping,sql,power bi
+"
+
+
+as a Machine Learning Engineer with 3 years of expirience give me key words and skill set which is ATS frindly and acording to below job description "Skills Required- 
+
+• Undergraduate or Graduate degree (MS or PhD) in Computer Science, Engineering, Mathematics or equivalent, specializing in machine learning or a related field
+
+• 3+ years’ experience in supporting development of production-ready solutions leveraging AI
+
+technologies: NLP, Deep Learning, Machine Learning
+
+• Strong hands-on expertise in Python and open source libraries/frameworks/tools such as
+
+NumPy, SciPy, scikit-learn, pandas, matplotlib, spaCy, NLTK, jupyter, anaconda, transformers,
+
+etc.
+
+• Experience with deep learning frameworks such as TensorFlow, Keras, PyTorch
+
+• Experience in applying deep learning to NLP
+
+• Computer vision modeling a plus
+
+• Experience with designing, building, and optimizing data and model training pipelines
+
+• Experience in SageMaker or Azure ML Studio a plus
+
+• Experience with cloud-based platforms (AWS or Azure) for solution delivery
+
+• Experience working with agile and Software Development Lifecycle tools (e.g. JIRA, Confluence, Git) and Test-Driven Development (TDD)
+
+"
 
 
 
+
+
+projectmy21@gmail.com
+MyProject@2021
+
+sih2018iob@gmail.com
+MyProject@3994
+
+KKM.project1@gmail.com
+Kiran@3994
+
+jinaljain1992@gmail.com
+Jinal@1992
+
+projectnamrata@gmail.com
+Myproject@11
+
+
+
+Prometric
+Data Analyst
+If you are interested in the opportunity, please email your resume along with the below mentioned details at indiahr@prometric.com
+
+Current Location:
+Current CTC:
+Expected CTC:
+Notice Period:
+
+
+
+Method 1:
+Model Architecture:
+A custom CNN model is defined with several Conv2D layers, BatchNormalization, and Dropout layers to prevent overfitting and ensure better generalization.
+A Squeeze-and-Excitation (SE) block is added to recalibrate channel-wise feature responses, enhancing the model's representational power.
+
+Loss Optimization:
+An exponential decay learning rate schedule is implemented to adjust the learning rate during training.
+Callbacks like ModelCheckpoint and ReduceLROnPlateau are used to save the best model and reduce learning rate when the model stops improving.
+
+Method 2:
+Model Architecture:
+A custom CNN model is defined with several Conv2D layers, BatchNormalization, and Dropout layers to prevent overfitting and ensure better generalization.
+An attention mechanism is added to help the model focus on the most relevant parts of the input images.
+
+Loss Optimization:
+An exponential decay learning rate schedule is implemented to adjust the learning rate during training.
+Callbacks like ModelCheckpoint and ReduceLROnPlateau are used to save the best model and reduce learning rate when the model stops improving.
