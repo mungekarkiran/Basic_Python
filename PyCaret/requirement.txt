@@ -1,1 +1,2 @@
 pycaret
+notebook==6.5.6
