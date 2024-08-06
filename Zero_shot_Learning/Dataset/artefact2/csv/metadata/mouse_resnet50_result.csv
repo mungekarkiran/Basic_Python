@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\mouse\mouse_10097.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10098.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10099.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10100.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10101.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10102.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10103.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\mouse\mouse_10104.jpg,mouse,mouse,9,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"

@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\ox\ox_10119.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10120.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10121.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10122.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10123.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10124.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10125.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
+..\Dataset\artefact1\test\ox\ox_10126.jpg,ox,ox,10,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"
