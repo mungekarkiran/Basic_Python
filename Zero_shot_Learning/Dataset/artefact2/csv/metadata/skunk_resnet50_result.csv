@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\skunk\skunk_10068.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10069.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10070.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10071.jpg,skunk,monkey,14,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
+..\Dataset\artefact1\test\skunk\skunk_10072.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10073.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10074.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
+..\Dataset\artefact1\test\skunk\skunk_10075.jpg,skunk,skunk,14,14,"['weasel', 'raccoon', 'mole', 'lizard', 'rat']"
