@@ -1,0 +1,9 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words
+..\Dataset\artefact1\test\walrus\walrus_10182.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10183.jpg,walrus,mouse,17,9,"['pig', 'cow', 'spider monkey', 'spider', 'bull']"
+..\Dataset\artefact1\test\walrus\walrus_10184.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10185.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10186.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10187.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10188.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
+..\Dataset\artefact1\test\walrus\walrus_10189.jpg,walrus,walrus,17,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"

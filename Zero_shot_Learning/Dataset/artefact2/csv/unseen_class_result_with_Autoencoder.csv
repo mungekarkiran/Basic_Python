@@ -1,0 +1,101 @@
+image_path,class_name,pred_image_label,act_label,pred_label,similar_words,predicted_right,actual_class,predicted_class
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10001.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10002.jpg,chimpanzee,gorilla,0,5,"['chimpanzee', 'orangutan', 'rhinoceros', 'elephant', 'panda']",True,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10003.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10004.jpg,chimpanzee,gorilla,0,5,"['chimpanzee', 'orangutan', 'rhinoceros', 'elephant', 'panda']",True,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10005.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10006.jpg,chimpanzee,walrus,0,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",True,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10007.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10008.jpg,chimpanzee,monkey,0,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,0,0
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10009.jpg,chimpanzee,ox,0,10,"['horse', 'goat', 'deer', 'cow', 'bull']",False,0,3
+..\Dataset\artefact1\unseen\chimpanzee\chimpanzee_10010.jpg,chimpanzee,ox,0,10,"['horse', 'goat', 'deer', 'cow', 'bull']",False,0,2
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10001.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10002.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10003.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10004.jpg,giant_panda,monkey,1,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,1,6
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10005.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",False,1,4
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10006.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10007.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10008.jpg,giant_panda,bear,1,0,"['bear', 'grizzly bear', 'polar bear', 'grizzly', 'lion']",False,1,1
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10009.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",False,1,0
+..\Dataset\artefact1\unseen\giant_panda\giant+panda_10010.jpg,giant_panda,skunk,1,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",False,1,0
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10001.jpg,hippopotamus,killer_whale,2,6,"['grizzly_bear', 'persian_cat', 'german_shepherd', 'blue_whale', 'siamese_cat']",False,2,1
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10002.jpg,hippopotamus,walrus,2,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,2,7
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10003.jpg,hippopotamus,walrus,2,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,2,0
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10004.jpg,hippopotamus,ox,2,10,"['horse', 'goat', 'deer', 'cow', 'bull']",False,2,3
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10005.jpg,hippopotamus,ox,2,10,"['horse', 'goat', 'deer', 'cow', 'bull']",False,2,0
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10006.jpg,hippopotamus,rhinoceros,2,12,"['elephant', 'gorilla', 'giraffe', 'hippopotamus', 'rhino']",True,2,2
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10007.jpg,hippopotamus,walrus,2,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,2,3
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10008.jpg,hippopotamus,walrus,2,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,2,4
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10009.jpg,hippopotamus,rhinoceros,2,12,"['elephant', 'gorilla', 'giraffe', 'hippopotamus', 'rhino']",True,2,2
+..\Dataset\artefact1\unseen\hippopotamus\hippopotamus_10010.jpg,hippopotamus,walrus,2,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,2,6
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10001.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,7
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10002.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,8
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10003.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,1
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10004.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,4
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10005.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,2
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10006.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,7
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10007.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,1
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10008.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,1
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10009.jpg,humpback_whale,killer_whale,3,6,"['grizzly_bear', 'persian_cat', 'german_shepherd', 'blue_whale', 'siamese_cat']",False,3,0
+..\Dataset\artefact1\unseen\humpback_whale\humpback+whale_10010.jpg,humpback_whale,blue_whale,3,1,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'siamese_cat']",False,3,4
+..\Dataset\artefact1\unseen\leopard\leopard_10001.jpg,leopard,tiger,4,16,"['killer', 'killer whale', 'leopard', 'bull', 'lion']",True,4,4
+..\Dataset\artefact1\unseen\leopard\leopard_10002.jpg,leopard,bobcat,4,2,"['raccoon', 'walrus', 'squirrel', 'chihuahua', 'frog']",False,4,7
+..\Dataset\artefact1\unseen\leopard\leopard_10003.jpg,leopard,bobcat,4,2,"['raccoon', 'walrus', 'squirrel', 'chihuahua', 'frog']",False,4,9
+..\Dataset\artefact1\unseen\leopard\leopard_10004.jpg,leopard,bobcat,4,2,"['raccoon', 'walrus', 'squirrel', 'chihuahua', 'frog']",False,4,2
+..\Dataset\artefact1\unseen\leopard\leopard_10005.jpg,leopard,bobcat,4,2,"['raccoon', 'walrus', 'squirrel', 'chihuahua', 'frog']",False,4,9
+..\Dataset\artefact1\unseen\leopard\leopard_10006.jpg,leopard,tiger,4,16,"['killer', 'killer whale', 'leopard', 'bull', 'lion']",True,4,4
+..\Dataset\artefact1\unseen\leopard\leopard_10007.jpg,leopard,bobcat,4,2,"['raccoon', 'walrus', 'squirrel', 'chihuahua', 'frog']",False,4,9
+..\Dataset\artefact1\unseen\leopard\leopard_10008.jpg,leopard,tiger,4,16,"['killer', 'killer whale', 'leopard', 'bull', 'lion']",True,4,4
+..\Dataset\artefact1\unseen\leopard\leopard_10009.jpg,leopard,tiger,4,16,"['killer', 'killer whale', 'leopard', 'bull', 'lion']",True,4,4
+..\Dataset\artefact1\unseen\leopard\leopard_10010.jpg,leopard,tiger,4,16,"['killer', 'killer whale', 'leopard', 'bull', 'lion']",True,4,4
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10001.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10002.jpg,persian_cat,mouse,5,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,5,0
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10003.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10004.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10005.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10006.jpg,persian_cat,mouse,5,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,5,0
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10007.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10008.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10009.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\persian_cat\persian+cat_10010.jpg,persian_cat,siamese_cat,5,13,"['grizzly_bear', 'killer_whale', 'persian_cat', 'german_shepherd', 'blue_whale']",True,5,5
+..\Dataset\artefact1\unseen\pig\pig_10001.jpg,pig,walrus,6,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,6,4
+..\Dataset\artefact1\unseen\pig\pig_10002.jpg,pig,mouse,6,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,6,6
+..\Dataset\artefact1\unseen\pig\pig_10003.jpg,pig,rabbit,6,11,"['goat', 'deer', 'horse', 'bull', 'pig']",True,6,6
+..\Dataset\artefact1\unseen\pig\pig_10004.jpg,pig,mouse,6,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,6,6
+..\Dataset\artefact1\unseen\pig\pig_10005.jpg,pig,skunk,6,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",False,6,0
+..\Dataset\artefact1\unseen\pig\pig_10006.jpg,pig,cow,6,3,"['bull', 'goat', 'sheep', 'deer', 'blue whale']",False,6,5
+..\Dataset\artefact1\unseen\pig\pig_10007.jpg,pig,cow,6,3,"['bull', 'goat', 'sheep', 'deer', 'blue whale']",False,6,4
+..\Dataset\artefact1\unseen\pig\pig_10008.jpg,pig,mouse,6,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,6,6
+..\Dataset\artefact1\unseen\pig\pig_10009.jpg,pig,mouse,6,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,6,6
+..\Dataset\artefact1\unseen\pig\pig_10010.jpg,pig,cow,6,3,"['bull', 'goat', 'sheep', 'deer', 'blue whale']",False,6,5
+..\Dataset\artefact1\unseen\raccoon\raccoon_10001.jpg,raccoon,monkey,7,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,7,9
+..\Dataset\artefact1\unseen\raccoon\raccoon_10002.jpg,raccoon,skunk,7,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",True,7,7
+..\Dataset\artefact1\unseen\raccoon\raccoon_10003.jpg,raccoon,mouse,7,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,7,2
+..\Dataset\artefact1\unseen\raccoon\raccoon_10004.jpg,raccoon,squirrel,7,15,"['chimpanzee', 'frog', 'raccoon', 'monkey', 'chimp']",True,7,7
+..\Dataset\artefact1\unseen\raccoon\raccoon_10005.jpg,raccoon,mouse,7,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,7,1
+..\Dataset\artefact1\unseen\raccoon\raccoon_10006.jpg,raccoon,monkey,7,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,7,5
+..\Dataset\artefact1\unseen\raccoon\raccoon_10007.jpg,raccoon,mouse,7,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,7,2
+..\Dataset\artefact1\unseen\raccoon\raccoon_10008.jpg,raccoon,monkey,7,8,"['spider monkey', 'squirrel', 'dog', 'lizard', 'cat']",False,7,5
+..\Dataset\artefact1\unseen\raccoon\raccoon_10009.jpg,raccoon,skunk,7,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",True,7,7
+..\Dataset\artefact1\unseen\raccoon\raccoon_10010.jpg,raccoon,mouse,7,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",False,7,4
+..\Dataset\artefact1\unseen\rat\rat_10001.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10002.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10003.jpg,rat,skunk,8,14,"['alligator', 'raccoon', 'otter', 'lizard', 'hamster']",False,8,5
+..\Dataset\artefact1\unseen\rat\rat_10004.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10005.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10006.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10007.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10008.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10009.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\rat\rat_10010.jpg,rat,mouse,8,9,"['rat', 'alligator', 'frog', 'lizard', 'pig']",True,8,8
+..\Dataset\artefact1\unseen\seal\seal_10001.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,6
+..\Dataset\artefact1\unseen\seal\seal_10002.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,7
+..\Dataset\artefact1\unseen\seal\seal_10003.jpg,seal,rhinoceros,9,12,"['elephant', 'gorilla', 'giraffe', 'hippopotamus', 'rhino']",False,9,0
+..\Dataset\artefact1\unseen\seal\seal_10004.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,6
+..\Dataset\artefact1\unseen\seal\seal_10005.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,4
+..\Dataset\artefact1\unseen\seal\seal_10006.jpg,seal,rhinoceros,9,12,"['elephant', 'gorilla', 'giraffe', 'hippopotamus', 'rhino']",False,9,1
+..\Dataset\artefact1\unseen\seal\seal_10007.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,5
+..\Dataset\artefact1\unseen\seal\seal_10008.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,0
+..\Dataset\artefact1\unseen\seal\seal_10009.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,2
+..\Dataset\artefact1\unseen\seal\seal_10010.jpg,seal,walrus,9,17,"['raccoon', 'frog', 'squirrel', 'chimpanzee', 'bobcat']",False,9,3
