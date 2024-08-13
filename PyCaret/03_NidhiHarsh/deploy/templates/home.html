@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- https://source.unsplash.com/720x600/?paper,pen -->
+<!-- https://source.unsplash.com/1080x720/?job,work,happy -->
+<!-- main body -->
+<center>
+    <h3>Detection of Phishing Sites</h3>
+    <h1>Upload CSV File</h1>
+</center>
+<br>
+<div class="container"> 
+    <div class="row">
+        <div class="col">
+            <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".csv">
+                <input type="submit" value="Upload">
+            </form>
+            <!-- button -->
+            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        </div>
+    </div>
+
+<!-- script -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+{% endblock %}
