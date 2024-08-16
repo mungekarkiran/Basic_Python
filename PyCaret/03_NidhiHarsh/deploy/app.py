@@ -1,5 +1,7 @@
 # lib's
 from flask import Flask, render_template, request, jsonify, redirect, url_for
+from collections import Counter
+import glob
 import numpy as np
 import pandas as pd
 import pickle
@@ -19,6 +21,54 @@ except Exception as e:
     print('Table idpass is NOT created : \n',e)
 
 # function's
+
+def load_model(pkl_file_path):
+    with open(pkl_file_path, 'rb') as file:
+        model = pickle.load(file)
+        # model = joblib.load(pkl_file_path)
+    return model
+
+def predict_with_model(model, input_data, class_names):
+    # Make a prediction
+    # predicted_output = model.predict([input_data])
+    predicted_proba = model.predict_proba([input_data])[0]
+    predicted_class_index = np.argmax(predicted_proba)
+    predicted_class_name = class_names[predicted_class_index]
+    predicted_class_probability = predicted_proba[predicted_class_index]
+
+    return {
+        "class_name": predicted_class_name,
+        "probability": predicted_class_probability
+    }
+
+def predict_with_voting(class_names, probabilities):
+    # Create a Counter object to count occurrences of each element
+    element_counter = Counter(class_names)
+    
+    # Find the element with the maximum count
+    most_common_element, count = element_counter.most_common(1)[0]
+    
+    # Find average of probabilities
+    avg_probability = np.mean(probabilities)
+    
+    return most_common_element, avg_probability
+
+def multimodel_voting(input_data, op_val=None):
+    model_class_names, model_probabilities = [], []
+
+    for md in glob.glob(os.path.join('models', '*')):
+    
+        pkl_file_path = md # 'path_to_your_model.pkl'
+        class_names = ['unsafe', 'safe'] # [-1, 1] # Update with your actual class names
+
+        model = load_model(pkl_file_path)
+        result = predict_with_model(model, input_data, class_names)
+        model_class_names.append(result['class_name'])
+        model_probabilities.append(result['probability'])
+
+    result_class, result_probability = predict_with_voting(model_class_names, model_probabilities)
+        
+    return result_class, round(result_probability*100, 2)
 
 # start app
 app = Flask(__name__)
@@ -65,6 +115,9 @@ def myreg():
             print('Reg. Exception : ',e,'\n')
             return render_template('index.html')
 
+@app.route('/home')
+def home():
+    return render_template('home.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
@@ -83,9 +136,20 @@ def upload_file():
         
         # Read the CSV file into a pandas DataFrame
         df = pd.read_csv(file_path)
+        input_df = df.reset_index(drop=True)
+        # print(input_df)
+        result_op, prob_op = [], []
+        for index in range(len(input_df)):
+            
+            res, prob = multimodel_voting(input_df.iloc[index, :], op_val=None)
+            result_op.append(res) 
+            prob_op.append(prob)
         
+        input_df['prediction'] = result_op
+        input_df['probability'] = prob_op
+
         # Convert the DataFrame to HTML table
-        table = df.to_html(classes='table table-striped', index=False)
+        table = input_df.to_html(classes='table table-striped', index=False)
         
         # Render the result.html page with the table
         return render_template('result.html', table=table)
