@@ -1,0 +1,16 @@
+datetime, temp,	dew, humidity, windspeed and solarenergy
+
+
+plt.plot(data['datetime'].iloc[:240], data['temp'].iloc[:240])
+plt.xlabel("X-axis")  # add X-axis label
+plt.ylabel("Y-axis")  # add Y-axis label
+plt.title("temp plot")  # add title
+plt.xticks(rotation=70)
+plt.show()
+
+plt.plot(data['datetime'].iloc[:48], data['temp'].iloc[:48])
+plt.xlabel("X-axis")  # add X-axis label
+plt.ylabel("Y-axis")  # add Y-axis label
+plt.title("temp plot")  # add title
+plt.xticks(rotation=70)
+plt.show()
