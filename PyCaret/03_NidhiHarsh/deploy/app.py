@@ -59,7 +59,7 @@ def multimodel_voting(input_data, op_val=None):
     for md in glob.glob(os.path.join('models', '*')):
     
         pkl_file_path = md # 'path_to_your_model.pkl'
-        class_names = ['unsafe', 'safe'] # [-1, 1] # Update with your actual class names
+        class_names = ['Phishing', 'Lagitimate'] # [-1, 1] # Update with your actual class names
 
         model = load_model(pkl_file_path)
         result = predict_with_model(model, input_data, class_names)
