@@ -1,0 +1,41 @@
+Papers:
+
+Automatic detection of cancer metastasis in lymph node using deep learning
+https://www.sciencedirect.com/science/article/abs/pii/S1746809422010187
+
+Prediction of lymphoma response to CAR T cells by deep learning-based image analysis
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282573
+
+A Novel Deep Learning Approach for Accurate Cancer Type and Subtype Identification
+https://ieeexplore.ieee.org/abstract/document/10579976
+
+Multiple Types of Cancer Classification Using CT/MRI Images Based on Learning Without Forgetting Powered Deep Learning Models
+https://ieeexplore.ieee.org/document/10029356
+10.1109/ACCESS.2023.3240443
+
+
+Dataset:
+
+Histopathologic Cancer Detection
+https://www.kaggle.com/c/histopathologic-cancer-detection/data?select=train_labels.csv
+
+Malignant Lymphoma Classification
+https://www.kaggle.com/datasets/andrewmvd/malignant-lymphoma-classification/data
+
+
+
+
+Lymph / Malignant Lymphoma Classification
+
+positive label        negative label
+tumor tissue
+
+Malignant Lymphoma Classification
+
+CLL (chronic lymphocytic leukemia)
+FL (follicular lymphoma)
+MCL (mantle cell lymphoma)
+
+
+
+Lymphoma Classification
