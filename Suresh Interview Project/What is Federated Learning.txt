@@ -1,0 +1,49 @@
+What is Federated Learning
+
+https://www.youtube.com/watch?v=k3V-WAUuR9U&list=PLNvQn5fLVQdhbTZOviyGgD2FZc5UDqiMx&index=16
+
+https://www.youtube.com/watch?v=3GIb707Yj8k
+
+https://www.youtube.com/watch?v=coDbnxWvd2U
+
+https://www.youtube.com/watch?v=Ylmkz5Xlw_g
+
+https://www.youtube.com/watch?v=6sz5sUt-8Is
+
+https://www.youtube.com/watch?v=CvO6T1UMmOo
+
+https://www.youtube.com/watch?v=xZQL-i3SnFU
+https://github.com/ramsRahim/Federated-Learning
+
+https://www.youtube.com/watch?v=zYb4NuuMpiU 		*****
+https://github.com/SyedUmaidAhmed/Federated-and-Split-Learning-on-Edge/tree/main/Federated%20Learning/Federated-Learning-and-Split-Learning-with-raspberry-pi-master/ensemble_learning/ecg
+
+https://www.youtube.com/watch?v=NK1EQQd-vv8
+
+https://www.youtube.com/watch?v=RbZDYc_Cvsk
+
+https://www.youtube.com/watch?v=HW0qqNE_w44
+
+
+https://www.youtube.com/watch?v=bGuG57PTZyw
+
+
+
+
+
+https://www.youtube.com/watch?v=Rek_BTlBZ8c
+https://www.youtube.com/watch?v=kFyQdaPQinc
+
+https://www.youtube.com/watch?v=89BGjQYA0uE
+
+https://www.youtube.com/watch?v=X8YYWunttOY
+
+https://www.youtube.com/watch?v=yQ2PVz5YwS4
+
+
+
+3000+ Research Datasets For Machine Learning Researchers By Papers With Code
+https://www.youtube.com/watch?v=tpHs8ROqMMs
+
+PerceptiLabs-The Best Machine Learning Visual Modeling Tool-Train Deep Learning Neural Network
+https://www.youtube.com/watch?v=CGHDf3EU1Bo
