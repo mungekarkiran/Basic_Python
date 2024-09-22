@@ -14,3 +14,12 @@ plt.ylabel("Y-axis")  # add Y-axis label
 plt.title("temp plot")  # add title
 plt.xticks(rotation=70)
 plt.show()
+
+
+# setting the dimensions of the plot
+# fig, ax = plt.subplots(figsize=(40, 5))
+# sns.set_theme(rc={'figure.figsize':(10,15)})
+
+# plt.figure(figsize=(5,15))
+
+# fig.savefig('example.png')
