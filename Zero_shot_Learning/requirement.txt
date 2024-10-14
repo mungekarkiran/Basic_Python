@@ -20,3 +20,4 @@ transformers==4.38.2
 gensim==4.3.2
 nltk==3.8.1
 h5py
+split_folders
