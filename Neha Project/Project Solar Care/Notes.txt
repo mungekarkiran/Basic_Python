@@ -23,3 +23,24 @@ plt.show()
 # plt.figure(figsize=(5,15))
 
 # fig.savefig('example.png')
+
+
+
+
+
+
+# ax = sns.lineplot(data=df.iloc[:100], x="datetime", y="temp", hue="label", palette="Set1") # hue="label" style="label"
+# # plt.title('')
+# # plt.xlabel('Classifier')
+# # plt.ylabel('Accuracy Score')
+# ax.tick_params(axis='x', rotation=90)
+# plt.show()
+
+
+
+
+#     predictions = model.forecast(steps=len(test_data))
+#     mae = mean_absolute_error(test_data, predictions)
+#     print(f"{model_type} Model Mean Absolute Error (MAE):", mae)
+#     return model, predictions, mae
+
