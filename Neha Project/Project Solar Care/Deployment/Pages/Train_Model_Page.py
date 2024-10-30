@@ -65,7 +65,7 @@ def home_page():
     st.write("Welcome to the Solar Panel Care Application!")
 
     # File upload
-    uploaded_file = st.file_uploader("Upload a CSV file with temperature, dew, and humidity data")
+    uploaded_file = st.file_uploader("Upload a CSV file with datetime, temperature, dew, and humidity data")
 
     if uploaded_file:
         data = pd.read_csv(uploaded_file)
