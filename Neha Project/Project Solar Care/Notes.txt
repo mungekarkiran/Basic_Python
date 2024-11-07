@@ -44,3 +44,6 @@ plt.show()
 #     print(f"{model_type} Model Mean Absolute Error (MAE):", mae)
 #     return model, predictions, mae
 
+
+
+streamlit run app.py
