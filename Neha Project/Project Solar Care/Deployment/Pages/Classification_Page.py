@@ -108,7 +108,7 @@ def classification_page():
 
     with col3:
         if st.button("Restart"):
-            # st.write("Button 3 clicked")
+            # st.write("Restart")
             ...
 
     
