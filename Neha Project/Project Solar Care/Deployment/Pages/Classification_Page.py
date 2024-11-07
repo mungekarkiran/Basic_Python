@@ -80,7 +80,10 @@ def classification_page():
                             # Make prediction
                             prediction = classification_model.predict([data1[:-1]])
                             if prediction[0] == 0:
-                                arduino.write(b'0')
+                                if data1[-1] < 575:
+                                    arduino.write(b'0')
+                                else:
+                                    arduino.write(b'1')
                             else:
                                 arduino.write(b'1')
                                 st.write(f"Signal send : {data1}")
