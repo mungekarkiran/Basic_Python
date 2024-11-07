@@ -1,7 +1,7 @@
 // Include the Servo library 
 #include <Servo.h> 
 // Declare the Servo pin 
-int servoPin = 3; 
+int servoPin = 4; 
 // Create a servo object 
 Servo Servo1; 
 int pos = 0;    // variable to store the servo position
@@ -24,7 +24,7 @@ void setup() {
   
   randomSeed(analogRead(0));
   
-  Serial.println("Sending values: ");
+  // Serial.println("Sending values: ");
 }
 
 void loop() {
@@ -41,7 +41,9 @@ void loop() {
   Serial.print(" | ");
   Serial.print(randNumber_dew);
   Serial.print(" | ");
-  Serial.println(randNumber_humidity);
+  Serial.print(randNumber_humidity);
+  Serial.print(" | ");
+  Serial.println(randNumber_dust);
   
   // read command
   if (Serial.available() > 0) {
@@ -51,28 +53,22 @@ void loop() {
       for (pos = 0; pos <= 5; pos += 1){
         // Make servo go to 0 degrees 
         Servo1.write(0); 
-        delay(10); 
-        // Make servo go to 90 degrees 
+        delay(500); 
         Servo1.write(90); 
-        delay(10); 
-        // Make servo go to 180 degrees 
+        delay(500);
         Servo1.write(180); 
-        delay(10);
-        // Make servo go to 90 degrees 
-        Servo1.write(90); 
-        delay(10); 
-        // Make servo go to 0 degrees 
+        delay(500); 
         Servo1.write(0); 
-        delay(10); 
+        delay(500);
+        
       } 
     } else if (command == '0') {
       digitalWrite(ledPin, LOW); // Turn LED off
-      Servo1.write(0); 
-      delay(10); 
+
     }
   }
 
-  delay(1000*5);
+  delay(5000);
 
 
 }

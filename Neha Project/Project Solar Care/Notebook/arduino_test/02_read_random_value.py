@@ -36,7 +36,7 @@ def read_sensor_data():
 try:
     while True:
         read_sensor_data()
-        time.sleep(.01)  # Adjust as needed for your application
+        time.sleep(5)  # Adjust as needed for your application
 except KeyboardInterrupt:
     print("\nProgram interrupted by user.")
 
