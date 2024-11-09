@@ -16,3 +16,4 @@ plotly
 h5py
 streamlit
 pyserial
+statsmodels
