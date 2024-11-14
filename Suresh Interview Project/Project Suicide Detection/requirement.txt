@@ -17,3 +17,5 @@ plotly
 h5py
 streamlit
 statsmodels
+nltk 
+emoji
