@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
 </head>
+
 <body>
-    <header class="header">
-        <img src="images/logo.png" alt="Logo" class="logo">
+  <!-- Navbar -->
+  <header class="header">
+    <img src="images/logo.png" alt="Logo" class="logo">
 
-        <na class="navbar">
-            <ul class="navbar-list">
-                <li><a href="#" class="navbar-link home-link">Home</a></li>
-                <li><a href="" class="navbar-link about-link">About</a></li>
-                <li><a href="" class="navbar-link service-link">Services</a></li>
-                <li><a href="" class="navbar-link portfolio-link">Portfolio</a></li>
-                <li><a href="" class="navbar-link contact-link">Contact</a></li>
-                
-            </ul>
-        </na>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a href="#" class="navbar-link home-link">Home</a></li>
+        <li><a href="" class="navbar-link about-link">About</a></li>
+        <li><a href="" class="navbar-link service-link">Services</a></li>
+        <li><a href="" class="navbar-link portfolio-link">Portfolio</a></li>
+        <li><a href="" class="navbar-link contact-link">Contact</a></li>
 
-    </header>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Our Main Hero Section Start -->
+  <main>
+    <section class="section-hero section">
+      <div class="container grid grid-two-column">
+        <div class="section-hero-data">
+          <p class="hero-top-data">this is me</p>
+          <h1 class="hero-heading">thapa technical</h1>
+          <p class="hero-para">
+            I'm vinod bahadur thapa. A Full stack Developer, youtuber and
+            freelancer. A Full stack Developer, youtuber and freelancer.
+          </p>
+          <div>
+            <a href="#" class="btn hireme-btn">Hire me</a>
+          </div>
+        </div>
+        <!-- hero section right side  -->
+        <div class="section-hero-image">
+          <picture>
+            <!-- <source srcset="images/hero.webp" type="image/webp" />
+            <source srcset="images/hero-min.jpg" type="image/jpg" /> -->
+            <img src="images/hero.jpg" alt="this is me thapa technical" class="hero-img" />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
 </body>
+
 </html>
