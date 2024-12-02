@@ -13,6 +13,8 @@
     --heading: rgb(0 10 45);
     --para: #777777;
     --para-tint: #e4e4e4;
+    --white: #fff;
+    --black: #212529;
     --third: #fff;
     --helper: #8490ff;
     --helper-tint: #f3f4ff;
@@ -54,4 +56,44 @@ a {
 
 li {
     list-style: none;
+}
+
+/* ===========================================
+Header Section Start
+======================================= */
+
+.header {
+    padding: 0 4.8rem;
+    height: 10rem; 
+    background: var(--bg);
+    /* background: red; */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header .logo {
+    height: 3rem;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--black);
+    transition: color 0.3s linear;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: var(--helper);
 }
