@@ -3,3 +3,4 @@ virtualenv venv_multican
 
 Add notes
 Dataset link : https://www.kaggle.com/datasets/obulisainaren/multi-cancer/data
+https://www.kaggle.com/datasets/andrewmvd/malignant-lymphoma-classification?resource=download
