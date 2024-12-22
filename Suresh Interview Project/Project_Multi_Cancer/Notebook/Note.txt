@@ -113,3 +113,24 @@ You can show the novelty and research contribution of your model in various ways
 It's essential to position your model as solving specific limitations of existing approaches and proving its efficacy through theoretical justification and empirical results.
 
 
+--------------------------------------------------------------
+
+Install 
+
+Step 1: Uninstall and Reinstall pydot and graphviz
+First, make sure that pydot and graphviz are properly installed and compatible. You can uninstall and reinstall both packages using the following commands:
+
+pip uninstall pydot graphviz
+pip install pydot==1.4.2 graphviz==0.16
+
+Step 2: Install Graphviz System Dependency
+For the pydot and graphviz Python libraries to work, you also need to install Graphviz on your system. Follow the steps based on your operating system:
+
+For Windows:
+
+Download and install Graphviz from Graphviz's official website.
+During installation, make sure to check the box that adds Graphviz to your system's PATH.
+
+https://graphviz.org/download/
+windows_10_cmake_Release_graphviz-install-12.1.0-win64
+
