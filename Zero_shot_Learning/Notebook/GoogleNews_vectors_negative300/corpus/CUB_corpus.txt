@@ -1,101 +1,101 @@
-Acadian Flycatcher
-American Crow
-American Pipit
-American Redstart
-Anna Hummingbird
-Artic Tern
-Baird Sparrow
-Baltimore Oriole
-Bank Swallow
-Barn Swallow
-Bay breasted Warbler
-Belted Kingfisher
-Bewick Wren
-Black billed Cuckoo
-Black capped Vireo
-Black footed Albatross
-Black Tern
-Black throated Blue Warbler
-Black throated Sparrow
-Blue Grosbeak
-Blue headed Vireo
-Blue Jay
-Blue winged Warbler
-Boat tailed Grackle
-Bobolink
-Brandt Cormorant
-Brewer Blackbird
-Brewer Sparrow
-Brown Creeper
-Brown Pelican
-California Gull
-Canada Warbler
-Cape Glossy Starling
-Cardinal
-Carolina Wren
-Caspian Tern
-Cerulean Warbler
-Chipping Sparrow
-Chuck will Widow
-Clark Nutcracker
-Clay colored Sparrow
-Common Yellowthroat
-Crested Auklet
-Dark eyed Junco
-Eared Grebe
-Eastern Towhee
-Evening Grosbeak
-Field Sparrow
-Fish Crow
-Florida Jay
-Fox Sparrow
-Frigatebird
-Gadwall
-Geococcyx
-Glaucous winged Gull
-Grasshopper Sparrow
-Great Crested Flycatcher
-Green Kingfisher
-Green tailed Towhee
-Green Violetear
-Groove billed Ani
-Harris Sparrow
-Heermann Gull
-Henslow Sparrow
-Herring Gull
-Hooded Oriole
-Hooded Warbler
-Horned Grebe
-Horned Lark
-Horned Puffin
-House Sparrow
-Indigo Bunting
-Lazuli Bunting
-Least Auklet
-Least Flycatcher
-Magnolia Warbler
-Mallard
-Mockingbird
-Nighthawk
-Northern Flicker
-Northern Fulmar
-Northern Waterthrush
-Ovenbird
-Pacific Loon
-Philadelphia Vireo
-Pigeon Guillemot
-Pileated Woodpecker
-Red bellied Woodpecker
-Red legged Kittiwake
-Red winged Blackbird
-Ruby throated Hummingbird
-Sayornis
-Scarlet Tanager
-Scissor tailed Flycatcher
-Spotted Catbird
-Tropical Kingbird
-Western Meadowlark
-Western Wood Pewee
-Whip poor Will
-White Pelican
-Yellow breasted Chat
+Acadian_Flycatcher Acadian Flycatcher acadian flycatcher AcadianFlycatcher acadianflycatcher acadian_flycatcher 
+American_Crow American Crow american crow AmericanCrow americancrow american_crow 
+American_Pipit American Pipit american pipit AmericanPipit americanpipit american_pipit 
+American_Redstart American Redstart american redstart AmericanRedstart americanredstart american_redstart 
+Anna_Hummingbird Anna Hummingbird anna hummingbird AnnaHummingbird annahummingbird anna_hummingbird 
+Artic_Tern Artic Tern artic tern ArticTern artictern artic_tern 
+Baird_Sparrow Baird Sparrow baird sparrow BairdSparrow bairdsparrow baird_sparrow 
+Baltimore_Oriole Baltimore Oriole baltimore oriole BaltimoreOriole baltimoreoriole baltimore_oriole 
+Bank_Swallow Bank Swallow bank swallow BankSwallow bankswallow bank_swallow 
+Barn_Swallow Barn Swallow barn swallow BarnSwallow barnswallow barn_swallow 
+Bay_breasted_Warbler Bay breasted Warbler bay breasted warbler BaybreastedWarbler baybreastedwarbler bay_breasted_warbler 
+Belted_Kingfisher Belted Kingfisher belted kingfisher BeltedKingfisher beltedkingfisher belted_kingfisher 
+Bewick_Wren Bewick Wren bewick wren BewickWren bewickwren bewick_wren 
+Black_billed_Cuckoo Black billed Cuckoo black billed cuckoo BlackbilledCuckoo blackbilledcuckoo black_billed_cuckoo 
+Black_capped_Vireo Black capped Vireo black capped vireo BlackcappedVireo blackcappedvireo black_capped_vireo 
+Black_footed_Albatross Black footed Albatross black footed albatross BlackfootedAlbatross blackfootedalbatross black_footed_albatross 
+Black_Tern Black Tern black tern BlackTern blacktern black_tern 
+Black_throated_Blue_Warbler Black throated Blue Warbler black throated blue warbler BlackthroatedBlueWarbler blackthroatedbluewarbler black_throated_blue_warbler 
+Black_throated_Sparrow Black throated Sparrow black throated sparrow BlackthroatedSparrow blackthroatedsparrow black_throated_sparrow 
+Blue_Grosbeak Blue Grosbeak blue grosbeak BlueGrosbeak bluegrosbeak blue_grosbeak 
+Blue_headed_Vireo Blue headed Vireo blue headed vireo BlueheadedVireo blueheadedvireo blue_headed_vireo 
+Blue_Jay Blue Jay blue jay BlueJay bluejay blue_jay 
+Blue_winged_Warbler Blue winged Warbler blue winged warbler BluewingedWarbler bluewingedwarbler blue_winged_warbler 
+Boat_tailed_Grackle Boat tailed Grackle boat tailed grackle BoattailedGrackle boattailedgrackle boat_tailed_grackle 
+Bobolink Bobolink bobolink Bobolink bobolink bobolink 
+Brandt_Cormorant Brandt Cormorant brandt cormorant BrandtCormorant brandtcormorant brandt_cormorant 
+Brewer_Blackbird Brewer Blackbird brewer blackbird BrewerBlackbird brewerblackbird brewer_blackbird 
+Brewer_Sparrow Brewer Sparrow brewer sparrow BrewerSparrow brewersparrow brewer_sparrow 
+Brown_Creeper Brown Creeper brown creeper BrownCreeper browncreeper brown_creeper 
+Brown_Pelican Brown Pelican brown pelican BrownPelican brownpelican brown_pelican 
+California_Gull California Gull california gull CaliforniaGull californiagull california_gull 
+Canada_Warbler Canada Warbler canada warbler CanadaWarbler canadawarbler canada_warbler 
+Cape_Glossy_Starling Cape Glossy Starling cape glossy starling CapeGlossyStarling capeglossystarling cape_glossy_starling 
+Cardinal Cardinal cardinal Cardinal cardinal cardinal 
+Carolina_Wren Carolina Wren carolina wren CarolinaWren carolinawren carolina_wren 
+Caspian_Tern Caspian Tern caspian tern CaspianTern caspiantern caspian_tern 
+Cerulean_Warbler Cerulean Warbler cerulean warbler CeruleanWarbler ceruleanwarbler cerulean_warbler 
+Chipping_Sparrow Chipping Sparrow chipping sparrow ChippingSparrow chippingsparrow chipping_sparrow 
+Chuck_will_Widow Chuck will Widow chuck will widow ChuckwillWidow chuckwillwidow chuck_will_widow 
+Clark_Nutcracker Clark Nutcracker clark nutcracker ClarkNutcracker clarknutcracker clark_nutcracker 
+Clay_colored_Sparrow Clay colored Sparrow clay colored sparrow ClaycoloredSparrow claycoloredsparrow clay_colored_sparrow 
+Common_Yellowthroat Common Yellowthroat common yellowthroat CommonYellowthroat commonyellowthroat common_yellowthroat 
+Crested_Auklet Crested Auklet crested auklet CrestedAuklet crestedauklet crested_auklet 
+Dark_eyed_Junco Dark eyed Junco dark eyed junco DarkeyedJunco darkeyedjunco dark_eyed_junco 
+Eared_Grebe Eared Grebe eared grebe EaredGrebe earedgrebe eared_grebe 
+Eastern_Towhee Eastern Towhee eastern towhee EasternTowhee easterntowhee eastern_towhee 
+Evening_Grosbeak Evening Grosbeak evening grosbeak EveningGrosbeak eveninggrosbeak evening_grosbeak 
+Field_Sparrow Field Sparrow field sparrow FieldSparrow fieldsparrow field_sparrow 
+Fish_Crow Fish Crow fish crow FishCrow fishcrow fish_crow 
+Florida_Jay Florida Jay florida jay FloridaJay floridajay florida_jay 
+Fox_Sparrow Fox Sparrow fox sparrow FoxSparrow foxsparrow fox_sparrow 
+Frigatebird Frigatebird frigatebird Frigatebird frigatebird frigatebird 
+Gadwall Gadwall gadwall Gadwall gadwall gadwall 
+Geococcyx Geococcyx geococcyx Geococcyx geococcyx geococcyx 
+Glaucous_winged_Gull Glaucous winged Gull glaucous winged gull GlaucouswingedGull glaucouswingedgull glaucous_winged_gull 
+Grasshopper_Sparrow Grasshopper Sparrow grasshopper sparrow GrasshopperSparrow grasshoppersparrow grasshopper_sparrow 
+Great_Crested_Flycatcher Great Crested Flycatcher great crested flycatcher GreatCrestedFlycatcher greatcrestedflycatcher great_crested_flycatcher 
+Green_Kingfisher Green Kingfisher green kingfisher GreenKingfisher greenkingfisher green_kingfisher 
+Green_tailed_Towhee Green tailed Towhee green tailed towhee GreentailedTowhee greentailedtowhee green_tailed_towhee 
+Green_Violetear Green Violetear green violetear GreenVioletear greenvioletear green_violetear 
+Groove_billed_Ani Groove billed Ani groove billed ani GroovebilledAni groovebilledani groove_billed_ani 
+Harris_Sparrow Harris Sparrow harris sparrow HarrisSparrow harrissparrow harris_sparrow 
+Heermann_Gull Heermann Gull heermann gull HeermannGull heermanngull heermann_gull 
+Henslow_Sparrow Henslow Sparrow henslow sparrow HenslowSparrow henslowsparrow henslow_sparrow 
+Herring_Gull Herring Gull herring gull HerringGull herringgull herring_gull 
+Hooded_Oriole Hooded Oriole hooded oriole HoodedOriole hoodedoriole hooded_oriole 
+Hooded_Warbler Hooded Warbler hooded warbler HoodedWarbler hoodedwarbler hooded_warbler 
+Horned_Grebe Horned Grebe horned grebe HornedGrebe hornedgrebe horned_grebe 
+Horned_Lark Horned Lark horned lark HornedLark hornedlark horned_lark 
+Horned_Puffin Horned Puffin horned puffin HornedPuffin hornedpuffin horned_puffin 
+House_Sparrow House Sparrow house sparrow HouseSparrow housesparrow house_sparrow 
+Indigo_Bunting Indigo Bunting indigo bunting IndigoBunting indigobunting indigo_bunting 
+Lazuli_Bunting Lazuli Bunting lazuli bunting LazuliBunting lazulibunting lazuli_bunting 
+Least_Auklet Least Auklet least auklet LeastAuklet leastauklet least_auklet 
+Least_Flycatcher Least Flycatcher least flycatcher LeastFlycatcher leastflycatcher least_flycatcher 
+Magnolia_Warbler Magnolia Warbler magnolia warbler MagnoliaWarbler magnoliawarbler magnolia_warbler 
+Mallard Mallard mallard Mallard mallard mallard 
+Mockingbird Mockingbird mockingbird Mockingbird mockingbird mockingbird 
+Nighthawk Nighthawk nighthawk Nighthawk nighthawk nighthawk 
+Northern_Flicker Northern Flicker northern flicker NorthernFlicker northernflicker northern_flicker 
+Northern_Fulmar Northern Fulmar northern fulmar NorthernFulmar northernfulmar northern_fulmar 
+Northern_Waterthrush Northern Waterthrush northern waterthrush NorthernWaterthrush northernwaterthrush northern_waterthrush 
+Ovenbird Ovenbird ovenbird Ovenbird ovenbird ovenbird 
+Pacific_Loon Pacific Loon pacific loon PacificLoon pacificloon pacific_loon 
+Philadelphia_Vireo Philadelphia Vireo philadelphia vireo PhiladelphiaVireo philadelphiavireo philadelphia_vireo 
+Pigeon_Guillemot Pigeon Guillemot pigeon guillemot PigeonGuillemot pigeonguillemot pigeon_guillemot 
+Pileated_Woodpecker Pileated Woodpecker pileated woodpecker PileatedWoodpecker pileatedwoodpecker pileated_woodpecker 
+Red_bellied_Woodpecker Red bellied Woodpecker red bellied woodpecker RedbelliedWoodpecker redbelliedwoodpecker red_bellied_woodpecker 
+Red_legged_Kittiwake Red legged Kittiwake red legged kittiwake RedleggedKittiwake redleggedkittiwake red_legged_kittiwake 
+Red_winged_Blackbird Red winged Blackbird red winged blackbird RedwingedBlackbird redwingedblackbird red_winged_blackbird 
+Ruby_throated_Hummingbird Ruby throated Hummingbird ruby throated hummingbird RubythroatedHummingbird rubythroatedhummingbird ruby_throated_hummingbird 
+Sayornis Sayornis sayornis Sayornis sayornis sayornis 
+Scarlet_Tanager Scarlet Tanager scarlet tanager ScarletTanager scarlettanager scarlet_tanager 
+Scissor_tailed_Flycatcher Scissor tailed Flycatcher scissor tailed flycatcher ScissortailedFlycatcher scissortailedflycatcher scissor_tailed_flycatcher 
+Spotted_Catbird Spotted Catbird spotted catbird SpottedCatbird spottedcatbird spotted_catbird 
+Tropical_Kingbird Tropical Kingbird tropical kingbird TropicalKingbird tropicalkingbird tropical_kingbird 
+Western_Meadowlark Western Meadowlark western meadowlark WesternMeadowlark westernmeadowlark western_meadowlark 
+Western_Wood_Pewee Western Wood Pewee western wood pewee WesternWoodPewee westernwoodpewee western_wood_pewee 
+Whip_poor_Will Whip poor Will whip poor will WhippoorWill whippoorwill whip_poor_will 
+White_Pelican White Pelican white pelican WhitePelican whitepelican white_pelican 
+Yellow_breasted_Chat Yellow breasted Chat yellow breasted chat YellowbreastedChat yellowbreastedchat yellow_breasted_chat 
