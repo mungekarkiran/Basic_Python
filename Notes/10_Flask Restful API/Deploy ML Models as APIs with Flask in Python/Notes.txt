@@ -1,0 +1,20 @@
+Study Link: 
+Deploy ML Models as APIs with Flask in Python | Step-by-Step Guide
+https://www.youtube.com/watch?v=MvTqi2Mb_PM
+https://github.com/siddhardhan23/deploy-ml-model-as-flask-api/tree/main
+
+---
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("mathchi/diabetes-data-set")
+
+print("Path to dataset files:", path)
+
+---
+
+Dataset Link: https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+
+---
+
