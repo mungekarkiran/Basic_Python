@@ -21,3 +21,4 @@ gensim==4.3.2
 nltk==3.8.1
 h5py
 split_folders
+keras_cv
