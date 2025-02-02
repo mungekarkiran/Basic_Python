@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\tiger\tiger_10117.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10118.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10119.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10120.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10121.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10122.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10123.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"
-..\Dataset\artefact1\test\tiger\tiger_10125.jpg,tiger,tiger,16,16,"['leopard', 'lion', 'seal', 'alligator', 'panda']"

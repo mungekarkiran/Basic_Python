@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\bobcat\bobcat_10067.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10068.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10069.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10070.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10071.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10072.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10073.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"
-..\Dataset\artefact1\test\bobcat\bobcat_10074.jpg,bobcat,bobcat,2,2,"['grizzly', 'giraffe', 'buffalo', 'chimpanzee', 'otter']"

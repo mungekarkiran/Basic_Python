@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\bear\bear_10001 (89).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (90).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (91).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (92).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (93).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (94).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (95).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"
-..\Dataset\artefact1\test\bear\bear_10001 (96).jpg,bear,bear,0,0,"['bear', 'grizzly bear', 'grizzly', 'polar bear', 'beaver']"

@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10042.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10043.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10044.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10045.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10046.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10047.jpg,rhinoceros,rhinoceros,12,12,"['hippopotamus', 'rhino', 'antelope', 'elephant', 'otter']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10048.jpg,rhinoceros,walrus,12,17,"['rhino', 'killer whale', 'whale', 'whale', 'whale']"
-..\Dataset\artefact1\test\rhinoceros\rhinoceros_10049.jpg,rhinoceros,ox,12,10,"['bull', 'rabbit', 'water', 'deer', 'blue']"

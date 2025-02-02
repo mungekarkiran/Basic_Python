@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\squirrel\squirrel_10045.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10046.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10047.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10048.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10049.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10050.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10051.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"
-..\Dataset\artefact1\test\squirrel\squirrel_10052.jpg,squirrel,squirrel,15,15,"['frog', 'spider monkey', 'monkey', 'spider', 'lizard']"

@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\monkey\monkey_10003 (190).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (191).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (192).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (193).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (194).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (195).jpg,monkey,gorilla,8,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (196).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"
-..\Dataset\artefact1\test\monkey\monkey_10003 (197).jpg,monkey,monkey,8,8,"['spider monkey', 'pig', 'spider', 'cow', 'sheep']"

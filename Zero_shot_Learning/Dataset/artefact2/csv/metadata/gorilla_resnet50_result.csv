@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\gorilla\gorilla_10122.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10123.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10124.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10125.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10126.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10127.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10128.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"
-..\Dataset\artefact1\test\gorilla\gorilla_10129.jpg,gorilla,gorilla,5,5,"['chimpanzee', 'rhino', 'walrus', 'elephant', 'bat']"

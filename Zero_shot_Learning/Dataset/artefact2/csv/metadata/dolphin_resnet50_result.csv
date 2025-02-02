@@ -1,9 +1,0 @@
-image_path,class_name,pred_image_label,act_label,pred_label,similar_words
-..\Dataset\artefact1\test\dolphin\dolphin_10078.jpg,dolphin,killer_whale,4,6,"['grizzly_bear', 'persian_cat', 'german_shepherd', 'blue_whale', 'siamese_cat']"
-..\Dataset\artefact1\test\dolphin\dolphin_10079.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
-..\Dataset\artefact1\test\dolphin\dolphin_10080.jpg,dolphin,killer_whale,4,6,"['grizzly_bear', 'persian_cat', 'german_shepherd', 'blue_whale', 'siamese_cat']"
-..\Dataset\artefact1\test\dolphin\dolphin_10081.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
-..\Dataset\artefact1\test\dolphin\dolphin_10082.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
-..\Dataset\artefact1\test\dolphin\dolphin_10083.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
-..\Dataset\artefact1\test\dolphin\dolphin_10084.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
-..\Dataset\artefact1\test\dolphin\dolphin_10085.jpg,dolphin,dolphin,4,4,"['turtle', 'whale', 'whale', 'whale', 'blue whale']"
