@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+notebook==6.5.6
+fpdf 
+pywhatkit 
+pillow

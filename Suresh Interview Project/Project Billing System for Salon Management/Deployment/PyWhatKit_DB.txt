@@ -1,0 +1,15 @@
+Date: 11/2/2025
+Time: 12:4
+Phone Number: +8108412112
+Message: Your invoice has been generated.
+--------------------
+Date: 11/2/2025
+Time: 12:5
+Phone Number: +8108700233
+Message: Your invoice has been generated.
+--------------------
+Date: 11/2/2025
+Time: 12:6
+Phone Number: +7666298870
+Message: Your invoice has been generated.
+--------------------
