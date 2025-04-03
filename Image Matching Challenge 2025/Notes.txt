@@ -1,0 +1,38 @@
+https://www.kaggle.com/competitions/image-matching-challenge-2025/data
+
+Image Matching Challenge 2025
+
+Reconstruct 3D scenes from messy image collections.
+
+Dataset Description
+Building a 3-D model of a scene given an unstructured collection of images taken around it is a longstanding problem in computer vision research. Your challenge in this competition is to generate 3-D reconstructions from image sets showing different types of scenes and accurately pose those images. This year, we’re challenging you to determine how images should be grouped together or discarded, in addition to reconstructing 3D scenes.
+
+This competition uses a hidden test. When your submitted notebook is scored, the actual test data (including a sample submission) will be made available to your notebook. Expect to find roughly 1,300 images in the hidden test set.
+
+train_labels.csv A list of images in the training data, including ground truth.
+
+dataset: The unique identifier for the dataset.
+scene: The unique identifier for the scene.
+image: The image filename.
+rotation_matrix: The first target column. A 3x3 matrix, flattened into a vector in row-major convention, with values separated by ";". Sample values are random.
+translation_vector: The second target column. A 3-D dimensional vector, with values separated by ";". Sample values are random.
+train_thresholds.csv A list of thresholds for evaluation.
+
+dataset: The unique identifier for the dataset.
+scene: The unique identifier for the scene.
+thresholds: A list of thresholds (in meters) for evaluation, separated by ";".
+[train/test]/[dataset]/*.png A set of images taken from one or more locations. For instance, train/imc2024_lizard_pond contains images from two different scenes, lizard and pond. A folder may also contain single images that do not correspond to any scene ("outliers").
+
+[train/test]/[dataset]/LICENSE.txt The license for each dataset.
+
+Note: The published test folder contains a subset of scenes from the training set. It is provided solely for example purposes. The folder will be populated with different data when submitting a notebook for scoring.
+
+sample_submission.csv A valid, randomly-generated sample submission with the following fields:
+
+image_id: A unique identifier for the row. Must be present in your submission file.
+dataset: The unique identifier for the dataset.
+scene: The unique identifier for the scene. In the submission file, this label is arbitrary and should be ignored. In your submission, it will indicate which images belong together (for a given dataset).
+image: The image filename.
+rotation_matrix: Same as above.
+translation_vector: Same as above.
+
