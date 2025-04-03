@@ -1,0 +1,6 @@
+Investigation on suicidal ideation on social media using distributed cnn bilstm feature
+
+
+Experimental Setup for Lymphoma Cancer Detection Using Deep Learning  
+
+The experiment for lymphoma cancer detection was conducted using an Intel i7 12the Gen 2.4 GHz 16-Core CPU, 32 GB RAM and an NVIDIA GeForce RTX 4060 Graphics system for accelerated computations. The dataset consisted of high-resolution .tif images categorized into three lymphoma subtypes: Chronic Lymphocytic Leukemia (CLL), Follicular Lymphoma (FL), and Mantle Cell Lymphoma (MCL). Image preprocessing included resizing, normalization, and augmentation (rotation, flipping, and contrast enhancement) to improve generalization. A hybrid CNN-BiLSTM model with an attention mechanism was implemented in the jupyter notebook to capture both spatial and sequential dependencies in the images. The model was trained using the Adam optimizer with categorical cross-entropy loss, and hyperparameters were fine-tuned using grid search. The dataset was split into 80% for training and 20% for validation, and performance was evaluated using accuracy, precision, recall, F1-score, and AUC-ROC metrics. 

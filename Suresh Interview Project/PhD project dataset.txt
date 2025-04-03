@@ -1,0 +1,10 @@
+crop diseases using hyperspectral imaging dataset kaggle
+
+https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+https://www.kaggle.com/competitions/beyond-visible-spectrum-ai-for-agriculture-P1/data
+https://www.kaggle.com/competitions/beyond-visible-spectrum/rules
+
+fall detection for secure and scalable elderly care dataset kaggle
+https://www.kaggle.com/datasets/laavanya/elderly-fall-prediction-and-detection
+https://www.kaggle.com/datasets/elwalyahmad/fall-detection
+https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset
