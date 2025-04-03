@@ -1,0 +1,42 @@
+emp.   				sales
+empid | name 			sid | empid | amount
+
+
+select e.empid, e.name 
+from emp e
+left join sales s
+on e.empid = s.empid
+where s.sid is null
+;
+
+select e.empid, count(e.empid) 
+from emp e
+group by e.empid
+where (
+	select count(e.empid) emp_count
+	from emp e
+	group by e.empid
+) > 1
+;
+
+select count(e.empid) emp_count
+from emp e
+group by e.empid
+
+
+coalesce vs  isnull
+
+
+where col1 isnull 		select coalesce(clo1, 'not found')
+				ifnull()
+
+
+'121' 'nayan' '123'
+
+var = input()
+if var[::-1] == var:
+	print('palindrom')
+else:
+	print('not palindrom')
+
+
