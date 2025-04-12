@@ -1,0 +1,11 @@
+numpy
+pandas
+notebook==6.5.6
+flask
+matplotlib
+seaborn
+plotly
+nltk
+google-api-python-client
+python-dotenv
+kaleido
