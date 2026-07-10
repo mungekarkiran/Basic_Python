@@ -1,0 +1,721 @@
+image_paths,image_names,act_lables,pred_labels,act_vals,pred_vals,top_seen_labels,top_unseen_labels,seen_pred_vals
+awa_data\train\bear\bear_10001 (1).jpg,bear_10001 (1).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (10).jpg,bear_10001 (10).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (11).jpg,bear_10001 (11).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (12).jpg,bear_10001 (12).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (13).jpg,bear_10001 (13).jpg,bear,killer_whale,0,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",0
+awa_data\train\bear\bear_10001 (14).jpg,bear_10001 (14).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (15).jpg,bear_10001 (15).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (16).jpg,bear_10001 (16).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (17).jpg,bear_10001 (17).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (18).jpg,bear_10001 (18).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (19).jpg,bear_10001 (19).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (2).jpg,bear_10001 (2).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (20).jpg,bear_10001 (20).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (21).jpg,bear_10001 (21).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (22).jpg,bear_10001 (22).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (23).jpg,bear_10001 (23).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (24).jpg,bear_10001 (24).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (25).jpg,bear_10001 (25).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (26).jpg,bear_10001 (26).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (27).jpg,bear_10001 (27).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (28).jpg,bear_10001 (28).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (29).jpg,bear_10001 (29).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (3).jpg,bear_10001 (3).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (30).jpg,bear_10001 (30).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (31).jpg,bear_10001 (31).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (32).jpg,bear_10001 (32).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (33).jpg,bear_10001 (33).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (34).jpg,bear_10001 (34).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (35).jpg,bear_10001 (35).jpg,bear,bobcat,0,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",0
+awa_data\train\bear\bear_10001 (36).jpg,bear_10001 (36).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (37).jpg,bear_10001 (37).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (38).jpg,bear_10001 (38).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (39).jpg,bear_10001 (39).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (4).jpg,bear_10001 (4).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (40).jpg,bear_10001 (40).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (5).jpg,bear_10001 (5).jpg,bear,bear,0,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\bear\bear_10001 (6).jpg,bear_10001 (6).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\bear\bear_10001 (7).jpg,bear_10001 (7).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (8).jpg,bear_10001 (8).jpg,bear,tiger,0,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bear\bear_10001 (9).jpg,bear_10001 (9).jpg,bear,ox,0,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\blue_whale\blue+whale_10001.jpg,blue+whale_10001.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10002.jpg,blue+whale_10002.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10003.jpg,blue+whale_10003.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10004.jpg,blue+whale_10004.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10005.jpg,blue+whale_10005.jpg,blue_whale,blue_whale,1,1,"['blue_whale', 'killer_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'seal', 'leopard']",1
+awa_data\train\blue_whale\blue+whale_10006.jpg,blue+whale_10006.jpg,blue_whale,blue_whale,1,1,"['blue_whale', 'killer_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'seal', 'leopard']",1
+awa_data\train\blue_whale\blue+whale_10007.jpg,blue+whale_10007.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10008.jpg,blue+whale_10008.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10009.jpg,blue+whale_10009.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10010.jpg,blue+whale_10010.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10011.jpg,blue+whale_10011.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10012.jpg,blue+whale_10012.jpg,blue_whale,dolphin,1,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10013.jpg,blue+whale_10013.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10014.jpg,blue+whale_10014.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10015.jpg,blue+whale_10015.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10016.jpg,blue+whale_10016.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10017.jpg,blue+whale_10017.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10018.jpg,blue+whale_10018.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10019.jpg,blue+whale_10019.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10020.jpg,blue+whale_10020.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10046.jpg,blue+whale_10046.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10047.jpg,blue+whale_10047.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10048.jpg,blue+whale_10048.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10049.jpg,blue+whale_10049.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10050.jpg,blue+whale_10050.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10051.jpg,blue+whale_10051.jpg,blue_whale,walrus,1,17,"['walrus', 'bear', 'squirrel', 'rabbit', 'lion']","['humpback_whale', 'leopard', 'persian_cat', 'raccoon', 'rat']",17
+awa_data\train\blue_whale\blue+whale_10052.jpg,blue+whale_10052.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10053.jpg,blue+whale_10053.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10054.jpg,blue+whale_10054.jpg,blue_whale,dolphin,1,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10055.jpg,blue+whale_10055.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10056.jpg,blue+whale_10056.jpg,blue_whale,tiger,1,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\blue_whale\blue+whale_10057.jpg,blue+whale_10057.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10058.jpg,blue+whale_10058.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10059.jpg,blue+whale_10059.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10060.jpg,blue+whale_10060.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10061.jpg,blue+whale_10061.jpg,blue_whale,bobcat,1,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\blue_whale\blue+whale_10062.jpg,blue+whale_10062.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10063.jpg,blue+whale_10063.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10064.jpg,blue+whale_10064.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\blue_whale\blue+whale_10065.jpg,blue+whale_10065.jpg,blue_whale,killer_whale,1,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",1
+awa_data\train\bobcat\bobcat_10001.jpg,bobcat_10001.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10002.jpg,bobcat_10002.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10003.jpg,bobcat_10003.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10004.jpg,bobcat_10004.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10005.jpg,bobcat_10005.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10006.jpg,bobcat_10006.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10007.jpg,bobcat_10007.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10008.jpg,bobcat_10008.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10009.jpg,bobcat_10009.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10010.jpg,bobcat_10010.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10011.jpg,bobcat_10011.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10012.jpg,bobcat_10012.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10013.jpg,bobcat_10013.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10014.jpg,bobcat_10014.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10015.jpg,bobcat_10015.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10016.jpg,bobcat_10016.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10017.jpg,bobcat_10017.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10018.jpg,bobcat_10018.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10019.jpg,bobcat_10019.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10020.jpg,bobcat_10020.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10021.jpg,bobcat_10021.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10022.jpg,bobcat_10022.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10023.jpg,bobcat_10023.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10024.jpg,bobcat_10024.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10025.jpg,bobcat_10025.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10026.jpg,bobcat_10026.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10027.jpg,bobcat_10027.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10028.jpg,bobcat_10028.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10029.jpg,bobcat_10029.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10030.jpg,bobcat_10030.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10031.jpg,bobcat_10031.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10032.jpg,bobcat_10032.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10033.jpg,bobcat_10033.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10034.jpg,bobcat_10034.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10035.jpg,bobcat_10035.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10036.jpg,bobcat_10036.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10037.jpg,bobcat_10037.jpg,bobcat,tiger,2,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\bobcat\bobcat_10038.jpg,bobcat_10038.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10039.jpg,bobcat_10039.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\bobcat\bobcat_10040.jpg,bobcat_10040.jpg,bobcat,bobcat,2,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\cow\cow_10001.jpg,cow_10001.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10002.jpg,cow_10002.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10003.jpg,cow_10003.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10004.jpg,cow_10004.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10005.jpg,cow_10005.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10006.jpg,cow_10006.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10007.jpg,cow_10007.jpg,cow,tiger,3,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\cow\cow_10008.jpg,cow_10008.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10009.jpg,cow_10009.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10010.jpg,cow_10010.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10011.jpg,cow_10011.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10012.jpg,cow_10012.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10013.jpg,cow_10013.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10014.jpg,cow_10014.jpg,cow,cow,3,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\cow\cow_10015.jpg,cow_10015.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10016.jpg,cow_10016.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10017.jpg,cow_10017.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10018.jpg,cow_10018.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10019.jpg,cow_10019.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10020.jpg,cow_10020.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10021.jpg,cow_10021.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10022.jpg,cow_10022.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10023.jpg,cow_10023.jpg,cow,cow,3,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\cow\cow_10024.jpg,cow_10024.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10025.jpg,cow_10025.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10026.jpg,cow_10026.jpg,cow,tiger,3,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\cow\cow_10027.jpg,cow_10027.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10028.jpg,cow_10028.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10029.jpg,cow_10029.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10030.jpg,cow_10030.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10031.jpg,cow_10031.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10032.jpg,cow_10032.jpg,cow,cow,3,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\cow\cow_10033.jpg,cow_10033.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10034.jpg,cow_10034.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10035.jpg,cow_10035.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10036.jpg,cow_10036.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10037.jpg,cow_10037.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10038.jpg,cow_10038.jpg,cow,tiger,3,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\cow\cow_10039.jpg,cow_10039.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\cow\cow_10040.jpg,cow_10040.jpg,cow,ox,3,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",3
+awa_data\train\dolphin\dolphin_10001.jpg,dolphin_10001.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10002.jpg,dolphin_10002.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10003.jpg,dolphin_10003.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10004.jpg,dolphin_10004.jpg,dolphin,cow,4,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",4
+awa_data\train\dolphin\dolphin_10005.jpg,dolphin_10005.jpg,dolphin,siamese_cat,4,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",4
+awa_data\train\dolphin\dolphin_10006.jpg,dolphin_10006.jpg,dolphin,bobcat,4,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",4
+awa_data\train\dolphin\dolphin_10007.jpg,dolphin_10007.jpg,dolphin,bobcat,4,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",4
+awa_data\train\dolphin\dolphin_10008.jpg,dolphin_10008.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10009.jpg,dolphin_10009.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10010.jpg,dolphin_10010.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10011.jpg,dolphin_10011.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10012.jpg,dolphin_10012.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10013.jpg,dolphin_10013.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10014.jpg,dolphin_10014.jpg,dolphin,bear,4,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\dolphin\dolphin_10015.jpg,dolphin_10015.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10016.jpg,dolphin_10016.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10017.jpg,dolphin_10017.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10018.jpg,dolphin_10018.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10019.jpg,dolphin_10019.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10020.jpg,dolphin_10020.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10021.jpg,dolphin_10021.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10022.jpg,dolphin_10022.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10023.jpg,dolphin_10023.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10024.jpg,dolphin_10024.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10025.jpg,dolphin_10025.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10026.jpg,dolphin_10026.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10027.jpg,dolphin_10027.jpg,dolphin,cow,4,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",4
+awa_data\train\dolphin\dolphin_10028.jpg,dolphin_10028.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10029.jpg,dolphin_10029.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10030.jpg,dolphin_10030.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10031.jpg,dolphin_10031.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10032.jpg,dolphin_10032.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10033.jpg,dolphin_10033.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10034.jpg,dolphin_10034.jpg,dolphin,killer_whale,4,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",4
+awa_data\train\dolphin\dolphin_10035.jpg,dolphin_10035.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10036.jpg,dolphin_10036.jpg,dolphin,tiger,4,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\dolphin\dolphin_10037.jpg,dolphin_10037.jpg,dolphin,bobcat,4,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",4
+awa_data\train\dolphin\dolphin_10038.jpg,dolphin_10038.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\dolphin\dolphin_10039.jpg,dolphin_10039.jpg,dolphin,dolphin,4,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\dolphin\dolphin_10040.jpg,dolphin_10040.jpg,dolphin,ox,4,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10001.jpg,gorilla_10001.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10002.jpg,gorilla_10002.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10003.jpg,gorilla_10003.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10004.jpg,gorilla_10004.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10005.jpg,gorilla_10005.jpg,gorilla,bobcat,5,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\gorilla\gorilla_10006.jpg,gorilla_10006.jpg,gorilla,gorilla,5,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\gorilla\gorilla_10007.jpg,gorilla_10007.jpg,gorilla,bobcat,5,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\gorilla\gorilla_10008.jpg,gorilla_10008.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10009.jpg,gorilla_10009.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10010.jpg,gorilla_10010.jpg,gorilla,gorilla,5,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\gorilla\gorilla_10011.jpg,gorilla_10011.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10012.jpg,gorilla_10012.jpg,gorilla,bobcat,5,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\gorilla\gorilla_10013.jpg,gorilla_10013.jpg,gorilla,bobcat,5,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\gorilla\gorilla_10014.jpg,gorilla_10014.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10015.jpg,gorilla_10015.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10016.jpg,gorilla_10016.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10017.jpg,gorilla_10017.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10018.jpg,gorilla_10018.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10019.jpg,gorilla_10019.jpg,gorilla,gorilla,5,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\gorilla\gorilla_10020.jpg,gorilla_10020.jpg,gorilla,gorilla,5,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\gorilla\gorilla_10021.jpg,gorilla_10021.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10022.jpg,gorilla_10022.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10023.jpg,gorilla_10023.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10024.jpg,gorilla_10024.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10025.jpg,gorilla_10025.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10026.jpg,gorilla_10026.jpg,gorilla,lion,5,7,"['lion', 'tiger', 'monkey', 'gorilla', 'squirrel']","['leopard', 'raccoon', 'giant_panda', 'persian_cat', 'chimpanzee']",5
+awa_data\train\gorilla\gorilla_10027.jpg,gorilla_10027.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10028.jpg,gorilla_10028.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10029.jpg,gorilla_10029.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10030.jpg,gorilla_10030.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10031.jpg,gorilla_10031.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10032.jpg,gorilla_10032.jpg,gorilla,gorilla,5,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\gorilla\gorilla_10033.jpg,gorilla_10033.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10034.jpg,gorilla_10034.jpg,gorilla,lion,5,7,"['lion', 'tiger', 'monkey', 'gorilla', 'squirrel']","['leopard', 'raccoon', 'giant_panda', 'persian_cat', 'chimpanzee']",5
+awa_data\train\gorilla\gorilla_10035.jpg,gorilla_10035.jpg,gorilla,siamese_cat,5,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\gorilla\gorilla_10036.jpg,gorilla_10036.jpg,gorilla,bobcat,5,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\gorilla\gorilla_10037.jpg,gorilla_10037.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10038.jpg,gorilla_10038.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\gorilla\gorilla_10039.jpg,gorilla_10039.jpg,gorilla,ox,5,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\gorilla\gorilla_10040.jpg,gorilla_10040.jpg,gorilla,tiger,5,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",5
+awa_data\train\killer_whale\killer+whale_10001.jpg,killer+whale_10001.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10002.jpg,killer+whale_10002.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10003.jpg,killer+whale_10003.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10004.jpg,killer+whale_10004.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10005.jpg,killer+whale_10005.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10006.jpg,killer+whale_10006.jpg,killer_whale,dolphin,6,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10007.jpg,killer+whale_10007.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10008.jpg,killer+whale_10008.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10009.jpg,killer+whale_10009.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10010.jpg,killer+whale_10010.jpg,killer_whale,tiger,6,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\killer_whale\killer+whale_10011.jpg,killer+whale_10011.jpg,killer_whale,cow,6,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\killer_whale\killer+whale_10012.jpg,killer+whale_10012.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10013.jpg,killer+whale_10013.jpg,killer_whale,gorilla,6,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",5
+awa_data\train\killer_whale\killer+whale_10014.jpg,killer+whale_10014.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10015.jpg,killer+whale_10015.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10016.jpg,killer+whale_10016.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10017.jpg,killer+whale_10017.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10018.jpg,killer+whale_10018.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10019.jpg,killer+whale_10019.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10020.jpg,killer+whale_10020.jpg,killer_whale,dolphin,6,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10021.jpg,killer+whale_10021.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10022.jpg,killer+whale_10022.jpg,killer_whale,bear,6,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\killer_whale\killer+whale_10023.jpg,killer+whale_10023.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10024.jpg,killer+whale_10024.jpg,killer_whale,dolphin,6,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10025.jpg,killer+whale_10025.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10026.jpg,killer+whale_10026.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10027.jpg,killer+whale_10027.jpg,killer_whale,tiger,6,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\killer_whale\killer+whale_10028.jpg,killer+whale_10028.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10029.jpg,killer+whale_10029.jpg,killer_whale,tiger,6,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\killer_whale\killer+whale_10030.jpg,killer+whale_10030.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10031.jpg,killer+whale_10031.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10032.jpg,killer+whale_10032.jpg,killer_whale,ox,6,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\killer_whale\killer+whale_10033.jpg,killer+whale_10033.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10034.jpg,killer+whale_10034.jpg,killer_whale,tiger,6,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\killer_whale\killer+whale_10035.jpg,killer+whale_10035.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10036.jpg,killer+whale_10036.jpg,killer_whale,bobcat,6,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\killer_whale\killer+whale_10037.jpg,killer+whale_10037.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10038.jpg,killer+whale_10038.jpg,killer_whale,killer_whale,6,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\killer_whale\killer+whale_10039.jpg,killer+whale_10039.jpg,killer_whale,tiger,6,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\killer_whale\killer+whale_10040.jpg,killer+whale_10040.jpg,killer_whale,siamese_cat,6,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",6
+awa_data\train\lion\lion_10001.jpg,lion_10001.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10002.jpg,lion_10002.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10003.jpg,lion_10003.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10004.jpg,lion_10004.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10005.jpg,lion_10005.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10006.jpg,lion_10006.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10007.jpg,lion_10007.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10008.jpg,lion_10008.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10009.jpg,lion_10009.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10010.jpg,lion_10010.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10011.jpg,lion_10011.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10012.jpg,lion_10012.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10013.jpg,lion_10013.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10014.jpg,lion_10014.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10015.jpg,lion_10015.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10016.jpg,lion_10016.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10017.jpg,lion_10017.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10018.jpg,lion_10018.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10019.jpg,lion_10019.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10020.jpg,lion_10020.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10021.jpg,lion_10021.jpg,lion,bear,7,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\lion\lion_10022.jpg,lion_10022.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10023.jpg,lion_10023.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10024.jpg,lion_10024.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10025.jpg,lion_10025.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10026.jpg,lion_10026.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10027.jpg,lion_10027.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10028.jpg,lion_10028.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10029.jpg,lion_10029.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10030.jpg,lion_10030.jpg,lion,lion,7,7,"['lion', 'tiger', 'monkey', 'gorilla', 'squirrel']","['leopard', 'raccoon', 'giant_panda', 'persian_cat', 'chimpanzee']",7
+awa_data\train\lion\lion_10031.jpg,lion_10031.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10032.jpg,lion_10032.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10033.jpg,lion_10033.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10034.jpg,lion_10034.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10035.jpg,lion_10035.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10036.jpg,lion_10036.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10037.jpg,lion_10037.jpg,lion,bobcat,7,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",7
+awa_data\train\lion\lion_10038.jpg,lion_10038.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\lion\lion_10039.jpg,lion_10039.jpg,lion,tiger,7,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",7
+awa_data\train\lion\lion_10040.jpg,lion_10040.jpg,lion,ox,7,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",7
+awa_data\train\monkey\monkey_10003 (1).jpg,monkey_10003 (1).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (10).jpg,monkey_10003 (10).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (11).jpg,monkey_10003 (11).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (12).jpg,monkey_10003 (12).jpg,monkey,cow,8,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",8
+awa_data\train\monkey\monkey_10003 (13).jpg,monkey_10003 (13).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (14).jpg,monkey_10003 (14).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (15).jpg,monkey_10003 (15).jpg,monkey,killer_whale,8,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\monkey\monkey_10003 (16).jpg,monkey_10003 (16).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (17).jpg,monkey_10003 (17).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (18).jpg,monkey_10003 (18).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (19).jpg,monkey_10003 (19).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (2).jpg,monkey_10003 (2).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (20).jpg,monkey_10003 (20).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (21).jpg,monkey_10003 (21).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (22).jpg,monkey_10003 (22).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (23).jpg,monkey_10003 (23).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (24).jpg,monkey_10003 (24).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (25).jpg,monkey_10003 (25).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (26).jpg,monkey_10003 (26).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (27).jpg,monkey_10003 (27).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (28).jpg,monkey_10003 (28).jpg,monkey,bobcat,8,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\monkey\monkey_10003 (29).jpg,monkey_10003 (29).jpg,monkey,gorilla,8,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",8
+awa_data\train\monkey\monkey_10003 (3).jpg,monkey_10003 (3).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (30).jpg,monkey_10003 (30).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (31).jpg,monkey_10003 (31).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (32).jpg,monkey_10003 (32).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (33).jpg,monkey_10003 (33).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (34).jpg,monkey_10003 (34).jpg,monkey,bobcat,8,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\monkey\monkey_10003 (35).jpg,monkey_10003 (35).jpg,monkey,cow,8,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",8
+awa_data\train\monkey\monkey_10003 (36).jpg,monkey_10003 (36).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (37).jpg,monkey_10003 (37).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (38).jpg,monkey_10003 (38).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (39).jpg,monkey_10003 (39).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (4).jpg,monkey_10003 (4).jpg,monkey,bobcat,8,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\monkey\monkey_10003 (40).jpg,monkey_10003 (40).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (5).jpg,monkey_10003 (5).jpg,monkey,ox,8,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (6).jpg,monkey_10003 (6).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (7).jpg,monkey_10003 (7).jpg,monkey,siamese_cat,8,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\monkey\monkey_10003 (8).jpg,monkey_10003 (8).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\monkey\monkey_10003 (9).jpg,monkey_10003 (9).jpg,monkey,tiger,8,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",8
+awa_data\train\mouse\mouse_10001.jpg,mouse_10001.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10002.jpg,mouse_10002.jpg,mouse,killer_whale,9,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\mouse\mouse_10003.jpg,mouse_10003.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10004.jpg,mouse_10004.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10005.jpg,mouse_10005.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10006.jpg,mouse_10006.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10007.jpg,mouse_10007.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10008.jpg,mouse_10008.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10009.jpg,mouse_10009.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10010.jpg,mouse_10010.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10011.jpg,mouse_10011.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10012.jpg,mouse_10012.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10013.jpg,mouse_10013.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10014.jpg,mouse_10014.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10015.jpg,mouse_10015.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10016.jpg,mouse_10016.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10017.jpg,mouse_10017.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10018.jpg,mouse_10018.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10019.jpg,mouse_10019.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10020.jpg,mouse_10020.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10021.jpg,mouse_10021.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10022.jpg,mouse_10022.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10023.jpg,mouse_10023.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10024.jpg,mouse_10024.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10025.jpg,mouse_10025.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10026.jpg,mouse_10026.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10027.jpg,mouse_10027.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10028.jpg,mouse_10028.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10029.jpg,mouse_10029.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10030.jpg,mouse_10030.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10031.jpg,mouse_10031.jpg,mouse,ox,9,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\mouse\mouse_10032.jpg,mouse_10032.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10033.jpg,mouse_10033.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10034.jpg,mouse_10034.jpg,mouse,lion,9,7,"['lion', 'tiger', 'monkey', 'gorilla', 'squirrel']","['leopard', 'raccoon', 'giant_panda', 'persian_cat', 'chimpanzee']",7
+awa_data\train\mouse\mouse_10035.jpg,mouse_10035.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10036.jpg,mouse_10036.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10037.jpg,mouse_10037.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10038.jpg,mouse_10038.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\mouse\mouse_10039.jpg,mouse_10039.jpg,mouse,bobcat,9,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\mouse\mouse_10040.jpg,mouse_10040.jpg,mouse,tiger,9,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10001.jpg,ox_10001.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10002.jpg,ox_10002.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10003.jpg,ox_10003.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10004.jpg,ox_10004.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10005.jpg,ox_10005.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10006.jpg,ox_10006.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10007.jpg,ox_10007.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10008.jpg,ox_10008.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10009.jpg,ox_10009.jpg,ox,tiger,10,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10010.jpg,ox_10010.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10011.jpg,ox_10011.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10012.jpg,ox_10012.jpg,ox,tiger,10,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10013.jpg,ox_10013.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10014.jpg,ox_10014.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10015.jpg,ox_10015.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10016.jpg,ox_10016.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10017.jpg,ox_10017.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10018.jpg,ox_10018.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10019.jpg,ox_10019.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10020.jpg,ox_10020.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10021.jpg,ox_10021.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10022.jpg,ox_10022.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10023.jpg,ox_10023.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10024.jpg,ox_10024.jpg,ox,bobcat,10,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\ox\ox_10025.jpg,ox_10025.jpg,ox,tiger,10,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10026.jpg,ox_10026.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10027.jpg,ox_10027.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10028.jpg,ox_10028.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10029.jpg,ox_10029.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10030.jpg,ox_10030.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10031.jpg,ox_10031.jpg,ox,tiger,10,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10032.jpg,ox_10032.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10033.jpg,ox_10033.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10034.jpg,ox_10034.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10035.jpg,ox_10035.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10036.jpg,ox_10036.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10037.jpg,ox_10037.jpg,ox,tiger,10,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\ox\ox_10038.jpg,ox_10038.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10039.jpg,ox_10039.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\ox\ox_10040.jpg,ox_10040.jpg,ox,ox,10,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10001.jpg,rabbit_10001.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10002.jpg,rabbit_10002.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10003.jpg,rabbit_10003.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10004.jpg,rabbit_10004.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10005.jpg,rabbit_10005.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10006.jpg,rabbit_10006.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10007.jpg,rabbit_10007.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10008.jpg,rabbit_10008.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10009.jpg,rabbit_10009.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10010.jpg,rabbit_10010.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10011.jpg,rabbit_10011.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10012.jpg,rabbit_10012.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10013.jpg,rabbit_10013.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10014.jpg,rabbit_10014.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10015.jpg,rabbit_10015.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10016.jpg,rabbit_10016.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10017.jpg,rabbit_10017.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10018.jpg,rabbit_10018.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10019.jpg,rabbit_10019.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10020.jpg,rabbit_10020.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10023.jpg,rabbit_10023.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10024.jpg,rabbit_10024.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10025.jpg,rabbit_10025.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10026.jpg,rabbit_10026.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10027.jpg,rabbit_10027.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10028.jpg,rabbit_10028.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10029.jpg,rabbit_10029.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10030.jpg,rabbit_10030.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10031.jpg,rabbit_10031.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10032.jpg,rabbit_10032.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10033.jpg,rabbit_10033.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10034.jpg,rabbit_10034.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10035.jpg,rabbit_10035.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10036.jpg,rabbit_10036.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10037.jpg,rabbit_10037.jpg,rabbit,ox,11,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rabbit\rabbit_10038.jpg,rabbit_10038.jpg,rabbit,tiger,11,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rabbit\rabbit_10039.jpg,rabbit_10039.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10040.jpg,rabbit_10040.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10041.jpg,rabbit_10041.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rabbit\rabbit_10042.jpg,rabbit_10042.jpg,rabbit,bobcat,11,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",11
+awa_data\train\rhinoceros\rhinoceros_10001.jpg,rhinoceros_10001.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10002.jpg,rhinoceros_10002.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10003.jpg,rhinoceros_10003.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10004.jpg,rhinoceros_10004.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10005.jpg,rhinoceros_10005.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10006.jpg,rhinoceros_10006.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10007.jpg,rhinoceros_10007.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10008.jpg,rhinoceros_10008.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10009.jpg,rhinoceros_10009.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10010.jpg,rhinoceros_10010.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10011.jpg,rhinoceros_10011.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10012.jpg,rhinoceros_10012.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10013.jpg,rhinoceros_10013.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10014.jpg,rhinoceros_10014.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10015.jpg,rhinoceros_10015.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10016.jpg,rhinoceros_10016.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10017.jpg,rhinoceros_10017.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10018.jpg,rhinoceros_10018.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10019.jpg,rhinoceros_10019.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10020.jpg,rhinoceros_10020.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10023.jpg,rhinoceros_10023.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10024.jpg,rhinoceros_10024.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10025.jpg,rhinoceros_10025.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10026.jpg,rhinoceros_10026.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10027.jpg,rhinoceros_10027.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10028.jpg,rhinoceros_10028.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10029.jpg,rhinoceros_10029.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10030.jpg,rhinoceros_10030.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10031.jpg,rhinoceros_10031.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10032.jpg,rhinoceros_10032.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10033.jpg,rhinoceros_10033.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10034.jpg,rhinoceros_10034.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10035.jpg,rhinoceros_10035.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10036.jpg,rhinoceros_10036.jpg,rhinoceros,bear,12,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\rhinoceros\rhinoceros_10037.jpg,rhinoceros_10037.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10038.jpg,rhinoceros_10038.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10039.jpg,rhinoceros_10039.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10040.jpg,rhinoceros_10040.jpg,rhinoceros,ox,12,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\rhinoceros\rhinoceros_10041.jpg,rhinoceros_10041.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\rhinoceros\rhinoceros_10042.jpg,rhinoceros_10042.jpg,rhinoceros,tiger,12,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10001.jpg,siamese+cat_10001.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10002.jpg,siamese+cat_10002.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10003.jpg,siamese+cat_10003.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10004.jpg,siamese+cat_10004.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10005.jpg,siamese+cat_10005.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10006.jpg,siamese+cat_10006.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10007.jpg,siamese+cat_10007.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10008.jpg,siamese+cat_10008.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10009.jpg,siamese+cat_10009.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10010.jpg,siamese+cat_10010.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10011.jpg,siamese+cat_10011.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10012.jpg,siamese+cat_10012.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10013.jpg,siamese+cat_10013.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10014.jpg,siamese+cat_10014.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10015.jpg,siamese+cat_10015.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10016.jpg,siamese+cat_10016.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10017.jpg,siamese+cat_10017.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10018.jpg,siamese+cat_10018.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10019.jpg,siamese+cat_10019.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10020.jpg,siamese+cat_10020.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10023.jpg,siamese+cat_10023.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10024.jpg,siamese+cat_10024.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10025.jpg,siamese+cat_10025.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10026.jpg,siamese+cat_10026.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10027.jpg,siamese+cat_10027.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10028.jpg,siamese+cat_10028.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10029.jpg,siamese+cat_10029.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10030.jpg,siamese+cat_10030.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10031.jpg,siamese+cat_10031.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10032.jpg,siamese+cat_10032.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10033.jpg,siamese+cat_10033.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10034.jpg,siamese+cat_10034.jpg,siamese_cat,siamese_cat,13,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\siamese_cat\siamese+cat_10035.jpg,siamese+cat_10035.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10036.jpg,siamese+cat_10036.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10037.jpg,siamese+cat_10037.jpg,siamese_cat,bobcat,13,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\siamese_cat\siamese+cat_10038.jpg,siamese+cat_10038.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10039.jpg,siamese+cat_10039.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10040.jpg,siamese+cat_10040.jpg,siamese_cat,ox,13,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\siamese_cat\siamese+cat_10041.jpg,siamese+cat_10041.jpg,siamese_cat,tiger,13,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\siamese_cat\siamese+cat_10042.jpg,siamese+cat_10042.jpg,siamese_cat,bear,13,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\skunk\skunk_10001.jpg,skunk_10001.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10002.jpg,skunk_10002.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10003.jpg,skunk_10003.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10004.jpg,skunk_10004.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10005.jpg,skunk_10005.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10006.jpg,skunk_10006.jpg,skunk,bear,14,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",0
+awa_data\train\skunk\skunk_10007.jpg,skunk_10007.jpg,skunk,cow,14,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\skunk\skunk_10008.jpg,skunk_10008.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10009.jpg,skunk_10009.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10010.jpg,skunk_10010.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10011.jpg,skunk_10011.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10012.jpg,skunk_10012.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10013.jpg,skunk_10013.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10014.jpg,skunk_10014.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10015.jpg,skunk_10015.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10016.jpg,skunk_10016.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10017.jpg,skunk_10017.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10018.jpg,skunk_10018.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10019.jpg,skunk_10019.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10020.jpg,skunk_10020.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10023.jpg,skunk_10023.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10024.jpg,skunk_10024.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\skunk\skunk_10025.jpg,skunk_10025.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10026.jpg,skunk_10026.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10027.jpg,skunk_10027.jpg,skunk,cow,14,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\skunk\skunk_10028.jpg,skunk_10028.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10029.jpg,skunk_10029.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10030.jpg,skunk_10030.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10031.jpg,skunk_10031.jpg,skunk,bobcat,14,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\skunk\skunk_10032.jpg,skunk_10032.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10033.jpg,skunk_10033.jpg,skunk,bobcat,14,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\skunk\skunk_10034.jpg,skunk_10034.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10035.jpg,skunk_10035.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10036.jpg,skunk_10036.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10037.jpg,skunk_10037.jpg,skunk,bobcat,14,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\skunk\skunk_10038.jpg,skunk_10038.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10039.jpg,skunk_10039.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10040.jpg,skunk_10040.jpg,skunk,bobcat,14,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\skunk\skunk_10041.jpg,skunk_10041.jpg,skunk,tiger,14,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\skunk\skunk_10042.jpg,skunk_10042.jpg,skunk,ox,14,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10001.jpg,squirrel_10001.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10002.jpg,squirrel_10002.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10003.jpg,squirrel_10003.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10004.jpg,squirrel_10004.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10005.jpg,squirrel_10005.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10006.jpg,squirrel_10006.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10007.jpg,squirrel_10007.jpg,squirrel,cow,15,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\squirrel\squirrel_10008.jpg,squirrel_10008.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10009.jpg,squirrel_10009.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10010.jpg,squirrel_10010.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10011.jpg,squirrel_10011.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10012.jpg,squirrel_10012.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10013.jpg,squirrel_10013.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10014.jpg,squirrel_10014.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10015.jpg,squirrel_10015.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10016.jpg,squirrel_10016.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10017.jpg,squirrel_10017.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10018.jpg,squirrel_10018.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10019.jpg,squirrel_10019.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10020.jpg,squirrel_10020.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10023.jpg,squirrel_10023.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10024.jpg,squirrel_10024.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10025.jpg,squirrel_10025.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10026.jpg,squirrel_10026.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10027.jpg,squirrel_10027.jpg,squirrel,gorilla,15,5,"['gorilla', 'monkey', 'lion', 'tiger', 'squirrel']","['chimpanzee', 'hippopotamus', 'raccoon', 'humpback_whale', 'rat']",15
+awa_data\train\squirrel\squirrel_10028.jpg,squirrel_10028.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10029.jpg,squirrel_10029.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10030.jpg,squirrel_10030.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10031.jpg,squirrel_10031.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10032.jpg,squirrel_10032.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\squirrel\squirrel_10033.jpg,squirrel_10033.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10034.jpg,squirrel_10034.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10035.jpg,squirrel_10035.jpg,squirrel,cow,15,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\squirrel\squirrel_10036.jpg,squirrel_10036.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10037.jpg,squirrel_10037.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10038.jpg,squirrel_10038.jpg,squirrel,cow,15,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\squirrel\squirrel_10039.jpg,squirrel_10039.jpg,squirrel,bobcat,15,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\squirrel\squirrel_10040.jpg,squirrel_10040.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10041.jpg,squirrel_10041.jpg,squirrel,ox,15,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\squirrel\squirrel_10042.jpg,squirrel_10042.jpg,squirrel,tiger,15,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",15
+awa_data\train\tiger\tiger_10001.jpg,tiger_10001.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10002.jpg,tiger_10002.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10003.jpg,tiger_10003.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10004.jpg,tiger_10004.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10005.jpg,tiger_10005.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10006.jpg,tiger_10006.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10007.jpg,tiger_10007.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10008.jpg,tiger_10008.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10009.jpg,tiger_10009.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10010.jpg,tiger_10010.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10011.jpg,tiger_10011.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10012.jpg,tiger_10012.jpg,tiger,ox,16,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",16
+awa_data\train\tiger\tiger_10013.jpg,tiger_10013.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10014.jpg,tiger_10014.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10015.jpg,tiger_10015.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10016.jpg,tiger_10016.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10017.jpg,tiger_10017.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10018.jpg,tiger_10018.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10019.jpg,tiger_10019.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10020.jpg,tiger_10020.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10023.jpg,tiger_10023.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10024.jpg,tiger_10024.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10025.jpg,tiger_10025.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10026.jpg,tiger_10026.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10027.jpg,tiger_10027.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10028.jpg,tiger_10028.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10029.jpg,tiger_10029.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10030.jpg,tiger_10030.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10031.jpg,tiger_10031.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10032.jpg,tiger_10032.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10033.jpg,tiger_10033.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10034.jpg,tiger_10034.jpg,tiger,ox,16,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",16
+awa_data\train\tiger\tiger_10035.jpg,tiger_10035.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10036.jpg,tiger_10036.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10037.jpg,tiger_10037.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10038.jpg,tiger_10038.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10039.jpg,tiger_10039.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10040.jpg,tiger_10040.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10041.jpg,tiger_10041.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\tiger\tiger_10042.jpg,tiger_10042.jpg,tiger,tiger,16,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10001.jpg,walrus_10001.jpg,walrus,killer_whale,17,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\walrus\walrus_10002.jpg,walrus_10002.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10003.jpg,walrus_10003.jpg,walrus,bear,17,0,"['bear', 'walrus', 'rabbit', 'squirrel', 'cow']","['rat', 'pig', 'raccoon', 'leopard', 'humpback_whale']",17
+awa_data\train\walrus\walrus_10004.jpg,walrus_10004.jpg,walrus,bobcat,17,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\walrus\walrus_10005.jpg,walrus_10005.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10006.jpg,walrus_10006.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10007.jpg,walrus_10007.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10008.jpg,walrus_10008.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10009.jpg,walrus_10009.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10010.jpg,walrus_10010.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10011.jpg,walrus_10011.jpg,walrus,killer_whale,17,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\walrus\walrus_10012.jpg,walrus_10012.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10013.jpg,walrus_10013.jpg,walrus,bobcat,17,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\walrus\walrus_10014.jpg,walrus_10014.jpg,walrus,bobcat,17,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\walrus\walrus_10015.jpg,walrus_10015.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10016.jpg,walrus_10016.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10017.jpg,walrus_10017.jpg,walrus,killer_whale,17,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\walrus\walrus_10018.jpg,walrus_10018.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10019.jpg,walrus_10019.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10020.jpg,walrus_10020.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10021.jpg,walrus_10021.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10022.jpg,walrus_10022.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10023.jpg,walrus_10023.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10024.jpg,walrus_10024.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10025.jpg,walrus_10025.jpg,walrus,bobcat,17,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\walrus\walrus_10026.jpg,walrus_10026.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10027.jpg,walrus_10027.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10028.jpg,walrus_10028.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10029.jpg,walrus_10029.jpg,walrus,killer_whale,17,6,"['killer_whale', 'blue_whale', 'dolphin', 'bear', 'cow']","['humpback_whale', 'giant_panda', 'pig', 'rat', 'seal']",6
+awa_data\train\walrus\walrus_10030.jpg,walrus_10030.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10031.jpg,walrus_10031.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10032.jpg,walrus_10032.jpg,walrus,siamese_cat,17,13,"['siamese_cat', 'rabbit', 'killer_whale', 'blue_whale', 'dolphin']","['persian_cat', 'humpback_whale', 'giant_panda', 'rat', 'pig']",13
+awa_data\train\walrus\walrus_10033.jpg,walrus_10033.jpg,walrus,cow,17,3,"['cow', 'dolphin', 'bear', 'lion', 'monkey']","['pig', 'raccoon', 'humpback_whale', 'rat', 'chimpanzee']",3
+awa_data\train\walrus\walrus_10034.jpg,walrus_10034.jpg,walrus,bobcat,17,2,"['bobcat', 'bear', 'rabbit', 'lion', 'dolphin']","['leopard', 'pig', 'humpback_whale', 'giant_panda', 'rat']",2
+awa_data\train\walrus\walrus_10035.jpg,walrus_10035.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10036.jpg,walrus_10036.jpg,walrus,dolphin,17,4,"['dolphin', 'blue_whale', 'killer_whale', 'cow', 'lion']","['humpback_whale', 'leopard', 'rat', 'raccoon', 'seal']",4
+awa_data\train\walrus\walrus_10037.jpg,walrus_10037.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10038.jpg,walrus_10038.jpg,walrus,ox,17,10,"['ox', 'monkey', 'cow', 'lion', 'tiger']","['leopard', 'pig', 'rat', 'humpback_whale', 'persian_cat']",10
+awa_data\train\walrus\walrus_10039.jpg,walrus_10039.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16
+awa_data\train\walrus\walrus_10040.jpg,walrus_10040.jpg,walrus,tiger,17,16,"['tiger', 'lion', 'squirrel', 'gorilla', 'monkey']","['leopard', 'rat', 'pig', 'chimpanzee', 'persian_cat']",16

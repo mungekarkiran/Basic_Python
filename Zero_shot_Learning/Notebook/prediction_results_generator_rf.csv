@@ -1,0 +1,612 @@
+Image Path,Actual Class,Predicted Class,Class Name,Probability,Predicted Class Probability
+..\Dataset\artefact2\test\bear\bear_10001 (23).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (24).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (25).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (26).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (27).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (28).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (29).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (30).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (31).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (32).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (33).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (34).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (35).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (36).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (37).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (38).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (39).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (40).jpg,bear,0,bear,1.0000,[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bear\bear_10001 (89).jpg,bear,0,bear,0.6500,"[[0.65 0.   0.01 0.07 0.   0.01 0.03 0.03 0.02 0.02 0.01 0.02 0.   0.01
+  0.03 0.02 0.01 0.06]]"
+..\Dataset\artefact2\test\bear\bear_10001 (90).jpg,bear,0,bear,0.7000,"[[0.7  0.   0.01 0.01 0.01 0.03 0.   0.1  0.01 0.02 0.03 0.03 0.02 0.01
+  0.   0.02 0.   0.  ]]"
+..\Dataset\artefact2\test\bear\bear_10001 (91).jpg,bear,0,bear,0.3600,"[[0.36 0.01 0.02 0.05 0.03 0.06 0.01 0.09 0.03 0.08 0.03 0.02 0.02 0.02
+  0.03 0.05 0.01 0.08]]"
+..\Dataset\artefact2\test\bear\bear_10001 (92).jpg,bear,0,bear,0.5800,"[[0.58 0.   0.   0.1  0.01 0.   0.02 0.04 0.   0.   0.07 0.06 0.   0.01
+  0.04 0.   0.02 0.05]]"
+..\Dataset\artefact2\test\bear\bear_10001 (93).jpg,bear,0,bear,0.6600,"[[0.66 0.   0.02 0.03 0.   0.03 0.   0.05 0.05 0.03 0.03 0.02 0.   0.
+  0.04 0.02 0.01 0.01]]"
+..\Dataset\artefact2\test\bear\bear_10001 (94).jpg,bear,0,bear,0.4600,"[[0.46 0.02 0.   0.11 0.02 0.03 0.   0.07 0.03 0.   0.06 0.08 0.02 0.02
+  0.03 0.02 0.02 0.01]]"
+..\Dataset\artefact2\test\bear\bear_10001 (95).jpg,bear,0,bear,0.4700,"[[0.47 0.01 0.03 0.05 0.03 0.02 0.03 0.09 0.04 0.   0.06 0.02 0.03 0.03
+  0.03 0.   0.02 0.04]]"
+..\Dataset\artefact2\test\bear\bear_10001 (96).jpg,bear,0,bear,0.6900,"[[0.69 0.   0.03 0.05 0.01 0.01 0.   0.09 0.01 0.03 0.01 0.   0.01 0.
+  0.   0.01 0.02 0.03]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10048.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10049.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10050.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10051.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10052.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10053.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10054.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10055.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10056.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10057.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10058.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10059.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10060.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10061.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10062.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10063.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10064.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10065.jpg,blue_whale,1,blue_whale,1.0000,[[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\blue_whale\blue+whale_10137.jpg,blue_whale,1,blue_whale,0.7600,"[[0.01 0.76 0.   0.   0.02 0.   0.12 0.   0.   0.   0.   0.   0.01 0.
+  0.03 0.02 0.   0.03]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10139.jpg,blue_whale,1,blue_whale,0.8400,"[[0.01 0.84 0.   0.   0.05 0.   0.04 0.   0.   0.   0.01 0.   0.   0.
+  0.01 0.02 0.   0.02]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10143.jpg,blue_whale,1,blue_whale,0.7600,"[[0.   0.76 0.   0.01 0.09 0.   0.06 0.   0.01 0.   0.   0.   0.   0.02
+  0.   0.   0.   0.05]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10150.jpg,blue_whale,6,killer_whale,0.2900,"[[0.03 0.28 0.   0.02 0.22 0.   0.29 0.   0.01 0.03 0.01 0.   0.02 0.01
+  0.02 0.02 0.   0.04]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10151.jpg,blue_whale,1,blue_whale,0.5100,"[[0.01 0.51 0.   0.02 0.09 0.   0.24 0.01 0.01 0.01 0.01 0.01 0.   0.
+  0.   0.02 0.   0.06]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10152.jpg,blue_whale,1,blue_whale,0.3800,"[[0.02 0.38 0.   0.03 0.22 0.   0.2  0.   0.01 0.02 0.01 0.03 0.   0.02
+  0.02 0.01 0.   0.03]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10153.jpg,blue_whale,1,blue_whale,0.7500,"[[0.   0.75 0.   0.   0.04 0.01 0.1  0.   0.02 0.   0.01 0.   0.03 0.
+  0.   0.   0.   0.04]]"
+..\Dataset\artefact2\test\blue_whale\blue+whale_10154.jpg,blue_whale,1,blue_whale,0.3400,"[[0.03 0.34 0.   0.04 0.21 0.   0.24 0.   0.01 0.   0.02 0.   0.02 0.
+  0.01 0.01 0.   0.07]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10023.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10024.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10025.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10026.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10027.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10028.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10029.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10030.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10031.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10032.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10033.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10034.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10035.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10036.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10037.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10038.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10039.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10040.jpg,bobcat,2,bobcat,1.0000,[[0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\bobcat\bobcat_10067.jpg,bobcat,2,bobcat,0.6100,"[[0.02 0.   0.61 0.02 0.   0.   0.   0.07 0.01 0.05 0.01 0.04 0.   0.01
+  0.01 0.05 0.1  0.  ]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10068.jpg,bobcat,2,bobcat,0.7700,"[[0.02 0.   0.77 0.02 0.   0.01 0.01 0.05 0.01 0.02 0.01 0.01 0.   0.03
+  0.   0.02 0.02 0.  ]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10069.jpg,bobcat,2,bobcat,0.8000,"[[0.01 0.   0.8  0.   0.01 0.01 0.   0.03 0.02 0.   0.   0.02 0.03 0.
+  0.   0.05 0.02 0.  ]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10070.jpg,bobcat,2,bobcat,0.5000,"[[0.03 0.   0.5  0.04 0.01 0.02 0.01 0.03 0.04 0.03 0.01 0.05 0.05 0.02
+  0.03 0.08 0.04 0.01]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10071.jpg,bobcat,2,bobcat,0.5800,"[[0.01 0.   0.58 0.01 0.01 0.01 0.01 0.06 0.02 0.03 0.   0.04 0.06 0.04
+  0.01 0.03 0.07 0.01]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10072.jpg,bobcat,2,bobcat,0.7100,"[[0.02 0.   0.71 0.   0.01 0.01 0.   0.03 0.03 0.04 0.01 0.02 0.01 0.
+  0.02 0.04 0.05 0.  ]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10073.jpg,bobcat,2,bobcat,0.6400,"[[0.   0.   0.64 0.01 0.01 0.   0.   0.04 0.02 0.03 0.01 0.06 0.02 0.02
+  0.   0.05 0.08 0.01]]"
+..\Dataset\artefact2\test\bobcat\bobcat_10074.jpg,bobcat,2,bobcat,0.5000,"[[0.   0.   0.5  0.01 0.   0.02 0.   0.08 0.01 0.06 0.02 0.1  0.02 0.02
+  0.01 0.11 0.04 0.  ]]"
+..\Dataset\artefact2\test\cow\cow_10023.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10024.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10025.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10026.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10027.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10028.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10029.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10030.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10031.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10032.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10033.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10034.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10035.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10036.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10037.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10038.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10039.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10040.jpg,cow,3,cow,1.0000,[[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\cow\cow_10090.jpg,cow,10,ox,0.3200,"[[0.03 0.   0.01 0.08 0.04 0.03 0.02 0.06 0.04 0.06 0.32 0.03 0.07 0.03
+  0.02 0.02 0.04 0.1 ]]"
+..\Dataset\artefact2\test\cow\cow_10091.jpg,cow,3,cow,0.4300,"[[0.07 0.02 0.01 0.43 0.   0.   0.   0.03 0.   0.02 0.24 0.03 0.07 0.
+  0.02 0.01 0.04 0.01]]"
+..\Dataset\artefact2\test\cow\cow_10092.jpg,cow,3,cow,0.3600,"[[0.05 0.01 0.02 0.36 0.01 0.02 0.04 0.05 0.02 0.02 0.04 0.02 0.06 0.04
+  0.18 0.   0.05 0.01]]"
+..\Dataset\artefact2\test\cow\cow_10093.jpg,cow,3,cow,0.5200,"[[0.03 0.01 0.01 0.52 0.   0.   0.07 0.   0.02 0.01 0.11 0.01 0.04 0.01
+  0.13 0.   0.03 0.  ]]"
+..\Dataset\artefact2\test\cow\cow_10094.jpg,cow,3,cow,0.2300,"[[0.01 0.   0.01 0.23 0.06 0.07 0.04 0.   0.03 0.01 0.13 0.03 0.21 0.02
+  0.03 0.03 0.01 0.08]]"
+..\Dataset\artefact2\test\cow\cow_10095.jpg,cow,3,cow,0.1700,"[[0.02 0.01 0.01 0.17 0.04 0.13 0.01 0.04 0.09 0.01 0.09 0.01 0.13 0.02
+  0.06 0.05 0.02 0.09]]"
+..\Dataset\artefact2\test\cow\cow_10096.jpg,cow,10,ox,0.2700,"[[0.02 0.   0.   0.25 0.   0.08 0.02 0.1  0.08 0.   0.27 0.02 0.08 0.
+  0.02 0.01 0.   0.05]]"
+..\Dataset\artefact2\test\cow\cow_10097.jpg,cow,0,bear,0.1700,"[[0.17 0.   0.03 0.15 0.01 0.08 0.   0.09 0.06 0.04 0.11 0.03 0.03 0.04
+  0.01 0.04 0.03 0.08]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10023.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10024.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10025.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10026.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10027.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10028.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10029.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10030.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10031.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10032.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10033.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10034.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10035.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10036.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10037.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10038.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10039.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10040.jpg,dolphin,4,dolphin,1.0000,[[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\dolphin\dolphin_10078.jpg,dolphin,4,dolphin,0.3000,"[[0.01 0.05 0.02 0.01 0.3  0.04 0.3  0.01 0.03 0.02 0.04 0.02 0.04 0.01
+  0.   0.02 0.01 0.07]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10079.jpg,dolphin,4,dolphin,0.2600,"[[0.02 0.18 0.   0.01 0.26 0.01 0.19 0.01 0.02 0.04 0.   0.   0.   0.02
+  0.02 0.03 0.01 0.18]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10080.jpg,dolphin,6,killer_whale,0.3300,"[[0.03 0.05 0.   0.04 0.29 0.   0.33 0.   0.02 0.05 0.01 0.   0.   0.03
+  0.02 0.01 0.   0.12]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10081.jpg,dolphin,4,dolphin,0.4300,"[[0.04 0.14 0.   0.01 0.43 0.01 0.18 0.01 0.02 0.03 0.01 0.03 0.01 0.02
+  0.01 0.01 0.01 0.03]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10082.jpg,dolphin,4,dolphin,0.4900,"[[0.04 0.03 0.01 0.   0.49 0.02 0.22 0.   0.01 0.   0.01 0.   0.02 0.01
+  0.   0.   0.02 0.12]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10083.jpg,dolphin,4,dolphin,0.3600,"[[0.02 0.18 0.   0.   0.36 0.   0.24 0.   0.03 0.02 0.02 0.01 0.   0.01
+  0.   0.01 0.01 0.09]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10084.jpg,dolphin,4,dolphin,0.5500,"[[0.02 0.04 0.   0.   0.55 0.02 0.18 0.02 0.01 0.02 0.   0.   0.02 0.03
+  0.   0.   0.01 0.08]]"
+..\Dataset\artefact2\test\dolphin\dolphin_10085.jpg,dolphin,4,dolphin,0.5500,"[[0.01 0.11 0.   0.   0.55 0.   0.16 0.   0.   0.02 0.01 0.02 0.01 0.
+  0.01 0.03 0.   0.07]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10023.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10024.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10025.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10026.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10027.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10028.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10029.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10030.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10031.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10032.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10033.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10034.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10035.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10036.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10037.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10038.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10039.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10040.jpg,gorilla,5,gorilla,1.0000,[[0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\gorilla\gorilla_10122.jpg,gorilla,5,gorilla,0.6100,"[[0.02 0.   0.02 0.01 0.   0.61 0.   0.08 0.06 0.02 0.03 0.   0.03 0.02
+  0.02 0.02 0.01 0.05]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10123.jpg,gorilla,5,gorilla,0.8100,"[[0.   0.   0.01 0.01 0.01 0.81 0.   0.01 0.05 0.01 0.01 0.   0.04 0.
+  0.01 0.02 0.   0.01]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10124.jpg,gorilla,5,gorilla,0.8500,"[[0.02 0.   0.   0.   0.   0.85 0.   0.01 0.04 0.01 0.   0.   0.   0.03
+  0.   0.02 0.01 0.01]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10125.jpg,gorilla,5,gorilla,0.8400,"[[0.01 0.   0.   0.   0.   0.84 0.   0.02 0.07 0.   0.01 0.01 0.01 0.
+  0.   0.02 0.   0.01]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10126.jpg,gorilla,5,gorilla,0.5400,"[[0.   0.   0.   0.03 0.   0.54 0.01 0.01 0.23 0.02 0.04 0.01 0.03 0.
+  0.   0.03 0.02 0.03]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10127.jpg,gorilla,5,gorilla,0.6500,"[[0.03 0.   0.   0.04 0.01 0.65 0.   0.03 0.1  0.   0.02 0.   0.05 0.
+  0.   0.03 0.01 0.03]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10128.jpg,gorilla,5,gorilla,0.4400,"[[0.02 0.01 0.01 0.01 0.   0.44 0.   0.02 0.04 0.06 0.08 0.03 0.07 0.03
+  0.02 0.06 0.03 0.07]]"
+..\Dataset\artefact2\test\gorilla\gorilla_10129.jpg,gorilla,5,gorilla,0.5900,"[[0.   0.   0.   0.03 0.02 0.59 0.   0.04 0.06 0.01 0.03 0.   0.15 0.
+  0.01 0.03 0.   0.03]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10023.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10024.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10025.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10026.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10027.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10028.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10029.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10030.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10031.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10032.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10033.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10034.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10035.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10036.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10037.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10038.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10039.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10040.jpg,killer_whale,6,killer_whale,1.0000,[[0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\killer_whale\killer+whale_10122.jpg,killer_whale,6,killer_whale,0.4900,"[[0.02 0.01 0.01 0.   0.29 0.   0.49 0.   0.02 0.01 0.02 0.02 0.02 0.03
+  0.   0.01 0.   0.05]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10123.jpg,killer_whale,6,killer_whale,0.5900,"[[0.01 0.04 0.   0.01 0.23 0.   0.59 0.01 0.02 0.   0.03 0.01 0.   0.02
+  0.01 0.   0.   0.02]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10124.jpg,killer_whale,6,killer_whale,0.4100,"[[0.02 0.3  0.01 0.03 0.13 0.01 0.41 0.   0.01 0.02 0.   0.   0.   0.03
+  0.   0.01 0.   0.02]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10125.jpg,killer_whale,1,blue_whale,0.4300,"[[0.01 0.43 0.02 0.03 0.1  0.   0.27 0.   0.02 0.   0.   0.05 0.   0.01
+  0.01 0.01 0.   0.04]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10126.jpg,killer_whale,6,killer_whale,0.3900,"[[0.01 0.37 0.   0.   0.16 0.   0.39 0.   0.01 0.02 0.   0.   0.   0.
+  0.01 0.   0.   0.03]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10127.jpg,killer_whale,6,killer_whale,0.4400,"[[0.01 0.05 0.01 0.03 0.28 0.01 0.44 0.   0.02 0.   0.01 0.   0.01 0.04
+  0.01 0.   0.   0.08]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10128.jpg,killer_whale,6,killer_whale,0.4300,"[[0.02 0.02 0.   0.02 0.28 0.01 0.43 0.   0.04 0.   0.   0.   0.03 0.06
+  0.02 0.   0.01 0.06]]"
+..\Dataset\artefact2\test\killer_whale\killer+whale_10129.jpg,killer_whale,6,killer_whale,0.4300,"[[0.04 0.   0.   0.05 0.2  0.03 0.43 0.02 0.04 0.   0.02 0.01 0.01 0.05
+  0.04 0.   0.01 0.05]]"
+..\Dataset\artefact2\test\lion\lion_10023.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10024.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10025.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10026.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10027.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10028.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10029.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10030.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10031.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10032.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10033.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10034.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10035.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10036.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10037.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10038.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10039.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10040.jpg,lion,7,lion,1.0000,[[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\lion\lion_10067.jpg,lion,7,lion,0.3100,"[[0.01 0.   0.23 0.03 0.   0.02 0.01 0.31 0.09 0.04 0.03 0.03 0.02 0.04
+  0.01 0.06 0.07 0.  ]]"
+..\Dataset\artefact2\test\lion\lion_10068.jpg,lion,7,lion,0.2900,"[[0.03 0.   0.03 0.06 0.   0.07 0.04 0.29 0.04 0.05 0.09 0.01 0.12 0.01
+  0.01 0.06 0.02 0.07]]"
+..\Dataset\artefact2\test\lion\lion_10069.jpg,lion,7,lion,0.6300,"[[0.   0.   0.06 0.04 0.   0.01 0.   0.63 0.05 0.   0.05 0.03 0.02 0.01
+  0.   0.02 0.07 0.01]]"
+..\Dataset\artefact2\test\lion\lion_10070.jpg,lion,7,lion,0.8200,"[[0.03 0.   0.01 0.04 0.   0.   0.   0.82 0.02 0.   0.02 0.   0.   0.02
+  0.   0.   0.02 0.02]]"
+..\Dataset\artefact2\test\lion\lion_10071.jpg,lion,7,lion,0.3300,"[[0.04 0.01 0.08 0.03 0.01 0.07 0.   0.33 0.05 0.08 0.04 0.07 0.08 0.01
+  0.02 0.05 0.02 0.01]]"
+..\Dataset\artefact2\test\lion\lion_10072.jpg,lion,7,lion,0.6400,"[[0.03 0.   0.01 0.1  0.   0.   0.   0.64 0.02 0.01 0.04 0.   0.05 0.
+  0.01 0.   0.06 0.03]]"
+..\Dataset\artefact2\test\lion\lion_10073.jpg,lion,7,lion,0.7400,"[[0.02 0.   0.02 0.03 0.   0.02 0.01 0.74 0.06 0.   0.02 0.01 0.   0.03
+  0.01 0.01 0.02 0.  ]]"
+..\Dataset\artefact2\test\lion\lion_10074.jpg,lion,7,lion,0.4600,"[[0.01 0.   0.06 0.08 0.   0.02 0.   0.46 0.05 0.02 0.02 0.08 0.   0.04
+  0.02 0.05 0.09 0.  ]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (190).jpg,monkey,8,monkey,0.2100,"[[0.05 0.04 0.04 0.02 0.02 0.12 0.05 0.03 0.21 0.04 0.02 0.01 0.03 0.09
+  0.11 0.03 0.02 0.07]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (191).jpg,monkey,8,monkey,0.3100,"[[0.03 0.   0.01 0.02 0.01 0.21 0.01 0.01 0.31 0.02 0.04 0.02 0.01 0.09
+  0.01 0.06 0.05 0.09]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (192).jpg,monkey,8,monkey,0.1800,"[[0.11 0.01 0.03 0.04 0.06 0.08 0.01 0.07 0.18 0.03 0.07 0.02 0.02 0.1
+  0.05 0.01 0.03 0.08]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (193).jpg,monkey,8,monkey,0.2400,"[[0.03 0.   0.01 0.   0.01 0.23 0.01 0.05 0.24 0.02 0.   0.04 0.01 0.1
+  0.12 0.02 0.   0.11]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (194).jpg,monkey,8,monkey,0.3600,"[[0.02 0.01 0.04 0.01 0.01 0.07 0.01 0.01 0.36 0.04 0.04 0.09 0.02 0.07
+  0.04 0.12 0.02 0.02]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (195).jpg,monkey,5,gorilla,0.2600,"[[0.07 0.   0.   0.05 0.02 0.26 0.03 0.01 0.13 0.07 0.04 0.03 0.03 0.03
+  0.02 0.08 0.03 0.1 ]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (196).jpg,monkey,14,skunk,0.2600,"[[0.01 0.05 0.   0.02 0.03 0.   0.14 0.   0.25 0.03 0.06 0.02 0.01 0.03
+  0.26 0.05 0.01 0.03]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (197).jpg,monkey,8,monkey,0.3500,"[[0.04 0.   0.02 0.03 0.   0.12 0.   0.05 0.35 0.03 0.04 0.01 0.02 0.04
+  0.02 0.2  0.02 0.01]]"
+..\Dataset\artefact2\test\monkey\monkey_10003 (23).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (24).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (25).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (26).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (27).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (28).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (29).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (30).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (31).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (32).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (33).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (34).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (35).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (36).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (37).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (38).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (39).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\monkey\monkey_10003 (40).jpg,monkey,8,monkey,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10023.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10024.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10025.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10026.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10027.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10028.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10029.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10030.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10031.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10032.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10033.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10034.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10035.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10036.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10037.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10038.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10039.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10040.jpg,mouse,9,mouse,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\mouse\mouse_10097.jpg,mouse,15,squirrel,0.2800,"[[0.01 0.   0.07 0.03 0.01 0.02 0.   0.03 0.1  0.17 0.05 0.05 0.04 0.01
+  0.05 0.28 0.   0.08]]"
+..\Dataset\artefact2\test\mouse\mouse_10098.jpg,mouse,9,mouse,0.4100,"[[0.04 0.02 0.   0.02 0.03 0.   0.05 0.03 0.04 0.41 0.02 0.02 0.02 0.03
+  0.1  0.05 0.01 0.11]]"
+..\Dataset\artefact2\test\mouse\mouse_10099.jpg,mouse,9,mouse,0.4400,"[[0.03 0.01 0.03 0.02 0.02 0.02 0.04 0.03 0.03 0.44 0.03 0.04 0.06 0.01
+  0.02 0.08 0.   0.09]]"
+..\Dataset\artefact2\test\mouse\mouse_10100.jpg,mouse,9,mouse,0.4000,"[[0.   0.02 0.03 0.01 0.02 0.02 0.02 0.02 0.04 0.4  0.01 0.13 0.05 0.04
+  0.04 0.09 0.01 0.05]]"
+..\Dataset\artefact2\test\mouse\mouse_10101.jpg,mouse,9,mouse,0.4000,"[[0.01 0.01 0.04 0.02 0.02 0.01 0.   0.   0.04 0.4  0.01 0.15 0.   0.02
+  0.05 0.18 0.02 0.02]]"
+..\Dataset\artefact2\test\mouse\mouse_10102.jpg,mouse,15,squirrel,0.3100,"[[0.01 0.   0.04 0.05 0.02 0.   0.   0.03 0.1  0.24 0.02 0.1  0.02 0.01
+  0.02 0.31 0.01 0.02]]"
+..\Dataset\artefact2\test\mouse\mouse_10103.jpg,mouse,15,squirrel,0.2200,"[[0.03 0.   0.02 0.06 0.01 0.03 0.01 0.05 0.07 0.14 0.07 0.16 0.06 0.02
+  0.   0.22 0.01 0.04]]"
+..\Dataset\artefact2\test\mouse\mouse_10104.jpg,mouse,9,mouse,0.2400,"[[0.02 0.01 0.02 0.04 0.02 0.03 0.01 0.03 0.1  0.24 0.04 0.1  0.01 0.01
+  0.15 0.11 0.05 0.01]]"
+..\Dataset\artefact2\test\ox\ox_10023.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10024.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10025.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10026.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10027.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10028.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10029.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10030.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10031.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10032.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10033.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10034.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10035.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10036.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10037.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10038.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10039.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10040.jpg,ox,10,ox,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\ox\ox_10119.jpg,ox,10,ox,0.2800,"[[0.03 0.   0.02 0.08 0.   0.18 0.01 0.05 0.07 0.07 0.28 0.04 0.08 0.01
+  0.01 0.02 0.   0.05]]"
+..\Dataset\artefact2\test\ox\ox_10120.jpg,ox,10,ox,0.3200,"[[0.03 0.02 0.01 0.18 0.02 0.04 0.02 0.02 0.11 0.04 0.32 0.01 0.06 0.03
+  0.04 0.02 0.   0.03]]"
+..\Dataset\artefact2\test\ox\ox_10121.jpg,ox,10,ox,0.4100,"[[0.05 0.01 0.02 0.23 0.03 0.01 0.01 0.02 0.02 0.03 0.41 0.05 0.   0.
+  0.06 0.02 0.01 0.02]]"
+..\Dataset\artefact2\test\ox\ox_10122.jpg,ox,10,ox,0.3000,"[[0.05 0.   0.04 0.1  0.   0.16 0.   0.03 0.08 0.06 0.3  0.   0.09 0.
+  0.02 0.03 0.01 0.03]]"
+..\Dataset\artefact2\test\ox\ox_10123.jpg,ox,10,ox,0.3500,"[[0.01 0.   0.05 0.17 0.01 0.02 0.01 0.05 0.04 0.   0.35 0.03 0.04 0.02
+  0.02 0.04 0.04 0.1 ]]"
+..\Dataset\artefact2\test\ox\ox_10124.jpg,ox,10,ox,0.3300,"[[0.   0.   0.01 0.17 0.02 0.03 0.02 0.12 0.03 0.01 0.33 0.01 0.21 0.
+  0.   0.02 0.02 0.  ]]"
+..\Dataset\artefact2\test\ox\ox_10125.jpg,ox,3,cow,0.3800,"[[0.03 0.   0.02 0.38 0.01 0.   0.   0.09 0.03 0.   0.33 0.02 0.05 0.
+  0.   0.02 0.01 0.01]]"
+..\Dataset\artefact2\test\ox\ox_10126.jpg,ox,10,ox,0.3000,"[[0.07 0.   0.03 0.16 0.02 0.08 0.   0.08 0.02 0.02 0.3  0.01 0.07 0.02
+  0.01 0.02 0.01 0.08]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10025.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10026.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10027.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10028.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10029.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10030.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10031.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10032.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10033.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10034.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10035.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10036.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10037.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10038.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10039.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10040.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10041.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10042.jpg,rabbit,11,rabbit,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rabbit\rabbit_10045.jpg,rabbit,11,rabbit,0.5600,"[[0.02 0.01 0.06 0.01 0.   0.03 0.   0.01 0.01 0.05 0.03 0.56 0.07 0.01
+  0.01 0.12 0.   0.  ]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10046.jpg,rabbit,11,rabbit,0.3800,"[[0.   0.01 0.01 0.02 0.02 0.01 0.   0.01 0.01 0.14 0.   0.38 0.01 0.01
+  0.01 0.33 0.   0.03]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10047.jpg,rabbit,11,rabbit,0.4200,"[[0.02 0.   0.03 0.06 0.04 0.03 0.05 0.01 0.02 0.06 0.02 0.42 0.   0.04
+  0.1  0.08 0.   0.02]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10048.jpg,rabbit,15,squirrel,0.3600,"[[0.02 0.01 0.04 0.01 0.03 0.01 0.   0.02 0.04 0.09 0.02 0.21 0.05 0.02
+  0.   0.36 0.02 0.05]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10049.jpg,rabbit,11,rabbit,0.3600,"[[0.03 0.   0.07 0.05 0.02 0.01 0.05 0.01 0.02 0.05 0.02 0.36 0.07 0.01
+  0.02 0.16 0.03 0.02]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10050.jpg,rabbit,11,rabbit,0.2900,"[[0.01 0.02 0.   0.06 0.04 0.03 0.01 0.01 0.06 0.08 0.02 0.29 0.02 0.11
+  0.04 0.14 0.   0.06]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10051.jpg,rabbit,11,rabbit,0.2800,"[[0.02 0.   0.1  0.04 0.02 0.04 0.   0.12 0.05 0.07 0.05 0.28 0.   0.03
+  0.02 0.1  0.03 0.03]]"
+..\Dataset\artefact2\test\rabbit\rabbit_10052.jpg,rabbit,11,rabbit,0.5200,"[[0.   0.   0.02 0.04 0.   0.01 0.02 0.02 0.03 0.1  0.02 0.52 0.02 0.03
+  0.   0.17 0.   0.  ]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10008.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10025.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10026.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10027.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10028.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10029.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10030.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10031.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10032.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10033.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10034.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10035.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10036.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10037.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10038.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10039.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10040.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10041.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10042.jpg,rhinoceros,12,rhinoceros,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10043.jpg,rhinoceros,12,rhinoceros,0.3100,"[[0.07 0.   0.01 0.1  0.   0.   0.   0.07 0.03 0.   0.21 0.05 0.31 0.02
+  0.02 0.03 0.01 0.07]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10044.jpg,rhinoceros,12,rhinoceros,0.2700,"[[0.03 0.   0.01 0.1  0.   0.03 0.02 0.08 0.05 0.06 0.1  0.01 0.27 0.03
+  0.01 0.03 0.06 0.11]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10045.jpg,rhinoceros,12,rhinoceros,0.4700,"[[0.04 0.01 0.01 0.08 0.   0.03 0.   0.02 0.02 0.08 0.08 0.01 0.47 0.03
+  0.02 0.   0.01 0.09]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10046.jpg,rhinoceros,12,rhinoceros,0.3400,"[[0.05 0.   0.02 0.08 0.   0.02 0.01 0.16 0.04 0.02 0.09 0.01 0.34 0.02
+  0.01 0.02 0.02 0.09]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10047.jpg,rhinoceros,12,rhinoceros,0.2700,"[[0.01 0.   0.05 0.09 0.   0.04 0.   0.13 0.01 0.04 0.16 0.04 0.27 0.02
+  0.02 0.02 0.04 0.06]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10048.jpg,rhinoceros,12,rhinoceros,0.2100,"[[0.07 0.   0.03 0.11 0.02 0.04 0.03 0.06 0.04 0.03 0.11 0.03 0.21 0.
+  0.03 0.02 0.01 0.16]]"
+..\Dataset\artefact2\test\rhinoceros\rhinoceros_10049.jpg,rhinoceros,12,rhinoceros,0.4300,"[[0.01 0.   0.02 0.08 0.01 0.03 0.   0.11 0.01 0.01 0.19 0.   0.43 0.02
+  0.01 0.   0.   0.07]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10025.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10026.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10027.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10028.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10029.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10030.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10031.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10032.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10033.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10034.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10035.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10036.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10037.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10038.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10039.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10040.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10041.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10042.jpg,siamese_cat,13,siamese_cat,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]]
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10196.jpg,siamese_cat,13,siamese_cat,0.4100,"[[0.03 0.02 0.02 0.   0.06 0.07 0.04 0.02 0.08 0.09 0.   0.06 0.02 0.41
+  0.01 0.04 0.02 0.01]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10197.jpg,siamese_cat,13,siamese_cat,0.3100,"[[0.01 0.   0.02 0.05 0.04 0.09 0.05 0.02 0.1  0.05 0.03 0.02 0.05 0.31
+  0.03 0.03 0.02 0.08]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10198.jpg,siamese_cat,11,rabbit,0.2000,"[[0.02 0.01 0.06 0.06 0.04 0.01 0.01 0.07 0.05 0.09 0.01 0.2  0.03 0.19
+  0.04 0.06 0.01 0.04]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10199.jpg,siamese_cat,13,siamese_cat,0.4200,"[[0.03 0.   0.07 0.01 0.03 0.04 0.   0.03 0.06 0.04 0.02 0.1  0.01 0.42
+  0.02 0.04 0.06 0.02]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10200.jpg,siamese_cat,3,cow,0.1400,"[[0.05 0.   0.03 0.14 0.   0.02 0.01 0.07 0.1  0.09 0.1  0.09 0.05 0.07
+  0.04 0.   0.02 0.12]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10201.jpg,siamese_cat,2,bobcat,0.1500,"[[0.03 0.04 0.15 0.02 0.01 0.03 0.02 0.1  0.07 0.14 0.03 0.04 0.03 0.11
+  0.05 0.04 0.04 0.05]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10202.jpg,siamese_cat,13,siamese_cat,0.2300,"[[0.05 0.   0.08 0.05 0.02 0.01 0.01 0.07 0.07 0.09 0.03 0.11 0.01 0.23
+  0.03 0.07 0.02 0.05]]"
+..\Dataset\artefact2\test\siamese_cat\siamese+cat_10203.jpg,siamese_cat,13,siamese_cat,0.3900,"[[0.02 0.   0.08 0.01 0.05 0.03 0.02 0.01 0.06 0.08 0.03 0.08 0.01 0.39
+  0.02 0.01 0.03 0.07]]"
+..\Dataset\artefact2\test\skunk\skunk_10025.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10026.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10027.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10028.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10029.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10030.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10031.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10032.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10033.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10034.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10035.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10036.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10037.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10038.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10039.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10040.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10041.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10042.jpg,skunk,14,skunk,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]]
+..\Dataset\artefact2\test\skunk\skunk_10068.jpg,skunk,14,skunk,0.6700,"[[0.01 0.   0.   0.04 0.01 0.01 0.03 0.05 0.04 0.03 0.03 0.02 0.02 0.01
+  0.67 0.03 0.   0.  ]]"
+..\Dataset\artefact2\test\skunk\skunk_10069.jpg,skunk,14,skunk,0.6900,"[[0.01 0.01 0.   0.01 0.01 0.04 0.02 0.01 0.07 0.03 0.02 0.01 0.   0.01
+  0.69 0.04 0.   0.02]]"
+..\Dataset\artefact2\test\skunk\skunk_10070.jpg,skunk,14,skunk,0.4000,"[[0.   0.02 0.01 0.04 0.01 0.02 0.03 0.04 0.15 0.04 0.06 0.02 0.05 0.03
+  0.4  0.03 0.   0.05]]"
+..\Dataset\artefact2\test\skunk\skunk_10071.jpg,skunk,14,skunk,0.3900,"[[0.02 0.03 0.01 0.02 0.02 0.01 0.02 0.07 0.12 0.06 0.03 0.01 0.03 0.02
+  0.39 0.08 0.02 0.04]]"
+..\Dataset\artefact2\test\skunk\skunk_10072.jpg,skunk,14,skunk,0.6600,"[[0.01 0.01 0.01 0.03 0.02 0.06 0.03 0.01 0.04 0.   0.03 0.01 0.02 0.
+  0.66 0.03 0.01 0.02]]"
+..\Dataset\artefact2\test\skunk\skunk_10073.jpg,skunk,14,skunk,0.3400,"[[0.   0.08 0.01 0.03 0.   0.   0.06 0.03 0.08 0.13 0.03 0.02 0.04 0.01
+  0.34 0.07 0.   0.07]]"
+..\Dataset\artefact2\test\skunk\skunk_10074.jpg,skunk,14,skunk,0.7400,"[[0.01 0.   0.03 0.02 0.01 0.   0.01 0.   0.07 0.06 0.   0.01 0.   0.
+  0.74 0.03 0.   0.01]]"
+..\Dataset\artefact2\test\skunk\skunk_10075.jpg,skunk,14,skunk,0.6700,"[[0.01 0.   0.   0.02 0.   0.03 0.02 0.   0.08 0.09 0.01 0.02 0.01 0.
+  0.67 0.02 0.01 0.01]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10025.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10026.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10027.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10028.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10029.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10030.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10031.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10032.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10033.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10034.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10035.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10036.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10037.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10038.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10039.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10040.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10041.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10042.jpg,squirrel,15,squirrel,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]]
+..\Dataset\artefact2\test\squirrel\squirrel_10045.jpg,squirrel,15,squirrel,0.3500,"[[0.02 0.   0.05 0.01 0.01 0.03 0.   0.06 0.1  0.11 0.05 0.12 0.02 0.
+  0.02 0.35 0.01 0.04]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10046.jpg,squirrel,15,squirrel,0.3100,"[[0.02 0.   0.16 0.   0.02 0.   0.05 0.04 0.05 0.04 0.03 0.16 0.02 0.04
+  0.01 0.31 0.03 0.02]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10047.jpg,squirrel,15,squirrel,0.3700,"[[0.06 0.01 0.1  0.02 0.   0.02 0.03 0.08 0.03 0.11 0.04 0.06 0.01 0.
+  0.01 0.37 0.03 0.02]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10048.jpg,squirrel,15,squirrel,0.2700,"[[0.04 0.   0.05 0.02 0.   0.04 0.   0.09 0.12 0.14 0.01 0.12 0.03 0.03
+  0.02 0.27 0.01 0.01]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10049.jpg,squirrel,15,squirrel,0.2100,"[[0.13 0.   0.02 0.   0.01 0.12 0.   0.1  0.13 0.05 0.   0.09 0.03 0.04
+  0.02 0.21 0.01 0.04]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10050.jpg,squirrel,15,squirrel,0.4600,"[[0.01 0.   0.02 0.04 0.01 0.02 0.   0.02 0.04 0.08 0.01 0.12 0.11 0.02
+  0.   0.46 0.   0.04]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10051.jpg,squirrel,15,squirrel,0.3100,"[[0.04 0.01 0.09 0.03 0.01 0.02 0.04 0.05 0.08 0.1  0.04 0.07 0.07 0.01
+  0.   0.31 0.01 0.02]]"
+..\Dataset\artefact2\test\squirrel\squirrel_10052.jpg,squirrel,15,squirrel,0.5000,"[[0.03 0.   0.06 0.03 0.01 0.01 0.   0.06 0.03 0.06 0.02 0.1  0.04 0.03
+  0.   0.5  0.01 0.01]]"
+..\Dataset\artefact2\test\tiger\tiger_10025.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10026.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10027.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10028.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10029.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10030.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10031.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10032.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10033.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10034.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10035.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10036.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10037.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10038.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10039.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10040.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10041.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10042.jpg,tiger,16,tiger,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]]
+..\Dataset\artefact2\test\tiger\tiger_10117.jpg,tiger,16,tiger,0.5900,"[[0.   0.   0.12 0.01 0.   0.01 0.   0.12 0.01 0.01 0.01 0.01 0.06 0.02
+  0.   0.02 0.59 0.01]]"
+..\Dataset\artefact2\test\tiger\tiger_10118.jpg,tiger,16,tiger,0.7400,"[[0.01 0.   0.05 0.02 0.   0.02 0.   0.05 0.01 0.   0.03 0.01 0.03 0.01
+  0.01 0.   0.74 0.01]]"
+..\Dataset\artefact2\test\tiger\tiger_10119.jpg,tiger,16,tiger,0.2500,"[[0.03 0.01 0.06 0.12 0.01 0.   0.02 0.04 0.06 0.04 0.13 0.03 0.1  0.04
+  0.01 0.03 0.25 0.02]]"
+..\Dataset\artefact2\test\tiger\tiger_10120.jpg,tiger,16,tiger,0.4600,"[[0.02 0.   0.04 0.06 0.01 0.   0.03 0.12 0.02 0.01 0.02 0.03 0.09 0.02
+  0.05 0.02 0.46 0.  ]]"
+..\Dataset\artefact2\test\tiger\tiger_10121.jpg,tiger,16,tiger,0.5100,"[[0.05 0.   0.17 0.01 0.   0.   0.02 0.16 0.   0.01 0.03 0.   0.02 0.
+  0.   0.   0.51 0.02]]"
+..\Dataset\artefact2\test\tiger\tiger_10122.jpg,tiger,16,tiger,0.6700,"[[0.   0.01 0.03 0.06 0.01 0.   0.01 0.02 0.01 0.01 0.07 0.01 0.02 0.03
+  0.   0.01 0.67 0.03]]"
+..\Dataset\artefact2\test\tiger\tiger_10123.jpg,tiger,16,tiger,0.9200,"[[0.01 0.   0.02 0.   0.   0.   0.   0.01 0.   0.   0.   0.01 0.   0.
+  0.   0.   0.92 0.03]]"
+..\Dataset\artefact2\test\tiger\tiger_10125.jpg,tiger,16,tiger,0.4300,"[[0.03 0.   0.06 0.13 0.01 0.01 0.01 0.05 0.03 0.05 0.02 0.02 0.1  0.01
+  0.01 0.03 0.43 0.  ]]"
+..\Dataset\artefact2\test\walrus\walrus_10023.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10024.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10025.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10026.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10027.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10028.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10029.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10030.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10031.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10032.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10033.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10034.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10035.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10036.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10037.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10038.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10039.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10040.jpg,walrus,17,walrus,1.0000,[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+..\Dataset\artefact2\test\walrus\walrus_10182.jpg,walrus,17,walrus,0.1500,"[[0.1  0.   0.   0.09 0.01 0.14 0.02 0.1  0.01 0.02 0.14 0.   0.13 0.02
+  0.01 0.04 0.02 0.15]]"
+..\Dataset\artefact2\test\walrus\walrus_10183.jpg,walrus,9,mouse,0.1700,"[[0.   0.1  0.02 0.02 0.05 0.03 0.09 0.03 0.05 0.17 0.01 0.01 0.1  0.01
+  0.04 0.08 0.02 0.17]]"
+..\Dataset\artefact2\test\walrus\walrus_10184.jpg,walrus,17,walrus,0.1800,"[[0.09 0.01 0.02 0.05 0.1  0.03 0.09 0.06 0.03 0.02 0.05 0.04 0.14 0.01
+  0.   0.03 0.05 0.18]]"
+..\Dataset\artefact2\test\walrus\walrus_10185.jpg,walrus,17,walrus,0.2300,"[[0.19 0.07 0.02 0.09 0.07 0.06 0.03 0.02 0.01 0.01 0.06 0.   0.06 0.
+  0.01 0.05 0.02 0.23]]"
+..\Dataset\artefact2\test\walrus\walrus_10186.jpg,walrus,12,rhinoceros,0.1700,"[[0.04 0.   0.02 0.   0.01 0.16 0.   0.03 0.03 0.09 0.09 0.05 0.17 0.05
+  0.01 0.11 0.   0.14]]"
+..\Dataset\artefact2\test\walrus\walrus_10187.jpg,walrus,17,walrus,0.1600,"[[0.01 0.   0.01 0.06 0.06 0.08 0.03 0.03 0.15 0.08 0.01 0.08 0.13 0.02
+  0.04 0.03 0.02 0.16]]"
+..\Dataset\artefact2\test\walrus\walrus_10188.jpg,walrus,17,walrus,0.2400,"[[0.04 0.07 0.03 0.05 0.19 0.02 0.08 0.01 0.02 0.05 0.05 0.   0.05 0.02
+  0.01 0.04 0.03 0.24]]"
+..\Dataset\artefact2\test\walrus\walrus_10189.jpg,walrus,17,walrus,0.2000,"[[0.11 0.   0.03 0.03 0.02 0.14 0.02 0.05 0.04 0.05 0.06 0.04 0.13 0.03
+  0.01 0.01 0.03 0.2 ]]"
