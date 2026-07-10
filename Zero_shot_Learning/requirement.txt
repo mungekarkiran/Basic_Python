@@ -22,3 +22,6 @@ nltk==3.8.1
 h5py
 split_folders
 keras_cv
+xgboost 
+lightgbm 
+catboost
