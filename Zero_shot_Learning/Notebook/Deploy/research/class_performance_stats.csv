@@ -1,0 +1,9 @@
+Class,Total,TP_in_top5,TP_Rate
+Cardiomegaly,1000,0,0.0
+Edema,1000,0,0.0
+Emphysema,1000,0,0.0
+Fibrosis,1000,0,0.0
+Infiltration,1000,0,0.0
+Nodule,1000,0,0.0
+Pleural_Thickening,1000,0,0.0
+Pneumothorax,1000,0,0.0

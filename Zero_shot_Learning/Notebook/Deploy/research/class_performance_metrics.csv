@@ -1,0 +1,9 @@
+class,precision,recall,f1,support
+Cardiomegaly,0,0.0,0,1000
+Edema,0,0.0,0,1000
+Emphysema,0,0.0,0,1000
+Fibrosis,0,0.0,0,1000
+Infiltration,0,0.0,0,1000
+Nodule,0,0.0,0,1000
+Pleural_Thickening,0,0.0,0,1000
+Pneumothorax,0,0.0,0,1000
