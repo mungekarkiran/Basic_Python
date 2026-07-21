@@ -1,0 +1,7 @@
+Dataset link:
+
+https://www.kaggle.com/datasets/timothyadeyemi/personality-dataset/data
+https://www.kaggle.com/code/varunaven/bayesian-model/notebook
+
+https://www.kaggle.com/datasets/tunguz/big-five-personality-test
+
