@@ -1,0 +1,249 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- https://source.unsplash.com/720x600/?paper,pen -->
+<!-- https://source.unsplash.com/1080x720/?job,work,happy -->
+
+
+<!-- main body -->
+<center>
+<h1>Enter Your Values</h1>
+</center>
+<br>
+<div class="container"> 
+    <div class="row">
+        <div class="col">
+            <form action="/getResult" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:center">
+                                <label>Age</label>
+                                <input type="text" name="age" placeholder="2 - 90">
+                            </td>   
+                            <td style="text-align:center">
+                                <label>Blood_pressure</label>
+                                <input type="text" name="blood_pressure" placeholder="50.0 - 180.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Specific_gravity</label>
+                                <input type="text" name="specific_gravity" placeholder="1.005 - 1.025">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Albumin</label>
+                                <input type="text" name="albumin" placeholder="0.0 - 5.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Sugar</label>
+                                <input type="text" name="sugar" placeholder="0 - 5">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Red_blood_cells</label>
+                                <select name="red_blood_cells">
+                                    <option value="1">Normal</option>
+                                    <option value="0">Abnormal</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">
+                                <label>Pus_cell</label> <br>
+                                <select name="pus_cell">
+                                    <option value="1">Normal</option>
+                                    <option value="0">Abnormal</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Pus_cell_clumps</label>
+                                <select name="pus_cell_clumps">
+                                    <option value="1">Present</option>
+                                    <option value="0">Not Present</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Bacteria</label> <br>
+                                <select name="bacteria">
+                                    <option value="1">Present</option>
+                                    <option value="0">Not Present</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Blood_glucose_random</label>
+                                <input type="text" name="blood_glucose_random" placeholder="22.0 - 490.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Blood_urea</label>
+                                <input type="text" name="blood_urea" placeholder="1.5 - 391.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Serum_creatinine</label>
+                                <input type="text" name="serum_creatinine" placeholder="0.4 - 76.0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">
+                                <label>Sodium</label>
+                                <input type="text" name="sodium" placeholder="4.5 - 163.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Potassium</label>
+                                <input type="text" name="potassium" placeholder="2.5 - 47.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Haemoglobin</label>
+                                <input type="text" name="haemoglobin" placeholder="3.1 - 17.8">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Packed_cell_volume</label>
+                                <input type="text" name="packed_cell_volume" placeholder="9.0 - 54.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>White_blood_cell_count</label>
+                                <input type="text" name="white_blood_cell_count" placeholder="2200.0 - 26400.0">
+                            </td>
+                            <td style="text-align:center">
+                                <label>Red_blood_cell_count</label>
+                                <input type="text" name="red_blood_cell_count" placeholder="2.1 - 8.0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">
+                                <label>Hypertension</label> <br>
+                                <select name="hypertension">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Diabetes_mellitus</label> <br>
+                                <select name="diabetes_mellitus">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Coronary_artery_disease</label>
+                                <select name="coronary_artery_disease">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Appetite</label> <br>
+                                <select name="appetite">
+                                    <option value="1">Poor</option>
+                                    <option value="0">Good</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Peda_edema</label> <br>
+                                <select name="peda_edema">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </td>
+                            <td style="text-align:center">
+                                <label>Aanemia</label> <br>
+                                <select name="aanemia">
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!-- button -->
+                        <tr>
+                            <td colspan="4"><button type="submit" class="btn btn-primary">Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+    <br>
+
+    {% if msg %}
+    <div class="row">
+        <div class="col" height="100" width="100">
+            <center> 
+            <h1> Predicted Results : </h1>
+            <b> {{ msg }} </b>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    <div class="row">
+        <div class="col">
+            <center> 
+            <h3> Predicted Result by Model 0 </h3>
+            <div id="chart1"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Predicted Results by Model 1 </h3>
+            <div id="chart2"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Predicted Results by Model 2 </h3>
+            <div id="chart3"></div>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    <div class="row">
+        <div class="col" height="100" width="100">
+            <center> 
+            <h1> Predicted Results : </h1>
+            <b> {{ msg }} </b>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    <div class="row">
+        <div class="col">
+            <center> 
+            <h3> Dataset View </h3>
+            <div id="chart4"></div>
+            </center>
+        </div>
+        <div class="col">
+            <center> 
+            <h3> Input View </h3>
+            <div id="chart5"></div>
+            </center>
+        </div>
+    </div>
+    <br>
+    
+    {% endif %}
+</div>
+
+
+<!-- script -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script type="text/javascript">
+    var graphs1 = {{ graph1JSON | safe }};
+    Plotly.plot("chart1", graphs1, {});
+
+    var graphs2 = {{ graph2JSON | safe }};
+    Plotly.plot("chart2", graphs2, {});
+
+    var graphs3 = {{ graph3JSON | safe }};
+    Plotly.plot("chart3", graphs3, {});
+
+    var graphs4 = {{ graph4JSON | safe }};
+    Plotly.plot("chart4", graphs4, {});
+
+    var graphs5 = {{ graph5JSON | safe }};
+    Plotly.plot("chart5", graphs5, {});
+
+</script>
+
+
+{% endblock %}

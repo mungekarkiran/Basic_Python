@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scipy
+scikit-learn==0.24.2
+pickle-mixin
+flask
+notebook
